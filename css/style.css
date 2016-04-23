@@ -1,0 +1,133 @@
+html,
+body
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+}
+
+h1,
+h2,
+h3
+{
+    color: #000033;
+}
+
+h3
+{
+    margin: 10px 0;
+}
+
+a
+{
+    color: #238acb;
+}
+
+a img
+{
+    border: none;
+}
+
+pre
+{
+    font-size: 14px;
+    color: white;
+    padding: 10px;
+    background: #646464;
+}
+
+.header
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 70px;
+    width: 100%;
+    overflow: hidden;
+    background: #238acb;
+    z-index: 1000;
+}
+
+.header .logo
+{
+    float: left;
+    padding: 22px;
+    padding-left: 30px;
+}
+
+.header .credits
+{
+    float: right;
+    padding-top: 15px;
+}
+
+.horizon
+{
+    line-height: 0;
+    z-index: 100;
+    width: 3000px;
+}
+
+.middle
+{
+    z-index: 250;
+    line-height: 0;
+    width: 4500px;
+}
+
+.front
+{
+    z-index: 500;
+    top: 150px;
+    width: 6000px;
+}
+
+.intro
+{
+    position: absolute;
+    left: 500px;
+    top: 0px;
+    padding-right: 50px;
+    background: url('../images/scroll.png') no-repeat right 5px;
+}
+
+.page
+{
+    top: 0px;
+    width: 500px;
+    background: white;
+    padding: 10px 30px;
+    border: 1px #eee solid;
+    position: absolute;
+}
+
+.description
+{
+    left: 1500px;
+}
+
+.documentation
+{
+    left: 2450px;
+    width: 700px;
+}
+
+.options
+{
+    width: 700px;
+    left: 3800px;
+}
+
+.download
+{
+    width: 500px;
+    left: 5100px;
+}
+
+.license
+{
+    padding: 100px 30px 30px 30px;
+}

@@ -1,3 +1,53 @@
+#this
+{
+      background-color: black;
+
+}
+footer li a
+{
+      background-color: black;
+  
+}
+.container{
+  padding-top: 0px;
+}
+.navbar{
+  background-color: #000033;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+} 
+.navbar-default .navbar-nav>li>a:hover {
+    color: #000033 !important;
+}
+@media (min-width: 768px) {
+  ul.nav li:hover > ul.dropdown-menu {
+    display: block;
+    background-color: #000033;
+    color: #fff !important;
+  }
+  #navbar {
+    text-align: center;
+  }
+}  
+li a{
+    color: #fff!important;
+}
+
+.panel-success>.panel-heading {
+    color: #fff;
+    background-color:#61A2E1;
+    border-color: #000033;
+}
+.panel-success .h4{
+  margin-top: 6px;
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+.navbar-header .brand{
+  color: #fff;
+  font-size: 2em;
+}
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,700,300);
 .clearfix {
   *zoom: 1;
