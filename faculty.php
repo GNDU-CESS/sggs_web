@@ -1,4 +1,4 @@
-﻿<?php include 'includes/meta.php';  ?>
+<?php include 'includes/meta.php';  ?>
 <title>
    Faculties
 </title>
@@ -57,22 +57,19 @@
  <div class="navbar-fixed-top container" style="height:50px;z-index:15;position:fixed;"></div>
     <div class="headf">
     <section class="head">
-        <div class="gap"></div>
-        <div class="row">
-            <div class="col-md-12">
-                <div class="center">
-                    <h1 style="margin-top:0px;" class="head1 head">
-                        Faculty
-                    </h1>
-                </div>
+       <div class="row">
+            <center><h1 class="head1"> Faculty and Supporting Staff</h1></center>
+            <div class="col-sm-6" style="font-size:16px;font-weight:500;text-align:center;">
+                <p style="font-family:'Raleway-ExtraLight';text-align:left;padding-left:20px;">As the proposed research works of the Centre are of serious and delicate nature, which require professional skills and excellent academic understanding of Sikh religion, history and  literature. The research projects that have been proposed can be done only if the services of mature and seasoned scholars are available. Therefore besides the regular faculty of One Director, Six Professors and Eighteen Project Fellows there is a pool of Six Visiting Professors. Superannuated scholars are requested to join as Visiting Professors to undertake short term projects relating to the thrust areas of the Centre. Eminent scholars who have done commendable work on the studies on Sri Guru Granth Sahib has worked in the Centre as Visiting Professors on term based projects. Centre has also attracted the attention of foreign scholars of Sikh Studies who are very keen to do Sikh studies in the capacity of Honorary Visiting Professors.</p>
+            </div>
+            <div class="col-sm-6">
+                <img class="img-responsive" style="margin :auto" src="img/team.jpg">
             </div>
         </div>
-
-
-
+      
     </section>
-
-    <div class="container" style="background-color:#BB583B;color:#fff">
+        
+    <div class="container alter2">
         <div class="container">
             <div class="row" style="text-align:center">
                 <div class="col-lg-6 col-xs-12">
@@ -96,22 +93,7 @@
             <br>
         </div>
     </div>
-
-    <br>
-    <br>
-    <section id="about-us" class="container">
-        <div class="row">
-            <center><h1 class="head1" style="font-family:'Raleway-SemiBold'"> Faculty and Supporting Staff</h1></center>
-            <div class="col-sm-6" style="font-size:16px;font-weight:500;text-align:center;">
-                <p style="font-family:'Raleway-ExtraLight';text-align:left;padding-left:20px;">As the proposed research works of the Centre are of serious and delicate nature, which require professional skills and excellent academic understanding of Sikh religion, history and  literature. The research projects that have been proposed can be done only if the services of mature and seasoned scholars are available. Therefore besides the regular faculty of One Director, Six Professors and Eighteen Project Fellows there is a pool of Six Visiting Professors. Superannuated scholars are requested to join as Visiting Professors to undertake short term projects relating to the thrust areas of the Centre. Eminent scholars who have done commendable work on the studies on Sri Guru Granth Sahib has worked in the Centre as Visiting Professors on term based projects. Centre has also attracted the attention of foreign scholars of Sikh Studies who are very keen to do Sikh studies in the capacity of Honorary Visiting Professors.</p>
-            </div>
-            <div class="col-sm-6">
-                <img class="img-responsive" style="margin :auto" src="img/team.jpg">
-            </div>
-        </div>
-      
-    </section>
-    <div class="container " style="background-color:#BB583B; margin-top:6%">
+    <div class="container alter2" >
         
         <h1 class="center" style="font-family:'Raleway';color:#fff">Meet the Team</h1>
 
@@ -122,12 +104,11 @@
 
 
 
-                <div data-toggle="modal" data-target="#gulzar" style="font-family:'Raleway-ExtraLight'; cursor: pointer">
+                <div data-toggle="modal" data-target="#gulzar" style="cursor: pointer">
                     <div class=" center" style="color:#fff">
                         <img class="size img-responsive img-thumbnail img-circle" src="img/faculty/prof kang2.jpg">
                         <h5 style="font-family:'Raleway-ExtraLight'">Dr Gulzar Singh Kang<br /> <br /><p>Director</p></h5>
                         <p style="font-family:'Raleway-ExtraLight'">MA. Punjabi, M.A. Rel. Studies., Ph.D.<br>(joined in Nov. 2011)</p>
-                        <!-- <a class="btn btn-social btn-facebook" href="#"><i class="icon-facebook"></i></a> <a class="btn btn-social btn-google-plus" href="#"><i class="icon-google-plus"></i></a> <a class="btn btn-social btn-twitter" href="#"><i class="icon-twitter"></i></a> <a class="btn btn-social btn-linkedin" href="#"><i class="icon-linkedin"></i></a> -->
                     </div>
                 </div>
                 <div class="modal fade" id="gulzar" role="dialog">
