@@ -1,11 +1,4 @@
 
-/*
-Tipue Search 5.0
-Copyright (c) 2015 Tipue
-Tipue Search is released under the MIT License
-http://www.tipue.com/search
-*/
-
 
 (function($) {
 
@@ -14,17 +7,17 @@ http://www.tipue.com/search
           var set = $.extend( {
           
                'show'                   : 7,
-               'newWindow'              : false,
+               'newWindow'              : true,
                'showURL'                : true,
                'showTitleCount'         : true,
-               'minimumLength'          : 3,
+               'minimumLength'          : 5,
                'descriptiveWords'       : 25,
                'highlightTerms'         : true,
                'highlightEveryTerm'     : false,
                'mode'                   : 'static',
-               'liveDescription'        : '*',
-               'liveContent'            : '*',
-               'contentLocation'        : 'tipuesearch/tipuesearch_content.json',
+               'liveDescription'        : true,
+               'liveContent'            : true,
+               'contentLocation'        : '',
                'debug'                  : false
           
           }, options);
