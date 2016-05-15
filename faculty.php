@@ -5,13 +5,6 @@
 
     <?php include 'includes/css.php'; ?>
   <style>
-      
-     body
-        {
-            background-color:#ffffe5;
-            overflow-x:hidden;
-        }
-
         .fixed {
             position: fixed;
             z-index: 2;
@@ -36,6 +29,12 @@
             font-size: 14px;
             font-family: raleway-ExtraLight;
         }
+      
+     
+      
+      .modal {
+          color: #34495E;
+      }
     </style>
     <script>
         $(window).scroll(function () {
@@ -57,18 +56,21 @@
  <div class="navbar-fixed-top container" style="height:50px;z-index:15;position:fixed;"></div>
     <div class="headf">
     <section class="head">
-       <div class="row">
-            <center><h1 class="head1"> Faculty and Supporting Staff</h1></center>
-            <div class="col-sm-6" style="font-size:16px;font-weight:500;text-align:center;">
-                <p style="font-family:'Raleway-ExtraLight';text-align:left;padding-left:20px;">As the proposed research works of the Centre are of serious and delicate nature, which require professional skills and excellent academic understanding of Sikh religion, history and  literature. The research projects that have been proposed can be done only if the services of mature and seasoned scholars are available. Therefore besides the regular faculty of One Director, Six Professors and Eighteen Project Fellows there is a pool of Six Visiting Professors. Superannuated scholars are requested to join as Visiting Professors to undertake short term projects relating to the thrust areas of the Centre. Eminent scholars who have done commendable work on the studies on Sri Guru Granth Sahib has worked in the Centre as Visiting Professors on term based projects. Centre has also attracted the attention of foreign scholars of Sikh Studies who are very keen to do Sikh studies in the capacity of Honorary Visiting Professors.</p>
-            </div>
-            <div class="col-sm-6">
-                <img class="img-responsive" style="margin :auto" src="img/team.jpg">
+        <div class="gap"></div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="center">
+                    <h1 style="margin-top:0px;" class="head1 head">
+                        Faculty and Supporting Staff
+                    </h1>
+                </div>
             </div>
         </div>
-      
+
+
+
     </section>
-        
+
     <div class="container alter2">
         <div class="container">
             <div class="row" style="text-align:center">
@@ -93,8 +95,24 @@
             <br>
         </div>
     </div>
-    <div class="container alter2" >
-        
+
+    <br>
+    <br>
+    <section id="about-us" class="container">
+        <div class="row">
+            <center><h1 class="head1" style="font-family:'Raleway-SemiBold'"> Faculty and Supporting Staff</h1></center>
+            <div class="col-sm-6" style="font-size:16px;font-weight:500;text-align:center;">
+                <p style="font-family:'Raleway-ExtraLight';text-align:left;padding-left:20px;">As the proposed research works of the Centre are of serious and delicate nature, which require professional skills and excellent academic understanding of Sikh religion, history and  literature. The research projects that have been proposed can be done only if the services of mature and seasoned scholars are available. Therefore besides the regular faculty of One Director, Six Professors and Eighteen Project Fellows there is a pool of Six Visiting Professors. Superannuated scholars are requested to join as Visiting Professors to undertake short term projects relating to the thrust areas of the Centre. Eminent scholars who have done commendable work on the studies on Sri Guru Granth Sahib has worked in the Centre as Visiting Professors on term based projects. Centre has also attracted the attention of foreign scholars of Sikh Studies who are very keen to do Sikh studies in the capacity of Honorary Visiting Professors.</p>
+            </div>
+            <div class="col-sm-6">
+                <img class="img-responsive" style="margin :auto" src="img/team.jpg">
+            </div>
+        </div>
+        <br>
+        <br>
+    </section>
+    <div class="container head alter2">
+        <br /><br />
         <h1 class="center" style="font-family:'Raleway';color:#fff">Meet the Team</h1>
 
         <p class="lead center" style="font-family:'Raleway-ExtraLight';color:#fff">Following scholars are presently working on the faculty of the Centre</p>
@@ -104,11 +122,12 @@
 
 
 
-                <div data-toggle="modal" data-target="#gulzar" style="cursor: pointer">
+                <div data-toggle="modal" data-target="#gulzar" style="font-family:'Raleway-ExtraLight'; cursor: pointer">
                     <div class=" center" style="color:#fff">
                         <img class="size img-responsive img-thumbnail img-circle" src="img/faculty/prof kang2.jpg">
                         <h5 style="font-family:'Raleway-ExtraLight'">Dr Gulzar Singh Kang<br /> <br /><p>Director</p></h5>
-                        <p style="font-family:'Raleway-ExtraLight'">MA. Punjabi, M.A. Rel. Studies., Ph.D.<br>(joined in Nov. 2011)</p>
+                        <p style="font-family:'Raleway-ExtraLight'">MA. Punjabi, M.A. Rel. Studies, Ph.D.<br>(joined in Nov. 2011)</p>
+                        <!-- <a class="btn btn-social btn-facebook" href="#"><i class="icon-facebook"></i></a> <a class="btn btn-social btn-google-plus" href="#"><i class="icon-google-plus"></i></a> <a class="btn btn-social btn-twitter" href="#"><i class="icon-twitter"></i></a> <a class="btn btn-social btn-linkedin" href="#"><i class="icon-linkedin"></i></a> -->
                     </div>
                 </div>
                 <div class="modal fade" id="gulzar" role="dialog">
@@ -273,7 +292,7 @@
     <br><br><br /><br />
     <section id="visitors" class="container">
         <div class="remain-team">
-            <!--<h2 style="text-align:center;font-family:'Raleway">HONORARY VISITING PROFESSORS</h2>-->
+            <h2 style="text-align:center;font-family:'Raleway">HONORARY VISITING PROFESSORS</h2>
             <div class="row">
                 <div class="col-sm-6">
                     <ul>
@@ -290,9 +309,9 @@
 
 
                             <div class="container">
-				<h2>VISITING PROFESSORS</h2>
+
                                 <li>
-                                    <div data-toggle="modal" data-target="#1" style="font-family:'Raleway-ExtraLight'; cursor: pointer">Dr. Balwant Singh Dhillon<small class="designation muted">delhi(2012)</small></div>
+                                    <div data-toggle="modal" data-target="#1" style="font-family:'Raleway-ExtraLight'; cursor: pointer">Dr. Balwant Singh Dhillon<small class="designation muted"> Delhi(2012)</small></div>
                                     <div class="modal fade" id="1" role="dialog">
                                         <div class="modal-dialog">
 
@@ -318,7 +337,7 @@
                                 </li>
 
                                 <li>
-                                    <div data-toggle="modal" data-target="#2" style="font-family:'Raleway-ExtraLight'; cursor: pointer">Dr. Dharam Singh, Patiala <small class="designation muted"> ,patiala(2012)</small></div>
+                                    <div data-toggle="modal" data-target="#2" style="font-family:'Raleway-ExtraLight'; cursor: pointer">Dr. Dharam Singh<small class="designation muted"> Patiala(2012)</small></div>
                                     <div class="modal fade" id="2" role="dialog">
                                         <div class="modal-dialog">
 
@@ -358,7 +377,7 @@
 
                                <!-- jashere ================================================ -->
 							   <li>
-							   <div data-toggle="modal" data-target="#dhillon" style="font-family:'Raleway-ExtraLight'; cursor: pointer">  Dr. (Mrs) Jaswinder Kaur Dhillon <small class="designation muted">, Amritsar(2012)</small></div>
+							   <div data-toggle="modal" data-target="#dhillon" style="font-family:'Raleway-ExtraLight'; cursor: pointer">  Dr. (Mrs) Jaswinder Kaur Dhillon<small class="designation muted"> Patiala(2012)</small></div>
                                     <div class="modal fade" id="dhillon" role="dialog">
                                         <div class="modal-dialog">
 
@@ -430,9 +449,9 @@ Currently, visiting professor with Guru Nanak Dev University, Amritsar he is wor
                 <div class="col-sm-6">
                     <ul>
                         <h4>
-			<h2>HONORARY PROFESSORS</h2>
-			<li>
-                                <div data-toggle="modal" data-target="#6" style="font-family:'Raleway-ExtraLight'; cursor: pointer">Singh Sahib Giani Joginder Singh <small class="designation muted"> Vedanti.</small></div>
+
+                            <li>
+                                <div data-toggle="modal" data-target="#6" style="font-family:'Raleway-ExtraLight'; cursor: pointer">Singh Sahib Giani Joginder Singh<small class="designation muted"> Vedanti.</small></div>
                                 <div class="modal fade" id="6" role="dialog">
                                     <div class="modal-dialog">
 
@@ -460,7 +479,7 @@ Currently, visiting professor with Guru Nanak Dev University, Amritsar he is wor
                             </li>
 
                             <li>
-                                <div data-toggle="modal" data-target="#7" style="font-family:'Raleway-ExtraLight'; cursor: pointer">Dr. Gurnam Singh Sanghera, Burnby <small class="designation muted"> Burnby, BC, Canada</small></div>
+                                <div data-toggle="modal" data-target="#7" style="font-family:'Raleway-ExtraLight'; cursor: pointer">Dr. Gurnam Singh Sanghera<small class="designation muted"> Burnby, BC, Canada</small></div>
                                 <div class="modal fade" id="7" role="dialog">
                                     <div class="modal-dialog">
 
@@ -491,7 +510,7 @@ Currently, visiting professor with Guru Nanak Dev University, Amritsar he is wor
                             </li>
 
                             <li>
-                                <div data-toggle="modal" data-target="#8" style="font-family:'Raleway-ExtraLight'; cursor: pointer"> Dr. Balwant Singh Dhillion<small class="designation muted"> Amritsar(2011)</small></div>
+                                <div data-toggle="modal" data-target="#8" style="font-family:'Raleway-ExtraLight'; cursor: pointer"> Dr. Balwant Singh Dhillion<small class="designation muted"> Delhi(2012)</small></div>
                                 <div class="modal fade" id="8" role="dialog">
                                     <div class="modal-dialog">
 
@@ -548,7 +567,7 @@ Currently, visiting professor with Guru Nanak Dev University, Amritsar he is wor
                             </li>
 
                             <li>
-                                <div data-toggle="modal" data-target="#10" style="font-family:'Raleway-ExtraLight'; cursor: pointer">Dr. Amrik Singh Rakhra, <small class="designation muted"> Ottawa, Ontario, Canada.</small></div>
+                                <div data-toggle="modal" data-target="#10" style="font-family:'Raleway-ExtraLight'; cursor: pointer">Dr. Amrik Singh Rakhra<small class="designation muted"> Ottawa, Ontario, Canada.</small></div>
                                 <div class="modal fade" id="10" role="dialog">
                                     <div class="modal-dialog">
 
@@ -589,14 +608,14 @@ Currently, visiting professor with Guru Nanak Dev University, Amritsar he is wor
     </br> </br>
     <section id="research fellows" class="container">
 
-        <h2 style="text-align:center;">JUNIOR/SENIOR RESEARCH FELLOWS</h2>
+        <h2 style="text-align:center;">JUNIOR/ SENIOR RESEARCH FELLOWS</h2>
         <br />
         <div class="row">
             <ul>
                 <h4>
-                    <div class="col-sm-6" style="padding:20px;">
+                    <div class="col-sm-6">
                         <li>
-                            <div data-toggle="modal" data-target="#11" style="font-family:'Raleway-ExtraLight'; cursor: pointer"> Sukhpal Singh<small class="designation muted"> M.A. Pbi., M.A. Rel. Studies, NET. </small></div>
+                            <div data-toggle="modal" data-target="#11" style="font-family:'Raleway-ExtraLight'; cursor: pointer">S. Sukhpal Singh<small class="designation muted"> M.A. Pbi., M.A. Rel. Studies, NET. </small></div>
                             <div class="modal fade" id="11" role="dialog">
                                 <div class="modal-dialog">
 
@@ -630,7 +649,7 @@ Currently, visiting professor with Guru Nanak Dev University, Amritsar he is wor
                         </li>
 
                         <li>
-                            <div data-toggle="modal" data-target="#13" style="font-family:'Raleway-ExtraLight'; cursor: pointer"> Lakhvir Kaur<small class="designation muted"> M.A. Pbi., B. Ed, NET.</small></div>
+                            <div data-toggle="modal" data-target="#13" style="font-family:'Raleway-ExtraLight'; cursor: pointer">Ms. Lakhvir Kaur<small class="designation muted"> M.A. Pbi., B. Ed, NET.</small></div>
                             <div class="modal fade" id="13" role="dialog">
                                 <div class="modal-dialog">
 
@@ -664,7 +683,7 @@ Currently, visiting professor with Guru Nanak Dev University, Amritsar he is wor
                             </div>
                         </li>
                         <li>
-                            <div data-toggle="modal" data-target="#14" style="font-family:'Raleway-ExtraLight'; cursor: pointer"> Dr. Ruby Vig<small class="designation muted"> M.A. Music, M. Ed, M. Phil., Music, NET.</small></div>
+                            <div data-toggle="modal" data-target="#14" style="font-family:'Raleway-ExtraLight'; cursor: pointer">Mrs. Ruby Vig<small class="designation muted"> M.A. Music, M. Ed, M. Phil., Music, NET.</small></div>
                             <div class="modal fade" id="14" role="dialog">
                                 <div class="modal-dialog">
 
@@ -697,7 +716,7 @@ Currently, visiting professor with Guru Nanak Dev University, Amritsar he is wor
                             </div>
                         </li>
                         <li>
-                            <div data-toggle="modal" data-target="#15" style="font-family:'Raleway-ExtraLight'; cursor: pointer"> Salinder Singh<small class="designation muted"> M.A. Pbi., B. Ed, M. Phil., NET.</small></div>
+                            <div data-toggle="modal" data-target="#15" style="font-family:'Raleway-ExtraLight'; cursor: pointer">S. Salinder Singh<small class="designation muted"> M.A. Pbi., B. Ed, M. Phil., NET.</small></div>
                             <div class="modal fade" id="15" role="dialog">
                                 <div class="modal-dialog">
 
@@ -712,7 +731,7 @@ Currently, visiting professor with Guru Nanak Dev University, Amritsar he is wor
                                                 <div class="col-sm-8 col-xs-8">
                                                     <p class="facfont">
                                                         <br>           Salinder Singh
-                                                        <br>   Holds Masters and M.Phil.(Punjabi)
+                                                        <br>  Ph.D, holds Masters and M.Phill(Punjabi)
                                                         <br>      Edited two books and published Eight research papers in reputed research journals/books
                                                         <br>        94640 07737
                                                         <br>          salinder.singh05@gmail.com
@@ -730,7 +749,7 @@ Currently, visiting professor with Guru Nanak Dev University, Amritsar he is wor
                             </div>
                         </li>
                         <li>
-                            <div data-toggle="modal" data-target="#16" style="font-family:'Raleway-ExtraLight'; cursor: pointer"> Rajbir Kaur<small class="designation muted"> M.A. Pbi., M. Phil., NET.</small></div>
+                            <div data-toggle="modal" data-target="#16" style="font-family:'Raleway-ExtraLight'; cursor: pointer">Ms. Rajbir Kaur<small class="designation muted"> M.A. Pbi., M. Phil., NET.</small></div>
                             <div class="modal fade" id="16" role="dialog">
                                 <div class="modal-dialog">
 
@@ -763,7 +782,7 @@ Currently, visiting professor with Guru Nanak Dev University, Amritsar he is wor
                             </div>
                         </li>
                         <li>
-                            <div data-toggle="modal" data-target="#17" style="font-family:'Raleway-ExtraLight'; cursor: pointer"> Rajwinder Singh<small class="designation muted"> M.A. Rel. Studies, M.A. Pbi., NET.</small></div>
+                            <div data-toggle="modal" data-target="#17" style="font-family:'Raleway-ExtraLight'; cursor: pointer">S. Rajwinder Singh<small class="designation muted"> M.A. Rel. Studies, M.A. Pbi., NET.</small></div>
                             <div class="modal fade" id="17" role="dialog">
                                 <div class="modal-dialog">
 
@@ -797,7 +816,7 @@ Currently, visiting professor with Guru Nanak Dev University, Amritsar he is wor
                         </li>
 
                         <li>
-                            <div data-toggle="modal" data-target="#18" style="font-family:'Raleway-ExtraLight'; cursor: pointer"> Gurmail Singh<small class="designation muted"> M.A. Rel. Studies, NET.</small></div>
+                            <div data-toggle="modal" data-target="#18" style="font-family:'Raleway-ExtraLight'; cursor: pointer">S. Gurmail Singh<small class="designation muted"> M.A. Rel. Studies, NET.</small></div>
                             <div class="modal fade" id="18" role="dialog">
                                 <div class="modal-dialog">
 
@@ -833,7 +852,7 @@ Currently, visiting professor with Guru Nanak Dev University, Amritsar he is wor
 
 
                         <li>
-                            <div data-toggle="modal" data-target="#19" style="font-family:'Raleway-ExtraLight'; cursor: pointer"> Bikramjit Singh<small class="designation muted"> M. A.  Rel. Studies, M. Phil., NET.</small></div>
+                            <div data-toggle="modal" data-target="#19" style="font-family:'Raleway-ExtraLight'; cursor: pointer">S. Bikramjit Singh<small class="designation muted"> M. A.  Rel. Studies, M. Phil., NET.</small></div>
                             <div class="modal fade" id="19" role="dialog">
                                 <div class="modal-dialog">
 
@@ -872,7 +891,7 @@ Currently, visiting professor with Guru Nanak Dev University, Amritsar he is wor
 
 
                         <li>
-                            <div data-toggle="modal" data-target="#20" style="font-family:'Raleway-ExtraLight'; cursor: pointer">Dr. Harpal Singh<small class="designation muted"> M.A. Rel. Studies, B. Ed., NET.</small></div>
+                            <div data-toggle="modal" data-target="#20" style="font-family:'Raleway-ExtraLight'; cursor: pointer">S. Harpal Singh<small class="designation muted"> M.A. Rel. Studies, B. Ed., NET.</small></div>
                             <div class="modal fade" id="20" role="dialog">
                                 <div class="modal-dialog">
 
@@ -907,7 +926,7 @@ Currently, visiting professor with Guru Nanak Dev University, Amritsar he is wor
 
 
                         <li>
-                            <div data-toggle="modal" data-target="#21" style="font-family:'Raleway-ExtraLight'; cursor: pointer"> Sukhdeep Singh<small class="designation muted"> M.A. Rel. Studies, NET.</small></div>
+                            <div data-toggle="modal" data-target="#21" style="font-family:'Raleway-ExtraLight'; cursor: pointer">S. Sukhdeep Singh<small class="designation muted"> M.A. Rel. Studies, NET.</small></div>
                             <div class="modal fade" id="21" role="dialog">
                                 <div class="modal-dialog">
 
@@ -942,7 +961,7 @@ Currently, visiting professor with Guru Nanak Dev University, Amritsar he is wor
 
 
                         <li>
-                            <div data-toggle="modal" data-target="#22" style="font-family:'Raleway-ExtraLight'; cursor: pointer"> Bindu<small class="designation muted"> M.A. Philosophy, M.Sc. I.T. MCA.</small></div>
+                            <div data-toggle="modal" data-target="#22" style="font-family:'Raleway-ExtraLight'; cursor: pointer">Ms. Bindu<small class="designation muted"> M.A. Philosophy, M.Sc. I.T. MCA.</small></div>
                             <div class="modal fade" id="22" role="dialog">
                                 <div class="modal-dialog">
 
@@ -976,7 +995,7 @@ Currently, visiting professor with Guru Nanak Dev University, Amritsar he is wor
                         </li>
 
                         <li>
-                            <div data-toggle="modal" data-target="#23" style="font-family:'Raleway-ExtraLight'; cursor: pointer"> Harpreet Kaur<small class="designation muted"> M.A. Pbi., PGDCA, M. Ed., NET.</small></div>
+                            <div data-toggle="modal" data-target="#23" style="font-family:'Raleway-ExtraLight'; cursor: pointer">Mrs. Harpreet Kaur<small class="designation muted"> M.A. Pbi., PGDCA, M. Ed., NET.</small></div>
                             <div class="modal fade" id="23" role="dialog">
                                 <div class="modal-dialog">
 
@@ -1011,7 +1030,7 @@ Currently, visiting professor with Guru Nanak Dev University, Amritsar he is wor
 
 
                         <li>
-                            <div data-toggle="modal" data-target="#24" style="font-family:'Raleway-ExtraLight'; cursor: pointer">Dr. Rupinder Kaur<small class="designation muted"> M.A. Pbi.</small></div>
+                            <div data-toggle="modal" data-target="#24" style="font-family:'Raleway-ExtraLight'; cursor: pointer">Ms. Rupinder Kaur<small class="designation muted"> M.A. Pbi.</small></div>
                             <div class="modal fade" id="24" role="dialog">
                                 <div class="modal-dialog">
                                     <!-- Modal content-->
@@ -1046,7 +1065,7 @@ Currently, visiting professor with Guru Nanak Dev University, Amritsar he is wor
 
 
                         <li>
-                            <div data-toggle="modal" data-target="#25" style="font-family:'Raleway-ExtraLight'; cursor: pointer">Dr. Jatinder Singh<small class="designation muted"> M.A. Music.Ph.D.(Music)</small></div>
+                            <div data-toggle="modal" data-target="#25" style="font-family:'Raleway-ExtraLight'; cursor: pointer">S. Jatinder Singh<small class="designation muted"> M.A. Music.</small></div>
                             <div class="modal fade" id="25" role="dialog">
                                 <div class="modal-dialog">
                                     <!-- Modal content-->
@@ -1081,7 +1100,7 @@ Currently, visiting professor with Guru Nanak Dev University, Amritsar he is wor
 
 
                         <li>
-                            <div data-toggle="modal" data-target="#26" style="font-family:'Raleway-ExtraLight'; cursor: pointer"> Charanjit Singh<small class="designation muted"> M.A. Pbi., M. Phil.</small></div>
+                            <div data-toggle="modal" data-target="#26" style="font-family:'Raleway-ExtraLight'; cursor: pointer">S. Charanjit Singh<small class="designation muted"> M.A. Pbi., M. Phil.</small></div>
                             <div class="modal fade" id="26" role="dialog">
                                 <div class="modal-dialog">
                                     <!-- Modal content-->
@@ -1114,7 +1133,7 @@ Currently, visiting professor with Guru Nanak Dev University, Amritsar he is wor
                             </div>
                         </li>
                         <li>
-                            <div data-toggle="modal" data-target="#28" style="font-family:'Raleway-ExtraLight'; cursor: pointer"> Sandeep Kaur<small class="designation muted"> M.A. PHI, M. Phil.</small></div>
+                            <div data-toggle="modal" data-target="#28" style="font-family:'Raleway-ExtraLight'; cursor: pointer">Ms. Sandeep Kaur<small class="designation muted"> M.A. PHI, M. Phil.</small></div>
                             <div class="modal fade" id="28" role="dialog">
                                 <div class="modal-dialog">
                                     <!-- Modal content-->
@@ -1148,7 +1167,7 @@ Currently, visiting professor with Guru Nanak Dev University, Amritsar he is wor
 
 
                         <li>
-                            <div data-toggle="modal" data-target="#27" style="font-family:'Raleway-ExtraLight'; cursor: pointer"> Mohd. Altaf Bhatt<small class="designation muted"> M.A. Persian, B. Ed.</small></div>
+                            <div data-toggle="modal" data-target="#27" style="font-family:'Raleway-ExtraLight'; cursor: pointer">Mohd. Altaf Bhatt<small class="designation muted"> M.A. Persian, B. Ed.</small></div>
                             <div class="modal fade" id="27" role="dialog">
                                 <div class="modal-dialog">
                                     <!-- Modal content-->
