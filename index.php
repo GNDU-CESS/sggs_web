@@ -1,4 +1,4 @@
-﻿<?php include 'includes/meta.php';  ?>
+<?php include 'includes/meta.php';  ?>
 <title>
     Center On Studies in Sri Guru Granth Sahib
 </title>
@@ -10,8 +10,6 @@
 		background-color:#ffffe5;
 		overflow-x:hidden;
 	}
-
-    
 
 		
 		
@@ -39,6 +37,19 @@
     }
     }
     
+    @media screen and (min-width:1200px) {
+       .carous {
+           margin-top:11% !important;
+           padding:0;
+       }
+        
+    }
+    @media screen and (max-width:698px) {
+     #slide img {
+    height: 500px;
+     }
+        
+    }
     body {margin:0;!important}
 </style>
 </head>
@@ -52,7 +63,7 @@
 	
        
         <section id="slide" class="headf carous">
-        <div class="carousel slide" id="screenshot-carousel" data-ride="carousel">
+        <div class="carousel slide col-md-7 col-sm-12 col-xs-12" id="screenshot-carousel" data-ride="carousel">
         
         
         <ol class="carousel-indicators">
@@ -65,15 +76,15 @@
     <div class="carousel-inner">
         
         <div class="item  active">
-            <img src="img/infra/main4.jpg" alt="" class="img-responsive">
+            <img src="img/car2.jpg" alt="" class="img-responsive">
             <div class="carousel-caption"><h3 class="boxed">Centre on Studies in Sri Guru Granth Sahib</h3>
                 <p class="boxed">Centre on Studies in Sri Guru Granth Sahib, Guru Nanak Dev University, Amritsar established on 1st April 2011, has completed five years of its existence. </p>
             </div>
             </div>
             <div class="item">
                  <img src="img/04.jpg" alt="" class="img-responsive">
-                <div class="carousel-caption"><h3 class="boxed">igAwn AMjnu guir dIAw AigAwn AMDyr ibnwsu]</h3>
-                <p class="boxed">The Guru has given me the collyrium of divine knowledge by which the darkness of ignorance is dispelled.</p>
+                <div class="carousel-caption"><h3 class="boxed">ਤੁਰੀਆ ਗੁਣੁ ਮਿਲਿ ਸਾਧ ਪਛਾਨੇ ||</h3>
+                <p class="boxed">And then, the fourth state of bliss was revealed to me by the Holy One.</p>
             </div>
  </div>
         <div class="item">
@@ -94,13 +105,69 @@
             </a>  
         </div>
         
-        
+         <div class="alter2">
+            <div class="row">
+                
+                <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                    <div class="center">
+                        <h3>Recent Events</h3>
+                        <p>To conduct in-depth research on various aspects of Sri Guru Granth Sahib, the Centre conducts following events :</p>
+                    </div>
+                 	
+                    <div class="gap"></div>
+                    <div class="row scroll" style="margin:0;">
+                        <div class="col-md-12">
+                            <blockquote>
+                                <p>I. Gurumustuk Singh Khalsa, founder and CTO of the SikhNet.com website will be speaking  <br /></p>
+								
+									Date : <i> 15th March, 2016 </i><br />
+									Day : <i>Tuesday</i><br />
+									Place : <i>Guru Granth Sahib Bhawan</i><br />
+                              	
+                            </blockquote>
+                            
+                        </div>
+							<div class="col-md-12">
+								<blockquote>
+									<p>II. Special Lecture by Bobby Singh Bansal has presented over Sikh legacy in Pakistan<br> </p>
+								
+									Date : <i>25 January, 2016</i><br />
+									Day : <i>Thursday</i><br />
+									Place : <i>At Guru Granth Sahib Bhawan</i><br />
+                              	
+								</blockquote>
+								
+							</div>
+							<div class="col-md-12">
+								 <blockquote>
+									<p>III. Online Museum </p>
+								
+									UNDER PROGRESS<br />
+									
+                              	
+								</blockquote>
+								
+							</div>
+						</div>
+             
+                    </div>
+               
+                </div>
+			
+		</div>
       
     
 		</section> 
+    <!--events -->
+    
+    	
+		
+       
+  
+   
 	
 	<!--intro-===-->
-	<section  class="alter1 top" id="1">
+	<section  class="alter1" id="1">
 		<div class="container">
 			<div class="row">
 				<div class="row-same-height" > 
@@ -147,68 +214,18 @@
 	</section>
 	
 	
-		
-		<section class="alter1" id="3">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="center">
-                        <h1>Recent Events</h1>
-                        <p>To conduct in-depth research on various aspects of Sri Guru Granth Sahib, the Centre conducts following events :</p>
-                    </div>
-                    <div class="gap"></div>
-                    <div class="row">
-                        <div class="col-md-4">
-                            <blockquote>
-                                <p>I. Gurumustuk Singh Khalsa, founder and CTO of the SikhNet.com website will be speaking  <br />
-									
-								</p>
-								<span style="font-size:13px;">
-									Date : <i> 15th March, 2016 </i><br />
-									Day : <i>Tuesday</i><br />
-									Place : <i>Guru Granth Sahib Bhawan</i><br />
-                              	</span>
-                            </blockquote>
-                            
-                        </div>
-							<div class="col-md-4">
-								<blockquote>
-									<p>II. Special Lecture by Bobby Singh Bansal has presented over Sikh legacy in Pakistan<br> </p>
-								<span style="font-size:13px;">
-									Date : <i>25 January, 2016</i><br />
-									Day : <i>Thursday</i><br />
-									Place : <i>At Guru Granth Sahib Bhawan</i><br />
-                              	</span>
-								</blockquote>
-								
-							</div>
-							<div class="col-md-4">
-								 <blockquote>
-									<p>III. Online Museum </p>
-								<span style="font-size:13px;">
-									UNDER PROGRESS<br />
-									
-                              	</span>
-								</blockquote>
-								
-							</div>
-						</div>
-                    </div>
-                </div>
-			
-		</div>
-    </section>
+
 	
 	
 
 
 
   
- <section  class="alter2" id="4">
+ <section  class="alter1" id="4">
         <div class="container" style="margin:10px">
             
                     <h4>About Gyan Anjan</h4>
-                    <p style="text-align:justify;">Information technology has ushered in a new era of transmission  of knowledge. There are numerous websites on which information about Sikhism is available. These websites are not managed/hosted by professional or academic institutions but by freelancers, thus sometimes their contents are out of the mark. In order to reach out to the people as well as to provide authoritative and authentic information about the Sikh Scripture and other aspects of Sikh Studies, the Centre has developed its own website known as Gyan Anjan.</p>
+                    <p style="text-align:justify;">Information technology has ushered in a new era of transmission  of knowledge. There are numerous websites on which information about Sikhism is available. These websites are not managed/hosted by professional or academic institutions but by freelancers, thus sometimes their contents are out of the mark. In order to reach out to the people as well as to provide authoritative and authentic information about the Sikh Scripture and other aspects of Sikh Studies, the Centre is developing its own website known as Gyan Anjan. It will be launched very shortly.</p>
             </div>
      
     </section><!--/#bottom-->
