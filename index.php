@@ -3,7 +3,9 @@
     Center On Studies in Sri Guru Granth Sahib
 </title>
 
-    <?php include 'includes/css.php'; ?>
+    <?php 
+        include 'includes/css.php'; 
+        include 'includes/config/db_connect.php'; ?>
 <style>
 	body
 	{
@@ -104,7 +106,8 @@
         <span class="glyphicon glyphicon-chevron-right"></span>
             </a>  
         </div>
-        
+
+
          <div class="alter2">
             <div class="row">
                 
@@ -116,38 +119,25 @@
                  	
                     <div class="gap"></div>
                     <div class="row scroll" style="margin:0;">
-                        <div class="col-md-12">
-                            <blockquote>
-                                <p>I. Gurumustuk Singh Khalsa, founder and CTO of the SikhNet.com website will be speaking  <br /></p>
-								
-									Date : <i> 15th March, 2016 </i><br />
-									Day : <i>Tuesday</i><br />
-									Place : <i>Guru Granth Sahib Bhawan</i><br />
-                              	
-                            </blockquote>
-                            
-                        </div>
-							<div class="col-md-12">
-								<blockquote>
-									<p>II. Special Lecture by Bobby Singh Bansal has presented over Sikh legacy in Pakistan<br> </p>
-								
-									Date : <i>25 January, 2016</i><br />
-									Day : <i>Thursday</i><br />
-									Place : <i>At Guru Granth Sahib Bhawan</i><br />
-                              	
-								</blockquote>
-								
-							</div>
-							<div class="col-md-12">
-								 <blockquote>
-									<p>III. Online Museum </p>
-								
-									UNDER PROGRESS<br />
-									
-                              	
-								</blockquote>
-								
-							</div>
+                        <?php
+                            $sql = "SELECT title, date, day, place FROM events";
+                            $result = $conn->query($sql);
+
+                            if ($result->num_rows > 0) {
+                               
+                                while($row = $result->fetch_assoc()) {
+                                    echo "<div class='col-md-12'><blockquote><p>".$row["title"]."<br></p>Date :<i>".$row["date"]."</i></br> Day : <i>".$row["day"]."</i><br> Place :<i>".$row["place"]."</i> <br>";
+                                     echo "</blockquote></div>";
+                                }
+                               
+                            } else {
+                                echo "<center>No Latest Events<center>";
+                            }
+                            $conn->close();
+                        ?>
+                       
+							
+							
 						</div>
              
                     </div>

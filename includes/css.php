@@ -4,7 +4,7 @@
 <link href="css/prettyPhoto.min.css" rel="stylesheet">
 <link href="css/main.min.css" rel="stylesheet">
 <link href="css/adjust.min.css" rel="stylesheet">
-
+<link href="css/animate.css" rel="stylesheet">
   
 <style>
     @media screen and (max-width:1200px) {
