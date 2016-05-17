@@ -102,7 +102,7 @@
             <div class="panel-heading">
                 <h3 class="panel-title">At Glance</h3>
             </div>
-            <div class="panel-body" style="height:300px;">
+            <div class="panel-body" style="height:300px;overflow:hidden">
                 <div id="slider1_container" style="position: relative; top: 0px; left: 0px;width:auto; height: 300px;">
     <!-- Slides Container -->
     <div u="slides" style="cursor: move; position: absolute; overflow: hidden; left: 0px; top: 0px; width: 550px; height: 300px;">
