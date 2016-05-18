@@ -148,5 +148,7 @@
     }
     
 </style>
-<script language="JavaScript1.3" type="text/javascript" src="searchjs/jse_form.js"></script>
+<!--loader-->
+<script src="js/startload.min.js"></script>
+  <link href="css/startload.css" rel="stylesheet" />
 <link href="css/mediaset.min.css" rel="stylesheet" type="text/css">
