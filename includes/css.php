@@ -111,7 +111,9 @@
       }
     
    
-      
+      body > div.navbar-fixed-top.container > div > div.smalls > div.col-md-12.col-sm-12 > div > a > span {
+       margin-top:10px;   
+      }
     
     .sliden .dropdown-menu {
         background-color:rgb(5, 25, 56);
