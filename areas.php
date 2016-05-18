@@ -483,7 +483,7 @@ The writings of medieval Indian Bhaktas and Sufis form a glorious part of the Si
 						</div>
 						<div class="col-sm-12 col-xs-12 col-md-12">
 							<div id="4 " class="col-sm-10 col-xs-12 col-md-12 long_tile">
-								<h2 id="title3" style="padding-top:30px;font-family:ralvey;" >
+								<h2 id="title2" style="padding-top:30px;font-family:ralvey;" >
 									MUSICOLOGY
 								</h2>
 								<br />
@@ -492,7 +492,7 @@ The writings of medieval Indian Bhaktas and Sufis form a glorious part of the Si
 						</div>
 						<div class="col-sm-12 col-xs-12 col-md-12">
 							<div  id="5 " class="col-sm-10 col-xs-12 col-md-12 long_tile">
-								<h2 id="title4" style="padding-top:30px;font-family:ralvey;">
+								<h2 id="title3" style="padding-top:30px;font-family:ralvey;">
 									HERMENEUTIC AND LINGUISTIC STUDIES
 								</h2>
 								<br />
@@ -501,7 +501,7 @@ The writings of medieval Indian Bhaktas and Sufis form a glorious part of the Si
 						</div>
 						<div class="col-sm-12 col-xs-12 col-md-12">
 							<div  id="6 " class="col-sm-10 col-xs-12 col-md-12 long_tile">
-								<h2 id="title5" style="padding-top:30px;font-family:ralvey;">
+								<h2 id="title4" style="padding-top:30px;font-family:ralvey;">
 									SOCIAL AND CULTURAL STUDIES
 								</h2>
 								<br />
@@ -510,7 +510,7 @@ The writings of medieval Indian Bhaktas and Sufis form a glorious part of the Si
 						</div>
 						<div  class="col-sm-12 col-xs-12 col-md-12">
 							<div id="2" class="col-sm-10 col-xs-12 col-md-12 long_tile">
-								<h2  id="title1" style="padding-top:30px;font-family:ralvey;">
+								<h2  id="title5" style="padding-top:30px;font-family:ralvey;">
 									SCRIPTURAL TRANSLATIONS
 								</h2>
 								<br />
@@ -566,7 +566,7 @@ $('a[href*=#]:not([href=#])').click(function() {
         target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
            if (target.length) {
              $('html,body').animate({
-                 scrollTop: target.offset().top
+                 scrollTop: target.offset().top -200
             }, 500);
             return false;
         }

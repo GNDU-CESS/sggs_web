@@ -140,6 +140,13 @@
         margin-top: 75px;
     }
     
+    @media screen and (min-width:1200px){
+        .hset {
+            float:left;
+            margin-left:10px;
+        }
+    }
+    
 </style>
 <script language="JavaScript1.3" type="text/javascript" src="searchjs/jse_form.js"></script>
 <link href="css/mediaset.min.css" rel="stylesheet" type="text/css">

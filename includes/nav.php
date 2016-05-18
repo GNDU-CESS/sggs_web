@@ -38,7 +38,7 @@
                             <li class="dropdown">
                                 <a href="#">Areas</a>
                                 <ul class="o2">
-                                    <li><a href="areas">Interfaith Understanding</a></li>
+                                    <li><a href="areas#title">Interfaith Understanding</a></li>
                                     <li><a href="areas#title1">Scriptural Studies</a></li>
                                     <li><a href="areas#title2">Musicology</a></li>
                                     <li><a href="areas#title3">Hermeneutic And Linguistic</a></li>
@@ -86,7 +86,7 @@
             <div class="col-xs-12 col-sm-12 col-lg-6">
                 <div id="head_wrap">
                     <div id="header">
-                        <a  href="/gyananjan" style="color:#34495E">   <h2 class="toph" style="font-family: algerian;margin-left:10px;">GYAN ANJAN</h2></a>
+                        <a  href="/gyananjan" style="color:#34495E">   <h2 class="toph hset" style="font-family: algerian;text-align:center;">GYAN ANJAN</h2></a>
                     </div>
                 </div>
             </div>
@@ -139,7 +139,7 @@
                             <li class="dropdown">
                                 <a href="areas" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Areas<span class="caret"></span></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="areas">Interfaith Understanding</a></li>
+                                    <li><a href="areas#title">Interfaith Understanding</a></li>
                                     <li><a href="areas#title1">Scriptural Studies</a></li>
                                     <li><a href="areas#title2">Musicology</a></li>
                                     <li><a href="areas#title3">Hermeneutic And Linguistic</a></li>

@@ -105,7 +105,7 @@
             <div class="panel-body" style="height:300px;overflow:hidden">
                 <div id="slider1_container" style="position: relative; top: 0px; left: 0px;width:auto; height: 300px;">
     <!-- Slides Container -->
-    <div u="slides" style="cursor: move; position: absolute; overflow: hidden; left: 0px; top: 0px; width: 550px; height: 300px;">
+    <div u="slides" style="cursor: move; position: absolute; overflow: hidden; left: 0px; top: 0px; width: 550px; height: 300px;object-fit:fill">
         <div><img class="img img-resposive" u="image" src="img/carousel2.jpg" /></div>
          <div><img class="img img-resposive" u="image" src="img/gallery/workshops/IMG_1527.jpg" /></div>
         <div><img class="img img-resposive" u="image" src="img/gallery/seminars/DSC00825.JPG" /></div>
@@ -120,7 +120,8 @@
             <div class="panel-heading">
                 <h3 class="panel-title">Latest Activities and Events</h3>
             </div>
-            <div class="panel-body" style="height:320px;overflow-y:scroll">
+            <div class="panel-body eve" style="height:320px; overflow:hidden" >
+                <marquee direction="up" scrolldelay="160" onmouseover="stop();"  onmouseout="start();">
                 <?php
                             $sql = "SELECT title, date, day, place FROM events";
                             $result = $conn->query($sql);
@@ -137,30 +138,30 @@
                             }
                             $conn->close();
                         ?>
-                       
+                </marquee>      
             </div>
         </div>
             <div class="panel panel-info col-md-5">
             <div class="panel-heading">
                 <h3 class="panel-title">Quick Links</h3>
             </div>
-            <div class="panel-body" style="height:320px;overflow:scroll;overflow-x:hidden">
+            <div class="panel-body" style="height:320px;">
                 <div class="list-group">
-                  <a href="#" class="list-group-item">
-                    <h4 class="list-group-item-heading">Link 1</h4>
-                    <p class="list-group-item-text">Link Description</p>
+                  <a href="research_publications" class="list-group-item">
+                    <h4 class="list-group-item-heading">Research Publications</h4>
+                    <p class="list-group-item-text">For the proper interpretation of the message of Sri Guru Granth Sahib......</p>
                   </a>
-                <a href="#" class="list-group-item">
-                    <h4 class="list-group-item-heading">Link 2</h4>
-                    <p class="list-group-item-text">Link Description</p>
+                <a href="activities" class="list-group-item">
+                    <h4 class="list-group-item-heading">Manthan</h4>
+                    <p class="list-group-item-text">A Research Forum of the Centre known as Manthan has been set up.....</p>
                   </a>
-                    <a href="#" class="list-group-item">
-                    <h4 class="list-group-item-heading">Link 3</h4>
-                    <p class="list-group-item-text">Link Description</p>
+                    <a href="gallery_foundation" class="list-group-item">
+                    <h4 class="list-group-item-heading">Gallery-Foundation</h4>
+                    <p class="list-group-item-text">2 November, 2012. Historic Date Of foundation stone of center...</p>
                   </a>
-                <a href="#" class="list-group-item">
-                    <h4 class="list-group-item-heading">Link 3</h4>
-                    <p class="list-group-item-text">Link Description</p>
+                <a href="playlist" class="list-group-item">
+                    <h4 class="list-group-item-heading">Important Videos</h4>
+                    <p class="list-group-item-text">Watch latest videos from Center on studies in Shri Guru Granth Sahib</p>
                   </a>
                 
                 </div>
