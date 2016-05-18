@@ -170,10 +170,20 @@
         
             <div class="panel panel-info col-md-5">
             <div class="panel-heading">
-                <h3 class="panel-title">About Gyan Anjan</h3>
+                <h3 class="panel-title">Introduction</h3>
             </div>
             <div class="panel-body">
-               Information technology has ushered in a new era of transmission of knowledge. There are numerous websites on which information about Sikhism is available. These websites are not managed/hosted by professional or academic institutions but by freelancers, thus sometimes their contents are out of the mark. In order to reach out to the people as well as to provide authoritative and authentic information about the Sikh Scripture and other aspects of Sikh Studies, the Centre is developing its own website known as Gyan Anjan. It will be launched very shortly.
+                Centre on Studies in Sri Guru Granth Sahib, Guru Nanak Dev University, Amritsar established on 1st April 2011, has completed five years of its existence. It owes its origin to the public announcement of 1St September 2004 made by the then Prime Minister of India, Dr. Manmohan Singh, that Govt. of India will establish a Centre in Guru Nanak Dev University, Amritsar for Studies on Sri Guru Granth Sahib. <br><br> Sri Guru Granth Sahib besides being the
+living Guru of the Sikhs, is very unique in
+many aspects among the scriptures of world
+religions. The message of Sri Guru Granth
+Sahib is holistic in nature. It is of great
+significance and relevance for the modern age.
+The main objective of the establishment of this
+Centre is to disseminate this wisdom
+academically all over the world in its true and
+authentic form.  <br><br>
+                            <center><a href="files/English.pdf"><button style="text-align:center" class="btn btn-primary">Download PDF</button></a></center> 
             </div>
         </div>
         </div>
@@ -202,7 +212,7 @@
 	<!--intro-===-->
     <div class="panel panel-default">
   <div class="panel-heading">
-    <h3 class="panel-title">Introduction</h3>
+    <h3 class="panel-title">About GyanAnjan</h3>
   </div>
   <div class="panel-body">
     	<div class="row">
@@ -211,8 +221,7 @@
                       
 						
 						
-						<p style="text-align:justify; padding:3%;padding-top:10%; font-family: raleway">Centre on Studies in Sri Guru Granth Sahib, Guru Nanak Dev University, Amritsar established on 1st April 2011, has completed five years of its existence. It owes its origin to the public announcement of 1St September 2004 made by the then Prime Minister of India, Dr. Manmohan Singh, that Govt. of India will establish a Centre in Guru Nanak Dev University, Amritsar for Studies on Sri Guru Granth Sahib.<br><br>
-                            <center><a href="files/English.pdf"><button style="text-align:center" class="btn btn-primary">Download PDF</button></a></center>
+						<p style="text-align:justify; padding:3%;padding-top:10%; font-family: raleway">Information technology has ushered in a new era of transmission of knowledge. There are numerous websites on which information about Sikhism is available. These websites are not managed/hosted by professional or academic institutions but by freelancers, thus sometimes their contents are out of the mark. In order to reach out to the people as well as to provide authoritative and authentic information about the Sikh Scripture and other aspects of Sikh Studies, the Centre is developing its own website known as Gyan Anjan. It will be launched very shortly.
 						</p>
 						
 					</div>
