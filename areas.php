@@ -408,32 +408,14 @@
 	
 				<!--second cultural events tile-->
 				<section id="title" class="head">
-				<div class="row row1" style="margin-top:-20px" >
+				<div class="row row1" style="margin-top:-60px" >
 					<div class="col-sm-12 col-md-12">
 						<div class="col-md-6 col-sm-6 ">
-							<div class="box img_left_cult">
-								<div id="overlay" >
-									<span style="font-family:ralvey;" id="word" class="c_peru" >
-									Sri Guru Granth Sahib presents an excellent example of co-existence, cosmopolitanism, interfaith understanding and unity in diversity
-									</span>
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-6 col-md-6">
-							<div class="col-sm-12 col-md-12 tile_1 img_right_cult" style="background-size: cover !important;
-    background-repeat: no-repeat !important; height:250px">
-								<div class="tile_1_inner">
-							
-									<h2 class="row1-text c_cadetblue only " style="margin-top:160px"><p class=" c_cadetblue row1-text shadow_news_1 media_text_2" >
-										Continuous efforts by the center to contribute in communnal harmony.
-									</p></h2>
-								</div>
-							</div>
-								<div class="col-sm-12 col-xs-12 col-md-12 tile">
+							<div class="col-sm-12 col-xs-12 col-md-12 tile">
 									<div class="col-sm-12 col-xs-12 col-md- tile_2 only">
 										<div class="front">
 										<br />
-											<h1 style="font-family:ralvey;">Areas Of Study</h1>
+											<h1 style="font-family:ralvey;margin-top:50px !important">Areas Of Study</h1>
 										</div>
 										<div class="back" >
 											<div class="row">
@@ -458,9 +440,21 @@
 									</div>	
 								</div>
 						</div>
+						<div class="col-sm-6 col-md-6">
+							<div class="col-sm-12 col-md-12 tile_1 img_right_cult" style="background-size: cover !important;
+    background-repeat: no-repeat !important; height:250px">
+								<div class="tile_1_inner">
+							
+									<h2 class="row1-text c_cadetblue only " style="margin-top:160px"><p class=" c_cadetblue row1-text shadow_news_1 media_text_2" >
+										Continuous efforts by the center to contribute in communnal harmony.
+									</p></h2>
+								</div>
+							</div>
+								
+						</div>
 						
 						<div class="col-sm-12 col-xs-12 col-md-12">
-							<div id="1" class="col-sm-10 col-xs-12 col-md-12 long_tile" style="padding-top:30px;">
+							<div id="1" class="col-sm-10 col-xs-12 col-md-12 long_tile" style="padding-top:-10px;">
 								<h2  id="title" style="padding-top:30px;font-family:ralvey;">
 									INTERFAITH UNDERSTANDING
 								</h2>
