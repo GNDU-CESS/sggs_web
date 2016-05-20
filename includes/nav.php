@@ -10,7 +10,7 @@
                         <span class="icon-bar" style="background-color:wheat"></span>
                         <span class="icon-bar" style="background-color:wheat"></span>
                     </button>
-                   <a  href="/gyananjan" style="color:white"> <span class="mob-title text-center">Centre on Studies in Sri Guru Granth Sahib</span></a>
+                   <a  href="index" style="color:white"> <span class="mob-title text-center">Centre on Studies in Sri Guru Granth Sahib</span></a>
                </div>
            </div>
           <!--for_mobile-->
@@ -20,7 +20,7 @@
                              <ul>
                                 
                             <li>
-                                <a href="/gyananjan">Home</a>
+                                <a href="index">Home</a>
                             </li>
                             
                            
@@ -38,7 +38,7 @@
                             <li class="dropdown">
                                 <a href="#">Areas</a>
                                 <ul class="o2">
-                                    <li><a href="areas">Interfaith Understanding</a></li>
+                                    <li><a href="areas#title">Interfaith Understanding</a></li>
                                     <li><a href="areas#title1">Scriptural Studies</a></li>
                                     <li><a href="areas#title2">Musicology</a></li>
                                     <li><a href="areas#title3">Hermeneutic And Linguistic</a></li>
@@ -86,7 +86,7 @@
             <div class="col-xs-12 col-sm-12 col-lg-6">
                 <div id="head_wrap">
                     <div id="header">
-                        <a  href="/gyananjan" style="color:#34495E">   <h2 class="toph" style="font-family: algerian;margin-left:10px;">GYAN ANJAN</h2></a>
+                        <a  href="index" style="color:#34495E">   <h2 class="toph hset" style="font-family: algerian;text-align:center;">GYAN ANJAN</h2></a>
                     </div>
                 </div>
             </div>
@@ -111,13 +111,13 @@
                 <div class="container">
                     <div class="nav-head">
                         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                            <a  href="/gyananjan" style="color:#34495E">   <span class="sr-only">gyan anjan</span></a>
+                            <a  href="index" style="color:#34495E">   <span class="sr-only">gyan anjan</span></a>
                             <span class="icon-bar" style="background-color:wheat"></span>
                             <span class="icon-bar" style="background-color:wheat"></span>
                             <span class="icon-bar" style="background-color:wheat"></span>
                         </button>
                         <br>
-                        <a  href="/gyananjanfinal" style="color:white">  <span class="title" style="font-family:ralvey;">Centre on Studies in Sri Guru Granth Sahib</span></a>
+                        <a  href="index" style="color:white">  <span class="title" style="font-family:ralvey;">Centre on Studies in Sri Guru Granth Sahib</span></a>
                     </div>
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav pull-right" style="font-family:ralvey;">
@@ -139,7 +139,7 @@
                             <li class="dropdown">
                                 <a href="areas" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Areas<span class="caret"></span></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="areas">Interfaith Understanding</a></li>
+                                    <li><a href="areas#title">Interfaith Understanding</a></li>
                                     <li><a href="areas#title1">Scriptural Studies</a></li>
                                     <li><a href="areas#title2">Musicology</a></li>
                                     <li><a href="areas#title3">Hermeneutic And Linguistic</a></li>

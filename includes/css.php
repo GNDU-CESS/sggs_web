@@ -4,7 +4,7 @@
 <link href="css/prettyPhoto.min.css" rel="stylesheet">
 <link href="css/main.min.css" rel="stylesheet">
 <link href="css/adjust.min.css" rel="stylesheet">
-
+<link href="css/animate.css" rel="stylesheet">
   
 <style>
     @media screen and (max-width:1200px) {
@@ -111,7 +111,9 @@
       }
     
    
-      
+      body > div.navbar-fixed-top.container > div > div.smalls > div.col-md-12.col-sm-12 > div > a > span {
+       margin-top:10px;   
+      }
     
     .sliden .dropdown-menu {
         background-color:rgb(5, 25, 56);
@@ -140,6 +142,15 @@
         margin-top: 75px;
     }
     
+    @media screen and (min-width:1200px){
+        .hset {
+            float:left;
+            margin-left:10px;
+        }
+    }
+    
 </style>
-<script language="JavaScript1.3" type="text/javascript" src="searchjs/jse_form.js"></script>
+<!--loader-->
+<script src="js/startload.min.js"></script>
+  <link href="css/startload.css" rel="stylesheet" />
 <link href="css/mediaset.min.css" rel="stylesheet" type="text/css">

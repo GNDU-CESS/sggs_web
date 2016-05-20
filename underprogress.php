@@ -25,7 +25,7 @@
 		</section><!--/#title-->     
 		<section id="career" class="container">
 			<div class="row">
-				<div class="col col-sm-6">
+				<div class="col col-sm-12">
 					<div class="center" style="font-family:"Raleway"">
 						<h2 class="head1">Projects Under Progress</h2>
 						<p></p>
@@ -138,31 +138,7 @@ these forms of Gurbani Sangeet with a view to assess the developments that have 
 
 					
 				</div>
-				<div class="col col-sm-1">
-				<br /><br />
-				</div>
-				<br /><br />
-				<div class="col col-sm-4">
-					<br /><br /><br />
-					The projects under progress, the completed projects and the research publication are as follows:<br /><br />
-					<ul style="list-style:none;">
-					<a href="research_publications.php"><li style="width:350px;height:40px;background-color:wheat;align:center;padding:2px"><h4>Research Publications</h4></li></a><br />
-					<a href="underprogress.php"><li style="width:350px;height:40px;background-color:wheat;align:center;padding:2px"><h4>Projects under Progress</h4></li></a><br />
-					<a href="completed_projects.php"><li style="width:350px;height:40px;background-color:wheat;align:center;padding:2px"><h4>Completed Projects</h4></li></a><br />
-					</ul>
-					<div style="background-color:#e0e0d1;padding:20px;text-align:center">
-						<h3>Download Publications</h3><br /><br />
-						<img src="img/books/mulya1.jpg" style="height:200px"><br /><br />
-						<a href="img/books/japuji_sahib.pdf"><button type="button" class="btn btn-success">Download</button></a><br /><br /><br />
-						<img src="img/books/hakikat.jpg" style="height:200px"><br /><br />
-						<a href="img/books/japuji_sahib.pdf"><button type="button" class="btn btn-success">Download</button></a><br /><br /><br />
-						<img src="img/books/japuji_sahib.jpg" style="height:200px"><br /><br />
-						<a href="img/books/japuji_sahib.pdf"><button type="button" class="btn btn-success">Download</button></a><br /><br /><br />
-						<img src="img/books/perspectives1.jpg" style="height:200px"><br /><br />
-						<a href="img/books/japuji_sahib.pdf"<button type="button" class="btn btn-success">Download</button></a><br /><br /><br />
-					</div>
-					
-				</div>
+				
 			</div>
 		</section>
 	</div>    

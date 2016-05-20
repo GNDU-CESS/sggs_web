@@ -39,8 +39,10 @@
    <div class='embed-container head'>
        <iframe src='https://www.youtube.com/embed/videoseries?list=PLZTLQvhbYJQ9wwgJC0gWEq-xW5Aslby3Z' frameborder='0' allowfullscreen></iframe>
     </div>
-    
-<?php include 'includes/js.php'; ?>	
+
+<?php 
+include 'includes/footer.php';
+include 'includes/js.php'; ?>	
 </body>
 
 </html>
