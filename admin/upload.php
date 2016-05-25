@@ -1,7 +1,9 @@
 <?php
+session_start();
+
 if (!(isset($_SESSION['login']) && $_SESSION['login'] != '')) {
 
-header ("Location: login");
+echo "<div style='color:red'>Process Failed!!!</div><br><br>";
 
 }
 if(is_array($_FILES)) {
