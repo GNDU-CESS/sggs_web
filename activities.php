@@ -56,7 +56,7 @@ body
                 
             </div>
         </div>
-    </section>
+</section>
     
 		<section  style="" class="container">
 			<div class="container-fluid" style="margin:15px">
