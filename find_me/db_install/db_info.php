@@ -3,5 +3,5 @@
 $localhost = "localhost";
 $username = "root";
 $pass="";
-$dbname = "sggs_db_secure";
+$db_name = "sggs_db";
 ?>

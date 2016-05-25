@@ -5,7 +5,7 @@
 
     <?php 
         include 'includes/css.php'; 
-        include 'includes/config/db_connect.php'; ?>
+        include 'admin/db/connect.php'; ?>
 
 <style>
 	body
@@ -87,6 +87,12 @@
         text-align:center;
         
     }
+    .no_event {
+        font-size:15px;
+        text-align:center;
+        padding:60px;
+        
+    }
     
     
 </style>
@@ -123,20 +129,22 @@
             <div class="panel-body eve" style="height:320px; overflow:hidden" >
                 <marquee direction="up" scrolldelay="160" onmouseover="stop();"  onmouseout="start();">
                 <?php
-                            $sql = "SELECT title, date, day, place FROM events";
-                            $result = $conn->query($sql);
+                            $sql = "SELECT * FROM events";
+                            $result = $db->query($sql);
 
                             if ($result->num_rows > 0) {
                                
-                                while($row = $result->fetch_assoc()) {
-                                    echo "<div class='col-md-12'><p>".$row["title"]."<br></p>Date :<i>".$row["date"]."</i></br> Day : <i>".$row["day"]."</i><br> Place :<i>".$row["place"]."</i> <br>";
-                                     echo "</div><hr>";
+                               while($row = $result->fetch_assoc()) {
+                                    ?><a href="events#<?php echo $row['id'];?>"><?php 
+                                    echo "<div class='col-md-12'><h4>".$row["title"]."<br></h4>Date :<i>".$row["date"]."</i><br> Venue :<i>".$row["venue"]."</i> <br>";
+                                     echo "</div><hr></a>";
                                 }
                                
-                            } else {
-                                echo "<center>No Latest Events<center>";
+                            } 
+                            else {
+                                echo "<div class='no_event'>No Latest Activities and Events</div>";
                             }
-                            $conn->close();
+                            $result->free(); 
                         ?>
                 </marquee>      
             </div>
@@ -276,17 +284,21 @@ authentic form.  <br><br>
     
     
     
-    
-   
-
-    <?php include 'includes/footer.php'; include 'includes/js.php';?>
-    <script src="js/jssor.slider.mini.js"></script>
+     <?php include 'includes/footer.php'; include 'includes/js.php';
+        $db->close();
+        
+    ?>
+   <script src="js/jssor.slider.mini.js"></script>
 <script>
     jQuery(document).ready(function ($) {
         var options = { $AutoPlay: true };
         var jssor_slider1 = new $JssorSlider$('slider1_container', options);
     });
 </script>
+
+
+   
+    
      
    
 </body>
