@@ -173,11 +173,7 @@
                 <h3 class="panel-title">Introduction</h3>
             </div>
             <div class="panel-body">
-                Centre on Studies in Sri Guru Granth Sahib, Guru Nanak Dev University, Amritsar established on 1st April 2011, has completed five years of its existence. It owes its origin to the public announcement of 1St September 2004 made by the then Prime Minister of India, Dr. Manmohan Singh, that Govt. of India will establish a Centre in Guru Nanak Dev University, Amritsar for Studies on Sri Guru Granth Sahib. <br><br> Sri Guru Granth Sahib besides being the
-living Guru of the Sikhs, is very unique in
-many aspects among the scriptures of world
-religions. The message of Sri Guru Granth
-Sahib is holistic in nature. It is of great
+                Centre on Studies in Sri Guru Granth Sahib, Guru Nanak Dev University, Amritsar established on 1st April 2011. It owes its origin to the public announcement of 1St September 2004 made by the then Prime Minister of India, Dr. Manmohan Singh, that Govt. of India will establish a Centre in Guru Nanak Dev University, Amritsar for Studies on Sri Guru Granth Sahib. <br><br> The message of Sri Guru Granth Sahib is holistic in nature. It is of great
 significance and relevance for the modern age.
 The main objective of the establishment of this
 Centre is to disseminate this wisdom

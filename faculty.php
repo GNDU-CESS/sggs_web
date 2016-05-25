@@ -334,7 +334,7 @@ function func12()
 
     document.getElementById('change5').innerHTML= "salinder.singh05@gmail.com";
 
-    document.getElementById('change6').innerHTML = 'Ph.D, holds Masters and M.Phill(Punjabi) Edited two books and published Eight research papers in reputed research journals/books ';
+    document.getElementById('change6').innerHTML = 'Holds Masters and M.Phill(Punjabi) Edited two books and published Eight research papers in reputed research journals/books ';
     
 } 
 function func13()
@@ -501,7 +501,7 @@ function func25()
 
     document.getElementById('change5').innerHTML= "rupinderrose85@gmail.com";
 
-    document.getElementById('change6').innerHTML = 'Doctorate (Religious )  <br> Published four research papers in reputed research journals/books.  ';
+    document.getElementById('change6').innerHTML = 'Doctorate (Religious Studies)  <br> Published four research papers in reputed research journals/books.  ';
     
 }
 function func26()

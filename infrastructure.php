@@ -1,65 +1,53 @@
-<!DOCTYPE html>
-<html>
+<?php include 'includes/meta.php';  ?>
+<title>
+    Center On Studies in Sri Guru Granth Sahib
+</title>
 
-<meta http-equiv="content-type" content="text/html;charset=iso-8859-1" />
-<head>
-<meta charset="utf-8" />
- <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="css/jInvertScroll.min.css" />
-    <link rel="stylesheet" href="css/style.min.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Infrastructure</title>
- <?php include 'includes/css.php'; ?>
-    <style>
-    .front{
-    	background-image: url('img/infra/bahwan22.jpg');
-    	position: fixed;
-
-    }
-    h1 h2 h3{
-    	color: black;
-    }
-	.intro{
-	padding-top:400px;
+    <?php include 'includes/css.php'; ?>
+<style>
+body
+	{
+		background-color:#ffffe5;
+		overflow-x:hidden;
 	}
-	.navbar{
-		position: fixed;
-		margin-top:85px;
+	.shift_bottom{
+		padding: 40px;
 	}
-        
-        .navbar {
-            width:100%;
-            z-index: 18;
-        }
-    </style>
+
     
+</style>
 </head>
-<body style="padding-top: 0px;">
-	
-<?php include 'includes/nav.php'; ?>
+<body class="container">
+<?php include 'includes/nav.php';
+      include 'includes/map.php';?>
+ <div class="head">  
 		
-		
-	<div id="back" class="container" style="position:absolute;z-index:-1;">
-		<div class="front scroll">
-			<div class="row">
-				<div><h1 class="intro" style="font-family:ralvey;margin-left:110px;">Scroll down</h1></div>
-				
-			</div>
-			<br><br>
-			<div class="description page">
-				<h2>The Main Building</h2>
-				<p>
-					The Centre is housed in its own building known as Sri Guru Granth Sahib Bhawan<br/>
-					The design of the building has been prepared by the Architecture Department of Guru Nanak Dev University, Amritsar, keeping in mind the Sikh Architectural features. It is a two storey building which is spread over 70,000 square feet area. <br/>
-					<br/>
-					<hr style="border:none; border-bottom: 1px #ddd solid;" />
-					<br/>
-					 It is situated at a prime location in the University. Besides the office for faculty and research and administrative staff, it comprises an auditorium, museum, library, workshop hall, meeting room etc. The building was inaugurated by Honorable Chief Minister of Punjab, S. Parkash Singh Badal on 15th Feb. 2016.
-				</p>
-			</div>
-			<br><br>
-			<div class="documentation page"style="width:1000px;">
+        
+	<div class="row" id="services"  style="margin:40px 40px 40px 20px;text-align:justify;">
+                     <div class="media">
+                            <div class="media-body">
+                                <br /><br><br>
+                                <div class="row">
+                                    <div class="col-lg-7">
+                                        <h2 style="text-align:center;" class="subheadx media-heading">The Main Building</h2><br />
+                                        <p class="textx" style="text-align:justify;"> The Centre is housed in its own building known as Sri Guru Granth Sahib Bhawan<br/>
+										The design of the building has been prepared by the Architecture Department of Guru Nanak Dev University, Amritsar, keeping in mind the Sikh Architectural features. It is a two storey building which is spread over 70,000 square feet area. <br/>
+											<br /><br/>
+					 					It is situated at a prime location in the University. Besides the office for faculty and research and administrative staff, it comprises an auditorium, museum, library, workshop hall, meeting room etc. The building was inaugurated by Honorable Chief Minister of Punjab, S. Parkash Singh Badal on 15th Feb. 2016.
+                                        </p>
+                                    </div>
+                                    <div class="col-lg-5">
+                                        <img src="img/infra/33.jpg" class="img img-responsive" />
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                  
+              </div>
+                     
+
+<div class="container" style="width:1000px;">
 				<div class="row">
 					<div class="col-lg-4 col-xs-4">
 						<img src="img/infra/22.jpg">
@@ -83,8 +71,11 @@
 					</div>
 				</div>
 			</div>
-			
-			<div class="options page">
+		        
+               <div class="row">
+              <div class ="col-lg-7" style="text-align: left;">
+			  
+
 					<h2>International Guest House and Residence for the Faculty</h2>
 				<p>
 					As the upcoming Centre will require the services of very senior and reputed scholars, providing them congenial atmosphere and making their stay in Amritsar comfortable, suitable accommodation is required.<br>
@@ -95,53 +86,104 @@
 
 				</p>
 			</div>
-			
-			<div class="download page"style="width:800px;height:450px;" >
-				<img src="img/infra/33.jpg">			
-  			</div>
-		</div>
-	</div>
-	<script type="text/javascript" src="js/jquery.min.js"></script>
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="js/jquery.jInvertScroll.js"></script>
-	<script type="text/javascript">
-	(function($) {
-		$.jInvertScroll(['.scroll']);
-	}(jQuery));
-	
-	$(document).ready(function(){
-		$('html, body').animate({scrollTop: 0}, 20);
-	});
-	</script>
-	<script type="text/javascript">
-		var _gaq = _gaq || [];
-		_gaq.push(['_setAccount', 'UA-376733-5']);
-		_gaq.push(['_trackPageview']);
-	  
-		(function() {
-		  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-		  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-		  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-		})();
-	</script>
-	<script type="text/javascript">
-	(function() {
-	  var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-	  po.src = 'https://apis.google.com/js/plusone.js';
-	  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-	})();
-	</script>
-	<div id="fb-root"></div>
-	<script type="text/javascript">
-	(function(d, s, id) {
-		var js, fjs = d.getElementsByTagName(s)[0];
-		if (d.getElementById(id)) return;
-		js = d.createElement(s); js.id = id;
-		js.src = "../../connect.facebook.net/it_IT/all.js#xfbml=1&appId=168572623196006";
-		fjs.parentNode.insertBefore(js, fjs);
-	}(document, 'script', 'facebook-jssdk'));
-	</script>
-<?php include 'includes/js.php'; ?>
-</body>
+			<div class="col-lg-5">
+                <div class="shift_bottom">
+				    <img src="img/infra/guest-house.jpg" width="300px" height="200px" class="img img-responsive">
+                </div>
+			</div>
+        </div>
 
+
+        <div class="row">
+        
+              <div class ="col-lg-7" style="text-align: left;">
+			  
+
+					<h2>INTERFAITH UNDERSTANDING</h2>
+				<p>
+					Sri Guru Granth Sahib presents an excellent example of co-existence, cosmopolitanism, interfaith understanding and unity in diversity, which is unparalleled in the history of world scriptures.It is the need of the hour to understand that Sri Guru Granth Sahib addresses not its votaries alone, but the whole humankind.
+
+				</p>
+			</div>
+			<div class="col-lg-5">
+                <div class="shift_bottom">
+				    <img src="img/facilities/library.jpg" style="width:300px;height:200px"class="img img-responsive">
+                </div>
+			</div>
+        </div>
+
+<div class="row">
+	
+              <div class ="col-lg-7" style="text-align: left;">
+			  
+
+					<h2>DIGITIZATION OF ARCHIVES</h2>
+				<p>
+					The central library has been equipped with digital archives of manuscripts.The invaluable manuscripts and thesises related to sikh religion have been fully digitized. Students, researchers as well as the faculty members  have access to this section of library. Bhai Gurdas Library has prepared the catalogues of bibliographic descriptions which has been compiled in five volumes available in the library which is now available in print as well as in CD/DVD form. 	
+
+				</p>
+			</div>
+			<div class="col-lg-5">
+                <div class="shift_bottom">
+				    <img src="img/facilities/i4.jpg" style="width:300px;height:200px" class="img img-responsive">
+                </div>
+			</div>
+        </div>
+
+		<div class="row">
+              <div class ="col-lg-7" style="text-align: left;">
+			  
+
+					<h2>CONSERVATION LAB WITH MICROFILMING FACILITIES</h2>
+					
+				<p>
+					The conservation lab is primarily concerned with the preservation of rare books and manuscripts for research purposes.For optimum and purposeful use of manuscripts,their microfilming is important. So far,microfilming of 600 manuscripts has been accomplished.In order to save the brittle manuscripts from damage,they are being laminated. Fumigation chamber is also available for chemical treatment of infected manuscripts which further helps in effective preservation.
+				</p>
+			</div>
+			<div class="col-lg-5">
+                <div class="shift_bottom">
+				    <img src="img/facilities/manuscript.jpg" style="width:300px;height:200px" class="img img-responsive">
+                </div>
+			</div>
+        </div>
+
+<div class="row">
+              <div class ="col-lg-7" style="text-align: left;">
+			  
+
+					<h2>MUSEUM OF SIKH HISTORY AND CULTURE</h2>
+				<p>
+					The university has a museum devoted to depict the rich sikh history and culture.It is furnished with  artifacts related to sikh religion and puts on display the the relics which are an integral part of sikh history.Its contribution is immense towards the propagation of genesis and impact of Sri Guru Granth Sahib Ji and the entire sikh religion.
+				</p>
+			</div>
+			<div class="col-lg-5">
+                <div class="shift_bottom">
+				    <img src="img/facilities/i3.jpg" style="width:300px;height:200px" class="img img-responsive">
+                </div>
+			</div>
+        </div>
+
+<div class="row">
+              <div class ="col-lg-7" style="text-align: left;">
+			  
+
+					<h2>RECORDING ROOM</h2>
+				<p>
+					The Centre is having a Recording Room with all the latest equipments. It has the facilities like: all the four inside walls are fitted with sound proof wooden shelter with sponge inside to make it sound proof, latest video and still cameras, proper light system,  cordless and  collar mikes etc. Centre has recorded some important recordings related with Sikh history and of keertan Tradition.
+				</p>
+			</div>
+			<div class="col-lg-5">
+                <div class="shift_bottom">
+				    <img src="img/DSC00086.jpg" style="width:300px;height:200px" class="img img-responsive">
+                </div>
+			</div>
+        </div>
+
+
+
+
+              
+
+<?php include 'includes/footer.php'; include 'includes/js.php';?>
+</body>
 </html>
