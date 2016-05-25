@@ -26,7 +26,7 @@ if(!empty($_POST['submit'])) {
     
  
     
-    if(empty($_POST['title']) || empty($_POST['date']) || empty($_POST['venue'])) { 
+    if(empty($_POST['title']) || empty($_POST['date']) || empty($_POST['venue']) || empty($_POST['pname'])) { 
     $rsp="Please fill all the fields";
     $sign="exclamation-sign";
     $alertype="warning";
@@ -38,8 +38,8 @@ else {
     $date= $_POST['date'];
     $venue=addslashes($_POST['venue']);
     $desc=addslashes($_POST['desc']);
-    $imagename=addslashes($_POST['image']);
-    $event_in= "INSERT INTO `events` (`title`,`date`, `venue`,`description`) VALUES ('$title','$date','$venue','$desc')";
+   $imagename=addslashes($_POST['pname']);
+    $event_in= "INSERT INTO `events` (`title`,`date`, `venue`,`description`,`imgname`) VALUES ('$title','$date','$venue','$desc','$imagename')";
     
     $result=$db->query($event_in);
     
@@ -160,14 +160,86 @@ else {
     }
 
 </style>
-<body>
+<script type="text/javascript">
+function timeout() {
+    alert('You are about to Logout. Please Login again');
+    window.setTimeout("location=('logout.php');",7);
     
+}
+    
+window.setTimeout(timeout,7000000);
+    
+
+</script>
+<script src="../js/jquery.js"></script>
+<script type="text/javascript">
+
+$(document).ready(function (e) {
+	$("#uploadForm").on('submit',(function(e) {
+		e.preventDefault();
+		$.ajax({
+        	url: "upload.php",
+			type: "POST",
+			data:  new FormData(this),
+			contentType: false,
+    	    cache: false,
+			processData:false,
+			success: function(data)
+		    {
+			$("#targetLayer").html(data);
+		    },
+		  	error: function() 
+	    	{
+	    	} 	        
+	   });
+	}));
+});
+    
+function setname() {    
+    var nameofpic=document.getElementById('picupname').value; 
+    var filtername= nameofpic.replace("C:\\fakepath\\", "");
+    document.getElementById('picname').value=filtername;
+}
+
+window.setInterval(setname,20);
+</script>
+<body>
+ <div class="modal fade" id="picup" tabindex="-1" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Upload Image</h4><hr>
+      </div>
+      <div class="modal-body">
+<form id="uploadForm" action="upload.php" method="post">
+<div id="targetLayer">No Image</div>
+<div id="uploadFormLayer"><br>
+<label>Upload Image File:</label><br/>
+<input name="userImage" type="file" id="picupname" class="inputFile form-control" /><br>
+
+       
+                     
+          
+   
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <input type="submit" value="Submit" class="btnSubmit btn btn-info" />
+</form> 
+      </div>
+    </div>
+          
+    
+    </div>
+  </div>
+</div>
+    </div>
 <div class="container">
 <div class="nav">
         <a href="../admin"><span class="pull-left text-center">Go to Admin Page</span></a>
        
         <a href="../"><span class="pull-right text-center">View Site</span></a>
-    </div>
+</div>
 <div class="col-md-6">
     <div class="panel panel-info">
     <div class="panel-heading text-center">Create Event</div>
@@ -183,12 +255,15 @@ else {
     <input type="date" name="date" class="form-control" placeholder="Date"><br>
     <input type="text" name="venue" class="form-control" placeholder="Venue"><br>
     <textarea name="desc" rows="5" class="form-control" maxlength="140" placeholder="Description....."></textarea><br>
-    
+ <div class="btn btn-info" data-toggle="modal" data-target="#picup">Upload Pic<input style="display:none" id="picname" name="pname"></div>
+   
+    <hr>                                                                                   
     <center><button type="submit" name="submit" value="create" class="btn btn-primary">Create</button></center>
 
     
     
 </form>
+
 </div>
 </div>
 </div>
@@ -227,16 +302,12 @@ else {
 
 </div>
 </div>
-<script>
-    
-    function alertTime() {
-    document.getElementById("alert").style('display','none');
-}
 
-setTimeout(alertTime, 8000);
-    
-</script>
 </body>
+ <?php
+
+    include 'includes/js.php';
+        ?>
 </html>
 <?php
  $db->close();

@@ -6,7 +6,7 @@ include 'db_info.php';
 
 
 $link = mysqli_connect($localhost, $username, $pass);
-$sql_db = "CREATE DATABASE $db_name";
+$sql_db = "CREATE DATABASE IF NOT EXISTS $db_name";
 
 
 
@@ -24,7 +24,7 @@ if(@mysqli_query($link, $sql_db)) {
 } 
 
 else {
-    echo "Operation failed. Trying Changing user name and password in db_info", mysqli_error($link);
+    echo "Operation failed. Trying Changing user name and password in db_info. ", mysqli_error($link);
 }
 
 

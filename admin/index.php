@@ -48,9 +48,19 @@ include 'includes/css.php';
      background-repeat:repeat-y;   
     }
     }
+    
 
 
 </style>
+<script type="text/javascript">
+function timeout() {
+    alert('You are about to Logout. Please Login again');
+    window.setTimeout("location=('logout.php');",7);
+    
+}
+    
+window.setTimeout(timeout,7000000);
+</script>
 <body>
 <div class="modal fade" id="logout" tabindex="-1" role="dialog">
   <div class="modal-dialog">
