@@ -81,25 +81,29 @@
         </div>
         <div class="gap"></div>
         <div class="row">
+         <a href="#here" ><div class="col-md-3 fade0" onclick="func19()"><img class="size1 img-responsive" src="img/faculty/Ruby vig.jpg"><h3 class="name_style">
+Dr. Ruby Vig </h3></div></a>
+  <a href="#here" ><div class="col-md-3 fade0" onclick="func13()"><img class="size1 img-responsive" src="img/faculty/lakhvir kaur.jpg"><h3 class="name_style">Lakhvir Kaur</h3></div></a>
+  <a href="#here" ><div class="col-md-3 fade0" onclick="func14()"><img class="size1 img-responsive" src="img/faculty/Bindu.jpg"><h3 class="name_style">Bindu</h3></div></a>
             <a href="#here"><div class="col-md-3 fade0" onclick="func12()"><img class="size1 img-responsive" src="img/faculty/salinder singh (2).jpg"><h3 class="name_style">Salinder Singh </h3></div></a>
-            <a href="#here" ><div class="col-md-3 fade0" onclick="func13()"><img class="size1 img-responsive" src="img/faculty/lakhvir kaur.jpg"><h3 class="name_style">Lakhvir Kaur</h3></div></a>
-             <a href="#here" ><div class="col-md-3 fade0" onclick="func14()"><img class="size1 img-responsive" src="img/faculty/Bindu.jpg"><h3 class="name_style">Bindu</h3></div></a>
-               <a href="#here"><div class="col-md-3 fade0" onclick="func15()"><img class="size1 img-responsive" src="img/faculty/gurmail singh.jpg"><h3 class="name_style">
-Gurmail Singh</h3></div></a>
+          
+             
+              
             
             
            
         </div>
         <div class="gap"></div>
         <div class="row">
+         <a href="#here"><div class="col-md-3 fade0" onclick="func15()"><img class="size1 img-responsive" src="img/faculty/gurmail singh.jpg"><h3 class="name_style">
+Gurmail Singh</h3></div></a>
              <a href="#here" ><div class="col-md-3 fade0" onclick="func16()"><img class="size1 img-responsive" src="img/faculty/Rajbir kaur.jpg"><h3 class="name_style">
              Rajbir Kaur </h3></div></a>
              <a href="#here" ><div class="col-md-3 fade0" onclick="func17()"><img class="size1 img-responsive" src="img/faculty/sandeep.jpg"><h3 class="name_style">
              Sandeep Kaur</h3></div></a>
              <a href="#here"><div class="col-md-3 fade0" onclick="func18()"><img class="size1 img-responsive" src="img/faculty/Harpreet kaur.jpg"><h3 class="name_style">
              Harpreet Kaur </h3></div></a>
-             <a href="#here" ><div class="col-md-3 fade0" onclick="func19()"><img class="size1 img-responsive" src="img/faculty/Ruby vig.jpg"><h3 class="name_style">
-Dr. Ruby Vig </h3></div></a>
+            
              
             
           

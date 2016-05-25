@@ -27,8 +27,7 @@
                             <li class="dropdown">
                                 <a href="#">About Us</a>
                                 <ul class="o2">
-                                    <li><a href="infra">Infrastructure</a></li>
-                                    <li><a href="facilities">Facilities</a></li>
+                                    <li><a href="infrastructure">Infrastructure</a></li>
                                     <li><a href="faculty">Faculty</a></li>
                                     <li><a href="contact_us">Contact us</a></li>
                                 </ul>
@@ -86,7 +85,7 @@
             <div class="col-xs-12 col-sm-12 col-lg-6">
                 <div id="head_wrap">
                     <div id="header">
-                        <a  href="index" style="color:#34495E">   <h2 class="toph hset" style="font-family: algerian;text-align:center;">GYAN ANJAN</h2></a>
+                        <a  href="index" style="color:#34495E">   <h2 class="toph hset" style="font-family:'algerian' !important;text-align:center;">GYAN ANJAN</h2></a>
                     </div>
                 </div>
             </div>
@@ -118,10 +117,10 @@
                             <span class="icon-bar" style="background-color:wheat"></span>
                         </button>
                         <br>
-                        <a  href="index" style="color:white">  <span class="title" style="font-family:ralvey;">Centre on Studies in Sri Guru Granth Sahib</span></a>
+                        <a  href="index" style="color:white">  <span class="title" style="font-family:ralvey;font-size:24px; ">Centre on Studies in Sri Guru Granth Sahib</span></a>
                     </div>
-                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                        <ul class="nav navbar-nav pull-right" style="font-family:ralvey;">
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="margin-right:0;">
+                        <ul class="nav navbar-nav pull-right" style="">
 
                             <li>
                                 <a href="index">Home</a>
@@ -130,8 +129,7 @@
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About Us<span class="caret"></span></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="infra">Infrastructure</a></li>
-                                    <li><a href="facilities">Facilities</a></li>
+                                    <li><a href="infrastructure">Infrastructure</a></li>
                                     <li><a href="faculty">Faculty</a></li>
                                     <li><a href="contact_us">Contact us</a></li>
                                 </ul>
