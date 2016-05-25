@@ -32,7 +32,10 @@
         * {
             font-weight: 500;
         }
-	
+	.size_reset
+    {
+      font-size: 22px;
+    }
 		
     @media screen and (max-width:1024px) {
     .container {
@@ -53,7 +56,9 @@
      }
         
     }
-    body {margin:0;!important}
+    body {margin:0;!important;
+    font-size:17px;
+    }
     
     
     /* panel css*/
@@ -106,7 +111,7 @@
         <div class="col-md-12 cset ">
         <div class="panel panel-info col-md-5">
             <div class="panel-heading">
-                <h3 class="panel-title">At Glance</h3>
+                <h3 class="panel-title size_reset">At Glance</h3>
             </div>
             <div class="panel-body" style="height:300px;overflow:hidden">
                 <div id="slider1_container" style="position: relative; top: 0px; left: 0px;width:auto; height: 300px;">
@@ -124,7 +129,7 @@
         
         <div class="panel panel-default col-md-5">
             <div class="panel-heading">
-                <h3 class="panel-title">Latest Activities and Events</h3>
+                <h3 class="panel-title size_reset">Latest Activities and Events</h3>
             </div>
             <div class="panel-body eve" style="height:320px; overflow:hidden" >
                 <marquee direction="up" scrolldelay="160" onmouseover="stop();"  onmouseout="start();">
@@ -151,9 +156,9 @@
         </div>
             <div class="panel panel-info col-md-5">
             <div class="panel-heading">
-                <h3 class="panel-title">Quick Links</h3>
+               <h3 class="panel-title size_reset">Quick Links</h3>
             </div>
-            <div class="panel-body" style="height:320px;">
+            <div class="panel-body" style="height:370px;">
                 <div class="list-group">
                   <a href="research_publications" class="list-group-item">
                     <h4 class="list-group-item-heading">Research Publications</h4>
@@ -178,9 +183,9 @@
         
             <div class="panel panel-info col-md-5">
             <div class="panel-heading">
-                <h3 class="panel-title">Introduction</h3>
+               <h3 class="panel-title size_reset">Introduction</h3>
             </div>
-            <div class="panel-body">
+            <div class="panel-body" style="height:370px">
                 Centre on Studies in Sri Guru Granth Sahib, Guru Nanak Dev University, Amritsar established on 1st April 2011. It owes its origin to the public announcement of 1St September 2004 made by the then Prime Minister of India, Dr. Manmohan Singh, that Govt. of India will establish a Centre in Guru Nanak Dev University, Amritsar for Studies on Sri Guru Granth Sahib. <br><br> The message of Sri Guru Granth Sahib is holistic in nature. It is of great
 significance and relevance for the modern age.
 The main objective of the establishment of this
@@ -216,7 +221,7 @@ authentic form.  <br><br>
 	<!--intro-===-->
     <div class="panel panel-default">
   <div class="panel-heading">
-    <h3 class="panel-title">About GyanAnjan</h3>
+    <h3 class="panel-title size_reset">About GyanAnjan</h3>
   </div>
   <div class="panel-body">
     	<div class="row">
@@ -243,7 +248,7 @@ authentic form.  <br><br>
 
 	<div class="panel panel-default">
   <div class="panel-heading">
-    <h3 class="panel-title">Objective</h3>
+    <h3 class="panel-title size_reset">Objective</h3>
   </div>
   <div class="panel-body">
     <div class="row" >

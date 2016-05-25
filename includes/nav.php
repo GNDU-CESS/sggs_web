@@ -117,9 +117,9 @@
                             <span class="icon-bar" style="background-color:wheat"></span>
                         </button>
                         <br>
-                        <a  href="index" style="color:white">  <span class="title" style="font-family:ralvey;">Centre on Studies in Sri Guru Granth Sahib</span></a>
+                        <a  href="index" style="color:white">  <span class="title" style="font-family:ralvey;font-size:24px; ">Centre on Studies in Sri Guru Granth Sahib</span></a>
                     </div>
-                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="margin-right:0;">
                         <ul class="nav navbar-nav pull-right" style="">
 
                             <li>
