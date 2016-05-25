@@ -44,19 +44,19 @@ body
 					</div>
 					<hr>
 					<p style="text-align:justify; font-family: 'Raleway-ExtraLight'">
-						<div class="row" style="padding:40px;background-color:#e0e0d1;">
+						<div class="" style="padding:40px;background-color:#e0e0d1;">
 							<h3>Dictionary of Gurbani</h3>
 							<p>Late S. Manmohan Singh while working on the English translation of Sri Guru Granth Sahib, had worked on a Dictionary for finding out English words  equivalent to terminology  used in Gurbani. It has not been published. Dr. Surinder Kaur, D/o S. Manmohan Singh has approached the Centre to edit and publish it. It is a very useful piece of research to do translation of Gurbani into English. The Centre has taken up this project and work on its editing is in progress.</p>
 						</div>
 					</p>
 					<p style="text-align:justify; font-family: 'Raleway-ExtraLight'">
-						<div class="row" style="padding:40px;">
+						<div class="" style="padding:40px;">
 							<h3>Up-gradation of Bibliography on Sikh Studies</h3>
 							<p>The discipline of Sikh Studies which was confined only to the Punjab has come a long way and now it has become a part of University curriculum even in North America. Prof. Ganda Singh had produced a Bibliography of Sikhism way back in 1965. It is a very good and useful research tool for the scholars doing Sikh Studies. Since its first publication it has not been revised so far. Resultantly, no unified data regarding the books and research articles published in the last 50 years on Sikh Studies is available to the scholars.  The Centre has initiated a project to upgrade it in a most comprehensive manner. Hopefully it will be completed in the current session.</p>
 						</div>
 					</p>
 					<p style="text-align:justify; font-family: 'Raleway-ExtraLight'">
-						<div class="row" style="padding:40px;background-color:#e0e0d1;">
+						<div class="" style="padding:40px;background-color:#e0e0d1;">
 							<h3>A Critique of Literature on Gurbani Sangeet</h3>
 							<p>Gurbani Sangeet has come to us in two forms i.e. written treatises and recordings/renderings in the shape of CDs. This project has been undertaken by Bhai Baldeep Singh, Visiting Professor in the Centre. It intends to review all 
 these forms of Gurbani Sangeet with a view to assess the developments that have taken place since its inception</div>
