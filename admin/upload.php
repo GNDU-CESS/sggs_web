@@ -3,7 +3,7 @@ session_start();
 
 if (!(isset($_SESSION['login']) && $_SESSION['login'] != '')) {
 
-echo "<div style='color:red'>Process Failed!!!</div><br><br>";
+die("<div style='color:red'>Process Failed!!!</div><br><br>");
 
 }
 if(is_array($_FILES)) {

@@ -150,6 +150,9 @@
         }
     }
     
+    body {
+         font-size:16px !important;   
+    }
 </style>
 <?php 
         include 'admin/db/connect.php'; ?>

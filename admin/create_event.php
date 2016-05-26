@@ -283,7 +283,7 @@ window.setInterval(setname,20);
                     if ($run->num_rows > 0) {
 
                         while($row = $run->fetch_assoc()) {
-                            echo"<li class='list-group-item'>".$row['title']."<br><small><br>".$row['date']."</small><br><br><a href='?del=".$row['id']."'>Delete</a></li>";
+                            echo"<li class='list-group-item'>".$row['title']."<br><small><br>".$row['date']."</small><br><br><a href='?del=".$row['id']."'>Delete</a><a class='pull-right' href='edit_event?edit=".$row['id']."'>Edit</a></li>";
                         }
 
                     } 

@@ -34,7 +34,7 @@
         }
 	.size_reset
     {
-      font-size: 22px;
+      font-size: 17px;
     }
 		
     @media screen and (max-width:1024px) {
@@ -57,7 +57,7 @@
         
     }
     body {margin:0;!important;
-    font-size:17px;
+    
     }
     
     

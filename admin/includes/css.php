@@ -150,6 +150,13 @@
     }
     
     
+    body {
+        background-image:url('../img/bhavan.jpg'); 
+        background-repeat:no-repeat;
+        background-size:cover;
+       
+    }
+    
     
     
 </style>

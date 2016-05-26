@@ -24,6 +24,7 @@ include 'includes/css.php';
         font-size:15px;
         padding:2%;
         text-align:center;
+          margin-left:25px;
         font-weight:600 !important;
     }
     
@@ -33,11 +34,7 @@ include 'includes/css.php';
     }
     
     
-    body {
-        background-image:url('../img/bhavan.jpg'); 
-        background-repeat:no-repeat;
-        background-size:cover;
-    }
+    
     
     @media screen and (max-width:590px) {
      .grid {
@@ -47,6 +44,19 @@ include 'includes/css.php';
     body {
      background-repeat:repeat-y;   
     }
+    }
+    
+    .sides .btn {
+        width:auto !important;
+        height:50px !important;
+         line-height:0px !important;
+         margin:1%;
+        background-color:rgba(45,43,131,0.5);
+      
+        font-size:15px;
+        padding:20px;
+        text-align:center;
+        font-weight:600 !important;
     }
     
 
@@ -88,7 +98,7 @@ window.setTimeout(timeout,7000000);
       <div class="modal-body">
            
         <div class="col-md-12">
-            <div id="changeresp" class="alert alert-success col-md-12" role="alert"></div>
+            <div id="changeresp"></div>
             <input type="password" id='old' name="oldPass" class="form-control" placeholder="Old Password"><br>
             <input type="password" id='new' name="newpass" class="form-control" placeholder="New password"><br>
             
@@ -104,6 +114,22 @@ window.setTimeout(timeout,7000000);
   </div>
 </div>
 <div class="container">
+<div class="sides">
+<a href="../">
+    <div class="pull-left col-sm-12 col-md-12 btn btn-md btn-info">
+
+         View Site
+
+    </div>
+</a>
+<a data-toggle="modal" data-target="#logout">
+    <div class="pull-right col-sm-12 col-md-12 btn btn-md btn-info">
+
+          Logout
+
+    </div>
+</a>
+</div>
 <div class="grid rows">
   <a href="create_event">
       <div class="col-sm-12 col-md-3 btn btn-info">
@@ -126,13 +152,14 @@ window.setTimeout(timeout,7000000);
    
 </div>
 </a>
- <a data-toggle="modal" data-target="#logout">
+<a>
     <div class="col-sm-12 col-md-3 btn btn-info">
 
-          Logout
+         Edit faculty
 
     </div>
 </a>
+ 
 </div>
 
 

@@ -16,17 +16,17 @@ $dataPass= $getpass['pass'];
 $newPass=$_GET['new'];
 $enterPass= $_GET['old'];
 $encrypPass= md5($_GET['old']);
-if($encrypPass===$dataPass) {
+if($encrypPass===$dataPass && !empty($newPass)) {
 $encrypnew = md5($newPass);   
 $upquery= "UPDATE auth SET pass='$encrypnew' WHERE pass='$dataPass'";
 $set = $db->query($upquery);
 if($set){
-    echo 'Password Successfully Changed';
+    echo '<div id="changeresp" class="alert alert-success col-md-12" role="alert">Password Successfully Changed</div>';
 }
 }
 
 else {
-echo "Invalid Password";  
+echo '<div id="changeresp" class="alert alert-danger col-md-12" role="alert">Invalid Password</div>';  
 }
 
 
