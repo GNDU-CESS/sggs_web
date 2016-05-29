@@ -9,7 +9,7 @@ if (!(isset($_SESSION['login']) && $_SESSION['login'] != 'off')) {
 
 header ("Location: login");
 
-$msg="You Need To Login First";
+
 
 }
 
@@ -26,7 +26,7 @@ if(!empty($_POST['submit'])) {
 
 
 
-    if(empty($_POST['title']) || empty($_POST['date']) || empty($_POST['venue'])) {
+    if(empty($_POST['name'])) {
     $rsp="Please fill all the fields";
     $sign="exclamation-sign";
     $alertype="warning";
@@ -34,23 +34,24 @@ if(!empty($_POST['submit'])) {
 }
 
 else {
-    $title = addslashes($_POST['title']);
-    $date= $_POST['date'];
-    $venue=addslashes($_POST['venue']);
-    $desc=addslashes($_POST['desc']);
+    $name = addslashes($_POST['name']);
+    $desig= $_POST['desig'];
+    $email= $_POST['email'];
+    $contact=addslashes($_POST['contact']);
+    $desc=nl2br(addslashes($_POST['desc']));
    $imagename=addslashes($_POST['pname']);
-    $event_in= "INSERT INTO `events` (`title`,`date`, `venue`,`description`,`imgname`) VALUES ('$title','$date','$venue','$desc','$imagename')";
+    $event_in= "INSERT INTO `faculty` (`name`,`designation`, `email`,`contact`,`description`,`image`) VALUES ('$name','$desig','$email','$contact','$desc','$imagename')";
 
     $result=$db->query($event_in);
 
     if ($result===true) {
-       $rsp="Event Created Succesfully";
+       $rsp="Faculty Added Succesfully";
         $sign="ok";
         $alertype="info";
     }
 
     else {
-     $rsp="Cannot Create Event";
+     $rsp="Cannot add! Please Try Again";
       $sign="exclamation-sign";
          $alertype="danger";
     }
@@ -65,7 +66,7 @@ $dsign="";
 $dalert="";
 if(isset($_GET['del'])) {
  $delid=$_GET['del'];
-   $dquery="DELETE FROM events WHERE id='$delid'";
+   $dquery="DELETE FROM faculty WHERE id='$delid'";
 
    $dresult=$db->query($dquery);
 
@@ -73,7 +74,7 @@ if(isset($_GET['del'])) {
      $dmsg="Deleted";
         $dsign="glyphicon glyphicon-ok";
         $dalert="info";
-        header('Location:create_event');
+        header('Location:faculty_add');
     }
 
     else {
@@ -111,7 +112,7 @@ else {
 <style>
       .panel {
         border-color:rgba(10,1,6,0.4);
-        height:550px !important;
+        height:650px !important;
       overflow-y:scroll;
     }
 
@@ -242,7 +243,7 @@ window.setInterval(setname,20);
 </div>
 <div class="col-md-6">
     <div class="panel panel-info">
-    <div class="panel-heading text-center">Create Event</div>
+    <div class="panel-heading text-center">Add Faculty</div>
 
 
 <div class="panel-body">
@@ -251,14 +252,15 @@ window.setInterval(setname,20);
     <span class="sr-only" style="position:relative">  <?php echo $rsp; ?></span></div>
 <form action="" method="POST">
 
-    <input type="text" name="title" class="form-control" placeholder="Title" autofocus><br>
-    <input type="date" name="date" class="form-control" placeholder="Date"><br>
-    <input type="text" name="venue" class="form-control" placeholder="Venue"><br>
-    <textarea name="desc" rows="5" class="form-control" maxlength="140" placeholder="Description....."></textarea><br>
+    <input type="text" name="name" class="form-control" placeholder="Name" autofocus><br>
+    <input type="text" name="desig" class="form-control" placeholder="Designation"><br>
+    <input type="email" name="email" class="form-control" placeholder="Email"><br>
+    <input type="contact" name="contact" class="form-control" placeholder="Contact Number"><br>
+    <textarea name="desc" rows="5" class="form-control"  placeholder="Description....."></textarea><br>
  <div class="btn btn-info" data-toggle="modal" data-target="#picup">Upload Pic<input style="display:none" id="picname" name="pname"></div>
 
     <hr>
-    <center><button type="submit" name="submit" value="create" class="btn btn-primary">Create</button></center>
+    <center><button type="submit" name="submit" value="create" class="btn btn-primary">Add</button></center>
 
 
 
@@ -270,20 +272,20 @@ window.setInterval(setname,20);
 <div class="col-md-6">
 <div class="panel panel-info">
 
-  <div class="panel-heading text-center">Live Events</div>
+  <div class="panel-heading text-center">Faculty List</div>
   <div class="panel-body">
   <div id="alert" class="alert alert-<?php echo $dalert;?>" aria-hidden="true" role="alert">
   <span class="glyphicon glyphicon-<?php echo $dsign;?>" aria-hidden="true"></span>
     <span class="sr-only" style="position:relative">  <?php echo $dmsg; ?></span></div>
     <ul class="list-group">
                 <?php
-                    $sql = "SELECT title, date,id FROM events ORDER BY id DESC";
+                    $sql = "SELECT name, designation,id FROM faculty ORDER BY id ASC";
                     $run = $db->query($sql);
 
                     if ($run->num_rows > 0) {
 
                         while($row = $run->fetch_assoc()) {
-                            echo"<li class='list-group-item'>".$row['title']."<br><small><br>".$row['date']."</small><br><br><a href='?del=".$row['id']."'>Delete</a><a class='pull-right' href='edit_event?edit=".$row['id']."'>Edit</a></li>";
+                            echo"<li class='list-group-item'>".$row['name']."<br><small><br>".$row['designation']."</small><br><br><a href='?del=".$row['id']."'>Delete</a><a class='pull-right' href='faculty_edit?edit=".$row['id']."'>Edit</a></li>";
                         }
 
                     }

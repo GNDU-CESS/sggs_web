@@ -39,7 +39,7 @@ $result = $db->query($sql);
                             if ($result->num_rows > 0) {
 
                                while($row = $result->fetch_assoc()) {
-                                    ?><div class="events_list" "id="#<?php echo $row['id'];?>"><?php
+                                    ?><div class="events_list" "id="#<?php echo $row['id'];?>><?php
                                     echo "<hr><div class='col-md-6'><h3 class='text-center'>".$row["title"]."</h3><h5>Date :".$row["date"]."</h5></h5> Venue :".$row["venue"]."</h5><br><br><p>".$row['description']."</p></div><div class='col-md-6'><img class='img-responsive pull-right' src='admin/images/".$row['imgname']."'></div>";
 
                                 }
@@ -55,7 +55,8 @@ $result = $db->query($sql);
     </div>
 
 
-<?php  include 'includes/js.php';?>
+<?php  include 'includes/js.php';
+    include 'includes/footer.php'?>
 
 
 </body>

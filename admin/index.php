@@ -152,10 +152,10 @@ window.setTimeout(timeout,7000000);
 
 </div>
 </a>
-<a>
+<a href="faculty_add">
     <div class="col-sm-12 col-md-3 btn btn-info">
 
-         Edit faculty (Coming Soon)
+         Manage Faculty
 
     </div>
 </a>

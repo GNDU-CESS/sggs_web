@@ -100,7 +100,7 @@
                 
                 </div>
                 </form>
-                <div class="text-center"><a href="admin"><span class="glyphicon glyphicon-lock"></span> Login</a></div>
+               <!-- <div class="text-center"><a href="admin"><span class="glyphicon glyphicon-lock"></span> Login</a></div>-->
             </div>
            
  
@@ -180,11 +180,11 @@
                                     <li><a href="gallery_fieldwork">Fieldwork</a></li>
                                 </ul>
                             </li>
-                                            <li class="dropdown">
+                                        <!--    <li class="dropdown">
                                 <a href="admin"  role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-lock"></span> Login</a>
                                
                             </li>
-                          
+                          -->
                         </ul>
                     </div>
                 </div>

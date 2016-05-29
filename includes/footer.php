@@ -13,3 +13,9 @@
             </div>
         </div>
     </footer>
+
+<?php 
+
+    $db->close();
+
+?>
