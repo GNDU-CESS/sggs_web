@@ -5,7 +5,7 @@ session_start();
 if (!(isset($_SESSION['login']) && $_SESSION['login'] != 'off')) {
 
 header ("Location: login");
-    
+
 $msg="You Need To Login First";
 
 }
@@ -17,7 +17,7 @@ $newPass=$_GET['new'];
 $enterPass= $_GET['old'];
 $encrypPass= md5($_GET['old']);
 if($encrypPass===$dataPass && !empty($newPass)) {
-$encrypnew = md5($newPass);   
+$encrypnew = md5($newPass);
 $upquery= "UPDATE auth SET pass='$encrypnew' WHERE pass='$dataPass'";
 $set = $db->query($upquery);
 if($set){
@@ -26,7 +26,7 @@ if($set){
 }
 
 else {
-echo '<div id="changeresp" class="alert alert-danger col-md-12" role="alert">Invalid Password</div>';  
+echo '<div id="changeresp" class="alert alert-danger col-md-12" role="alert">Invalid Password</div>';
 }
 
 

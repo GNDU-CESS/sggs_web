@@ -3,7 +3,7 @@
 require_once('db/connect.php');
 session_start();
 
-if (!(isset($_SESSION['login']) && $_SESSION['login'] != '')) {
+if (!(isset($_SESSION['login']) && $_SESSION['login'] != 'off')) {
 
 header ("Location: login");
 
@@ -27,38 +27,38 @@ include 'includes/css.php';
           margin-left:25px;
         font-weight:600 !important;
     }
-    
+
     .grid {
     width:70rem;
-     margin:auto;   
+     margin:auto;
     }
-    
-    
-    
-    
+
+
+
+
     @media screen and (max-width:590px) {
      .grid {
-        width:62.5rem;   
+        width:62.5rem;
      }
-        
+
     body {
-     background-repeat:repeat-y;   
+     background-repeat:repeat-y;
     }
     }
-    
+
     .sides .btn {
         width:auto !important;
         height:50px !important;
          line-height:0px !important;
          margin:1%;
         background-color:rgba(45,43,131,0.5);
-      
+
         font-size:15px;
         padding:20px;
         text-align:center;
         font-weight:600 !important;
     }
-    
+
 
 
 </style>
@@ -66,9 +66,9 @@ include 'includes/css.php';
 function timeout() {
     alert('You are about to Logout. Please Login again');
     window.setTimeout("location=('logout.php');",7);
-    
+
 }
-    
+
 window.setTimeout(timeout,7000000);
 </script>
 <body>
@@ -96,15 +96,15 @@ window.setTimeout(timeout,7000000);
         <h4 class="modal-title">Change Password</h4><hr>
       </div>
       <div class="modal-body">
-           
+
         <div class="col-md-12">
             <div id="changeresp"></div>
             <input type="password" id='old' name="oldPass" class="form-control" placeholder="Old Password"><br>
             <input type="password" id='new' name="newpass" class="form-control" placeholder="New password"><br>
-            
+
         </div>
-                     
-          
+
+
     </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -133,33 +133,33 @@ window.setTimeout(timeout,7000000);
 <div class="grid rows">
   <a href="create_event">
       <div class="col-sm-12 col-md-3 btn btn-info">
-  
+
         Create Event
-    
+
       </div>
     </a>
 <a href="#">
     <div class="col-sm-12 col-md-3 btn btn-info">
          Create/Manage Blogs (Coming Soon)
-       
-    
+
+
     </div>
 </a>
 <a data-toggle="modal" data-target="#changepass">
     <div class="col-sm-12 col-md-3 btn btn-info">
      Change Password
-     
-   
+
+
 </div>
 </a>
 <a>
     <div class="col-sm-12 col-md-3 btn btn-info">
 
-         Edit faculty
+         Edit faculty (Coming Soon)
 
     </div>
 </a>
- 
+
 </div>
 
 
@@ -168,7 +168,7 @@ window.setTimeout(timeout,7000000);
 <script src="../js/jquery.js"></script>
 <script src="../js/bootstrap.min.js"></script>
 <script>
-   
+
     function changepass() {
       var old=document.getElementById('old').value;
     var newp=document.getElementById('new').value;
@@ -177,7 +177,7 @@ window.setTimeout(timeout,7000000);
             if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
                var resp=xmlhttp.responseText;
                 document.getElementById('changeresp').innerHTML=resp;
-                
+
                 document.getElementById('old').value="";
                  document.getElementById('new').value="";
             }
@@ -186,11 +186,6 @@ window.setTimeout(timeout,7000000);
         xmlhttp.open("GET", "changepass.php?old=" + old+"&new="+newp, true);
         xmlhttp.send(null);
     }
-    
-    
-   
-        
-    
 </script>
 </body>
 </html>

@@ -2,13 +2,13 @@
 <?php
 
 require_once('db/connect.php');
-    
+
 session_start();
 
 if (!(isset($_SESSION['login']) && $_SESSION['login'] != 'off')) {
 
 header ("Location: login");
-    
+
 $msg="You Need To Login First";
 
 }
@@ -23,16 +23,16 @@ $alertype="";
 
 
 if(!empty($_POST['submit'])) {
-    
- 
-    
-    if(empty($_POST['title']) || empty($_POST['date']) || empty($_POST['venue']) || empty($_POST['pname'])) { 
+
+
+
+    if(empty($_POST['title']) || empty($_POST['date']) || empty($_POST['venue']) || empty($_POST['pname'])) {
     $rsp="Please fill all the fields";
     $sign="exclamation-sign";
     $alertype="warning";
-    
+
 }
-    
+
 else {
     $title = addslashes($_POST['title']);
     $date= $_POST['date'];
@@ -40,15 +40,15 @@ else {
     $desc=addslashes($_POST['desc']);
    $imagename=addslashes($_POST['pname']);
     $event_in= "INSERT INTO `events` (`title`,`date`, `venue`,`description`,`imgname`) VALUES ('$title','$date','$venue','$desc','$imagename')";
-    
+
     $result=$db->query($event_in);
-    
+
     if ($result===true) {
        $rsp="Event Created Succesfully";
         $sign="ok";
         $alertype="info";
     }
-    
+
     else {
      $rsp="Cannot Create Event";
       $sign="exclamation-sign";
@@ -66,16 +66,16 @@ $dalert="";
 if(isset($_GET['del'])) {
  $delid=$_GET['del'];
    $dquery="DELETE FROM events WHERE id='$delid'";
-    
+
    $dresult=$db->query($dquery);
-    
+
     if ($dresult===true) {
      $dmsg="Deleted";
         $dsign="glyphicon glyphicon-ok";
         $dalert="info";
         header('Location:create_event');
     }
-    
+
     else {
         $dmsg="Cannot Delete";
         $dsign="exclamation-sign";
@@ -84,29 +84,29 @@ if(isset($_GET['del'])) {
 }
 
 else {
-    
+
 }
-    
 
 
 
-        
-       
-    
-    
 
 
-       
-      
+
+
+
+
+
+
+
 ?>
 <?php include 'includes/meta.php';  ?>
 <title>
    Events | Edit-Create
 </title>
 
-    <?php 
-        include 'includes/css.php'; 
- 
+    <?php
+        include 'includes/css.php';
+
     ?>
 <style>
       .panel {
@@ -114,28 +114,28 @@ else {
         height:550px !important;
       overflow-y:scroll;
     }
-    
+
     .panel-heading {
         background-color:#003 !important;
         color:#fff !important;
         border-radius:0%;
         text-align:center;
-        
+
     }
-    
+
     .panel a {
         color:#34495E !important;
         text-transform:underline !important;
     }
-    
+
     .nav {
         margin-top:0 !important;
         margin-bottom:2%;
         width:100%;
         min-height:50px;
-        
+
     }
-    
+
   .nav span {
         padding:18px;
         background-color:#003;
@@ -144,17 +144,17 @@ else {
         min-width:147px;
         font-weight:600;
         transition:background-color 0.5s ease-in, border 0.5s;
-       
+
     }
-    
+
     .nav span:hover {
-     background-color:teal; 
+     background-color:teal;
      border:4px rgba(14,21,41,0.3) solid;
     }
-    
+
     body {
         padding-top:30px;
-        background-image:url('../img/bhavan.jpg'); 
+        background-image:url('../img/bhavan.jpg');
         background-repeat:no-repeat;
         background-size:cover;
     }
@@ -164,11 +164,11 @@ else {
 function timeout() {
     alert('You are about to Logout. Please Login again');
     window.setTimeout("location=('logout.php');",7);
-    
+
 }
-    
+
 window.setTimeout(timeout,7000000);
-    
+
 
 </script>
 <script src="../js/jquery.js"></script>
@@ -188,15 +188,15 @@ $(document).ready(function (e) {
 		    {
 			$("#targetLayer").html(data);
 		    },
-		  	error: function() 
+		  	error: function()
 	    	{
-	    	} 	        
+	    	}
 	   });
 	}));
 });
-    
-function setname() {    
-    var nameofpic=document.getElementById('picupname').value; 
+
+function setname() {
+    var nameofpic=document.getElementById('picupname').value;
     var filtername= nameofpic.replace("C:\\fakepath\\", "");
     document.getElementById('picname').value=filtername;
 }
@@ -218,18 +218,18 @@ window.setInterval(setname,20);
 <label>Upload Image File:</label><br/>
 <input name="userImage" type="file" id="picupname" class="inputFile form-control" /><br>
 
-       
-                     
-          
-   
+
+
+
+
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
         <input type="submit" value="Submit" class="btnSubmit btn btn-info" />
-</form> 
+</form>
       </div>
     </div>
-          
-    
+
+
     </div>
   </div>
 </div>
@@ -237,14 +237,14 @@ window.setInterval(setname,20);
 <div class="container">
 <div class="nav">
         <a href="../admin"><span class="pull-left text-center">Go to Admin Page</span></a>
-       
+
         <a href="../"><span class="pull-right text-center">View Site</span></a>
 </div>
 <div class="col-md-6">
     <div class="panel panel-info">
     <div class="panel-heading text-center">Create Event</div>
 
-  
+
 <div class="panel-body">
 <div id="alert" class="alert alert-<?php echo $alertype;?>" aria-hidden="true" role="alert">
   <span class="glyphicon glyphicon-<?php echo $sign;?>" aria-hidden="true"></span>
@@ -256,12 +256,12 @@ window.setInterval(setname,20);
     <input type="text" name="venue" class="form-control" placeholder="Venue"><br>
     <textarea name="desc" rows="5" class="form-control" maxlength="140" placeholder="Description....."></textarea><br>
  <div class="btn btn-info" data-toggle="modal" data-target="#picup">Upload Pic<input style="display:none" id="picname" name="pname"></div>
-   
-    <hr>                                                                                   
+
+    <hr>
     <center><button type="submit" name="submit" value="create" class="btn btn-primary">Create</button></center>
 
-    
-    
+
+
 </form>
 
 </div>
@@ -269,7 +269,7 @@ window.setInterval(setname,20);
 </div>
 <div class="col-md-6">
 <div class="panel panel-info">
-  
+
   <div class="panel-heading text-center">Live Events</div>
   <div class="panel-body">
   <div id="alert" class="alert alert-<?php echo $dalert;?>" aria-hidden="true" role="alert">
@@ -286,16 +286,16 @@ window.setInterval(setname,20);
                             echo"<li class='list-group-item'>".$row['title']."<br><small><br>".$row['date']."</small><br><br><a href='?del=".$row['id']."'>Delete</a><a class='pull-right' href='edit_event?edit=".$row['id']."'>Edit</a></li>";
                         }
 
-                    } 
+                    }
                     else {
                         echo "<h5 class='no_event text-center'>List is Empty</h5>";
                     }
 
 
-                    $run->free(); 
+                    $run->free();
                 ?>
-                
-  
+
+
       </ul>
   </div>
 

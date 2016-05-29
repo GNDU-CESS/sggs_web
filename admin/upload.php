@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-if (!(isset($_SESSION['login']) && $_SESSION['login'] != '')) {
+if (!(isset($_SESSION['login']) && $_SESSION['login'] != 'off')) {
 
 die("<div style='color:red'>Process Failed!!!</div><br><br>");
 

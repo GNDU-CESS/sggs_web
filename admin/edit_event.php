@@ -1,13 +1,13 @@
 <?php
 
 require_once('db/connect.php');
-    
+
 session_start();
 
 if (!(isset($_SESSION['login']) && $_SESSION['login'] != 'off')) {
 
 header ("Location: login");
-    
+
 $msg="You Need To Login First";
 
 }
@@ -41,28 +41,28 @@ $alertype="";
       .panel {
         border-color:rgba(10,1,6,0.4);
        }
-    
+
     .panel-heading {
         background-color:#003 !important;
         color:#fff !important;
         border-radius:0%;
         text-align:center;
-        
+
     }
-    
+
     .panel a {
         color:#34495E !important;
         text-transform:underline !important;
     }
-    
+
     .nav {
         margin-top:0 !important;
         margin-bottom:2%;
         width:100%;
         min-height:50px;
-        
+
     }
-    
+
   .nav span {
         padding:18px;
         background-color:#003;
@@ -71,17 +71,17 @@ $alertype="";
         min-width:147px;
         font-weight:600;
         transition:background-color 0.5s ease-in, border 0.5s;
-       
+
     }
-    
+
     .nav span:hover {
-     background-color:teal; 
+     background-color:teal;
      border:4px rgba(14,21,41,0.3) solid;
     }
-    
+
     body {
         padding-top:30px;
-        background-image:url('../img/bhavan.jpg'); 
+        background-image:url('../img/bhavan.jpg');
         background-repeat:no-repeat;
         background-size:cover;
     }
@@ -91,11 +91,11 @@ $alertype="";
 function timeout() {
     alert('You are about to Logout. Please Login again');
     window.setTimeout("location=('logout.php');",7);
-    
+
 }
-    
+
 window.setTimeout(timeout,7000000);
-    
+
 
 </script>
 <script src="../js/jquery.js"></script>
@@ -115,15 +115,15 @@ $(document).ready(function (e) {
 		    {
 			$("#targetLayer").html(data);
 		    },
-		  	error: function() 
+		  	error: function()
 	    	{
-	    	} 	        
+	    	}
 	   });
 	}));
 });
-    
-function setname() {    
-    var nameofpic=document.getElementById('picupname').value; 
+
+function setname() {
+    var nameofpic=document.getElementById('picupname').value;
     var filtername= nameofpic.replace("C:\\fakepath\\", "");
     document.getElementById('picname').value=filtername;
 }
@@ -145,18 +145,18 @@ function setname() {
 <label>Upload Image File:</label><br/>
 <input name="userImage" type="file" id="picupname" class="inputFile form-control" /><br>
 
-       
-                     
-          
-   
+
+
+
+
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
         <input type="submit" value="Submit" onclick="setname()" class="btnSubmit btn btn-info" />
-</form> 
+</form>
       </div>
     </div>
-          
-    
+
+
     </div>
   </div>
      </div>
@@ -166,7 +166,7 @@ function setname() {
      <div class="panel panel-info">
     <div class="panel-heading text-center">Edit Event</div>
 
-  
+
 <div class="panel-body">
 <div id="alert" class="alert alert-<?php echo $alertype;?>" aria-hidden="true" role="alert">
   <span class="glyphicon glyphicon-<?php echo $sign;?>" aria-hidden="true"></span>
@@ -179,12 +179,12 @@ function setname() {
     <textarea name="desc" rows="5" class="form-control" maxlength="140" placeholder="Description....."><?php echo $desc; ?></textarea><br>
     <img width="100px" height="60px" src="images/<?php echo $imgname; ?>"><br><br>
  <div class="btn btn-info" data-toggle="modal" data-target="#picup">Change Pic<input hidden="true" id="picname" value="<?php echo $imgname; ?>" name="pname"></div>
-   
-    <hr>                                                                                   
+
+    <hr>
     <center><button type="submit" name="edit" value="create" class="btn btn-primary">Make Changes</button></center>
 
-    
-    
+
+
 </form>
 
 </div>
