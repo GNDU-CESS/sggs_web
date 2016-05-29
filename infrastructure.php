@@ -99,7 +99,7 @@ body
               <div class ="col-lg-7" style="text-align: left;">
 			  
 
-					<h2>INTERFAITH UNDERSTANDING</h2>
+					<h2>Interfaith Understanding</h2>
 				<p>
 					Sri Guru Granth Sahib presents an excellent example of co-existence, cosmopolitanism, interfaith understanding and unity in diversity, which is unparalleled in the history of world scriptures.It is the need of the hour to understand that Sri Guru Granth Sahib addresses not its votaries alone, but the whole humankind.
 
@@ -107,7 +107,7 @@ body
 			</div>
 			<div class="col-lg-5">
                 <div class="shift_bottom">
-				    <img src="img/facilities/library.jpg" style="width:300px;height:200px"class="img img-responsive">
+				    <img src="img/facilities/i0.jpg" style="width:300px;height:200px"class="img img-responsive">
                 </div>
 			</div>
         </div>
@@ -117,7 +117,7 @@ body
               <div class ="col-lg-7" style="text-align: left;">
 			  
 
-					<h2>DIGITIZATION OF ARCHIVES</h2>
+					<h2>Digitization Of Archives</h2>
 				<p>
 					The central library has been equipped with digital archives of manuscripts.The invaluable manuscripts and thesises related to sikh religion have been fully digitized. Students, researchers as well as the faculty members  have access to this section of library. Bhai Gurdas Library has prepared the catalogues of bibliographic descriptions which has been compiled in five volumes available in the library which is now available in print as well as in CD/DVD form. 	
 
@@ -134,8 +134,8 @@ body
               <div class ="col-lg-7" style="text-align: left;">
 			  
 
-					<h2>CONSERVATION LAB WITH MICROFILMING FACILITIES</h2>
-					
+					<h2>Conservation Lab With Microfilming Facilities</h2>
+
 				<p>
 					The conservation lab is primarily concerned with the preservation of rare books and manuscripts for research purposes.For optimum and purposeful use of manuscripts,their microfilming is important. So far,microfilming of 600 manuscripts has been accomplished.In order to save the brittle manuscripts from damage,they are being laminated. Fumigation chamber is also available for chemical treatment of infected manuscripts which further helps in effective preservation.
 				</p>
@@ -151,7 +151,7 @@ body
               <div class ="col-lg-7" style="text-align: left;">
 			  
 
-					<h2>MUSEUM OF SIKH HISTORY AND CULTURE</h2>
+					<h2>Museum Of Sikh History And Culture</h2>Museum Of Sikh History And Culture
 				<p>
 					The university has a museum devoted to depict the rich sikh history and culture.It is furnished with  artifacts related to sikh religion and puts on display the the relics which are an integral part of sikh history.Its contribution is immense towards the propagation of genesis and impact of Sri Guru Granth Sahib Ji and the entire sikh religion.
 				</p>
@@ -167,7 +167,7 @@ body
               <div class ="col-lg-7" style="text-align: left;">
 			  
 
-					<h2>RECORDING ROOM</h2>
+					<h2>Recording Room</h2>
 				<p>
 					The Centre is having a Recording Room with all the latest equipments. It has the facilities like: all the four inside walls are fitted with sound proof wooden shelter with sponge inside to make it sound proof, latest video and still cameras, proper light system,  cordless and  collar mikes etc. Centre has recorded some important recordings related with Sikh history and of keertan Tradition.
 				</p>

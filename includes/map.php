@@ -16,7 +16,6 @@
                         <ul style="list-style-type:none;">
 							<a href="infrastructure"><li>--Infrastructure</li></a>
 							<a href="faculty"><li>--Faculty</li></a>
-                            <a href="Facility"><li>--Facility</li></a>
                              <a href="contact"><li>--ContactUs</li></a>
                         </ul>
 				</li>

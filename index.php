@@ -117,10 +117,10 @@
                 <div id="slider1_container" style="position: relative; top: 0px; left: 0px;width:auto; height: 300px;">
     <!-- Slides Container -->
     <div u="slides" style="cursor: move; position: absolute; overflow: hidden; left: 0px; top: 0px; width: 550px; height: 300px;object-fit:fill">
-        <div><img class="img img-resposive" u="image" src="img/carousel2.jpg" /></div>
-         <div><img class="img img-resposive" u="image" src="img/gallery/workshops/IMG_1527.jpg" /></div>
+        <div><img class="img img-resposive" u="image" src="img/infra/infra.jpg" /></div>
+         <!--div><img class="img img-resposive" u="image" src="img/gallery/workshops/IMG_1527.jpg" /></div-->
         <div><img class="img img-resposive" u="image" src="img/gallery/seminars/DSC00825.JPG" /></div>
-        <div><img class="img img-resposive" u="image" src="img/gallery/images/foundation/img14.JPG" /></div>
+        <div><img class="img img-resposive" u="image" src="img/carousel3.JPG" /></div>
 
     </div>
 </div>
