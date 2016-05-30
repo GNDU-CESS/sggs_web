@@ -18,7 +18,7 @@
         text-align: center;
         color:#000033;
         font-size: 20px;
-
+        height:30px;
 
     }
     
@@ -38,7 +38,7 @@
             </div>
     </div>
 <?php
-    $data_fac= "SELECT id, name, designation, image FROM faculty";
+    $data_fac= "SELECT id, name, designation, image FROM faculty ORDER BY id ASC";
     $result = $db->query($data_fac); 
 
 
@@ -53,7 +53,7 @@
             echo '<a  href="faculty_view?id='.$row['id'].'">';
              echo '<img class="size1 img-responsive" src="admin/images/'.$row['image'].'">';
               echo '<h3 class="name_style">'.$row['name'].'</h3>';
-              echo '<h4 class="name_style">'.$row['designation'].'</h4>';
+              echo '<h3 class="name_style">'.$row['designation'].'</h3><hr>';
             echo '</a>';
           echo '</div>'; 
             

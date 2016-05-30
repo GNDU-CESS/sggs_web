@@ -7,6 +7,9 @@
 <link href="../css/animate.css" rel="stylesheet">
 
 <style>
+    textarea{
+        resize:vertical;
+    }
     @media screen and (max-width:1200px) {
     .navbar {
         display:none;
