@@ -387,7 +387,7 @@
                                                 <div class="modal-body">
                                                     <div class="row">
                                                         
-                                                            <img style="float:left;margin:20px" class="pull-left img-circle img-responsive size" src="img/faculty/dhillon.jpg" alt="">
+                                                            <img style="float:left;margin:20px" class="pull-left img-circle img-responsive size" src="img/faculty/dhillon.JPG" alt="">
                                                         
                                                        
                                                             <p  style="float:justify;font-size:14px;"class="facfont" >
