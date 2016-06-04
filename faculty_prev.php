@@ -1,302 +1,271 @@
 <?php include 'includes/meta.php';  ?>
-<title>
-   Faculties
-</title>
+    <title>
+        Faculties
+    </title>
 
     <?php include 'includes/css.php'; ?>
-  <style>
-        .fixed {
-            position: fixed;
-            z-index: 2;
-        }
-
-        * {
-            font-weight: 500;
-        }
-
-        .size {
-            height: 170px;
-            width: 170px;
-        }
-
-        .size_dir {
-            height: 200px;
-            width: 200px;
-        }
-
-        .facfont {
-            padding-top: 45px;
-            font-size: 14px;
-            font-family: raleway-ExtraLight;
-        }
-      
-     
-      
-      .modal {
-          color: #34495E;
-      }
-    </style>
-    <script>
-        $(window).scroll(function () {
-            if ($(this).scrollTop() > 10) {
-                $('.fix1').addClass('fixed');
-
+        <style>
+            .fixed {
+                position: fixed;
+                z-index: 2;
             }
-            else {
-                $('.fix1').removeClass('fixed');
+            
+            * {
+                font-weight: 500;
             }
-        });
-    </script>
-</head>
-<body class="container">
-<?php include 'includes/nav.php';
+            
+            .size {
+                height: 170px;
+                width: 170px;
+            }
+            
+            .size_dir {
+                height: 200px;
+                width: 200px;
+            }
+            
+            .facfont {
+                padding-top: 45px;
+                font-size: 14px;
+                font-family: raleway-ExtraLight;
+            }
+            
+            .modal {
+                color: #34495E;
+            }
+        </style>
+        <script>
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 10) {
+                    $('.fix1').addClass('fixed');
+
+                } else {
+                    $('.fix1').removeClass('fixed');
+                }
+            });
+        </script>
+        </head>
+
+        <body class="container">
+            <?php include 'includes/nav.php';
       include 'includes/map.php';?>
 
 
- <div class="navbar-fixed-top container" style="height:50px;z-index:15;position:fixed;"></div>
-    <div class="headf">
-    <section class="head">
-        <div class="gap"></div>
-        <div class="row">
-            <div class="col-md-12">
-                <div class="center">
-                    <h1 style="margin-top:0px;" class="head1 head">
+                <div class="navbar-fixed-top container" style="height:50px;z-index:15;position:fixed;"></div>
+                <div class="headf">
+                    <section class="head">
+                        <div class="gap"></div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="center">
+                                    <h1 style="margin-top:0px;" class="head1 head">
                         Faculty and Supporting Staff
                     </h1>
-                </div>
-            </div>
-        </div>
-
-
-
-    </section>
-
-    <div class="container alter2">
-        <div class="container">
-            <div class="row" style="text-align:center">
-                <div class="col-lg-6 col-xs-12">
-                    <div class="col-lg-4"></div>
-                    <div class="col-lg-8">
-                        <br><br><br><br>
-
-                        <img class="size_dir img-responsive img-thumbnail img-circle" src="img/director.jpg">
-                        <h4 style="font-family:'Raleway-ExtraLight';">Dr. Balwant Singh Dhillon</br>FOUNDER DIRECTOR</h4>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-xs-12">
-                    <div class="col-lg-8">
-                        <br><br><br><br>
-                        <img class="size_dir img-circle img-responsive img-thumbnail" src="img/faculty/prof kang2.jpg" alt="">
-                        <h4 style="font-family:'Raleway-ExtraLight';">Dr Gulzar Singh Kang<br>OFFICATING DIRECTOR</h4>
-                    </div>
-                    <div class="col-lg-4"></div>
-                </div>
-            </div>
-            <br>
-        </div>
-    </div>
-
-    <br>
-    <br>
-    <section id="about-us" class="container">
-        <div class="row">
-            <center><h1 class="head1" style="font-family:'Raleway-SemiBold'"> Faculty and Supporting Staff</h1></center>
-            <div class="col-sm-6" style="font-size:16px;font-weight:500;text-align:center;">
-                <p style="font-family:'Raleway-ExtraLight';text-align:left;padding-left:20px;">As the proposed research works of the Centre are of serious and delicate nature, which require professional skills and excellent academic understanding of Sikh religion, history and  literature. The research projects that have been proposed can be done only if the services of mature and seasoned scholars are available. Therefore besides the regular faculty of One Director, Six Professors and Eighteen Project Fellows there is a pool of Six Visiting Professors. Superannuated scholars are requested to join as Visiting Professors to undertake short term projects relating to the thrust areas of the Centre. Eminent scholars who have done commendable work on the studies on Sri Guru Granth Sahib has worked in the Centre as Visiting Professors on term based projects. Centre has also attracted the attention of foreign scholars of Sikh Studies who are very keen to do Sikh studies in the capacity of Honorary Visiting Professors.</p>
-            </div>
-            <div class="col-sm-6">
-                <img class="img-responsive" style="margin :auto" src="img/team.jpg">
-            </div>
-        </div>
-        <br>
-        <br>
-    </section>
-    <div class="container head alter2">
-        <br /><br />
-        <h1 class="center" style="font-family:'Raleway';color:#fff">Meet the Team</h1>
-
-        <p class="lead center" style="font-family:'Raleway-ExtraLight';color:#fff">Following scholars are presently working on the faculty of the Centre</p>
-
-        <div id="meet-the-team" class="row">
-            <div class="col-md-3 col-sm-6 col-xs-12">
-
-
-
-                <div data-toggle="modal" data-target="#gulzar" style="font-family:'Raleway-ExtraLight'; cursor: pointer">
-                    <div class=" center" style="color:#fff">
-                        <img class="size img-responsive img-thumbnail img-circle" src="img/faculty/prof kang2.jpg">
-                        <h5 style="font-family:'Raleway-ExtraLight'">Dr Gulzar Singh Kang<br /> <br /><p>Director</p></h5>
-                        <p style="font-family:'Raleway-ExtraLight'">MA. Punjabi, M.A. Rel. Studies, Ph.D.<br>(joined in Nov. 2011)</p>
-                        <!-- <a class="btn btn-social btn-facebook" href="#"><i class="icon-facebook"></i></a> <a class="btn btn-social btn-google-plus" href="#"><i class="icon-google-plus"></i></a> <a class="btn btn-social btn-twitter" href="#"><i class="icon-twitter"></i></a> <a class="btn btn-social btn-linkedin" href="#"><i class="icon-linkedin"></i></a> -->
-                    </div>
-                </div>
-                <div class="modal fade" id="gulzar" role="dialog">
-                    <div class="modal-dialog">
-
-                        <!-- Modal content-->
-                        <div class="modal-content">
-
-                            <div class="modal-body">
-                                <p style="font-family: Raleway-ExtraLight; text-align: justified">
-                                    Dr. Gulzar Singh Kang (02 September 1954) is currently Director of Centre on Studies in Sri Guru Granth Sahib, GNDU, Amritsar. He did M.A. Punjabi April 1977, M.A. Religious Studies 1992 and Ph.D. (Concept of Shabad in Sikhism) Punjabi University, Patiala. His specialization is in Medieval Punjabi literature and Sikh Studies. He has published 18 books and contributed more than 50 papers published in reputed journals and books.  Among his earlier works “Shabad Anubhav te Darshan” is a scholarly work in the field of Sikh Philosophy. “Sufimat Silsile te Saadhak”, “Miran Shah Jalandhari Jivan te Rachna” and four volumes of “S.G.B. Singh dian Durlabh Likhtaan” are some other major works done by him. Recently he has published a Expositions of Japuji Sahib under the title of “Japuji Sahib: Bahupakhhi Viakhia”. He pays keen interest in collecting the old manuscripts of Punjabi literature and Sikhism. Some of them he had in his collections are old more than 350 years. For his academic achievements he has been awarded by many institutions. Some of the awards are: on 26 January 2007 by Dr. A.P.J. Abdul Kalam (President of India), S. Kapoor Singh memorial award by Bhai Randhir Singh Trust, Ludhiana, Kesgarh Sahib Anandpur Sahib, Guru Gobind Singh Study circle etc.Dr. Gulzar Singh Kang is soon going to publish a Book on “Gurmat Chetna te Chintan”. Currently he is working on Expositions of Sri Guru Granth Sahib.
-                                </p>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                                 </div>
                             </div>
+                        </div>
 
+
+
+                    </section>
+
+                    <div class="container alter2">
+                        <div class="container">
+                            <div class="row" style="text-align:center">
+                                <div class="col-lg-6 col-xs-12">
+                                    <div class="col-lg-4"></div>
+                                    <div class="col-lg-8">
+                                        <br>
+                                        <br>
+                                        <br>
+                                        <br>
+
+                                        <img class="size_dir img-responsive img-thumbnail img-circle" src="img/director.jpg">
+                                        <h4 style="font-family:'Raleway-ExtraLight';">Dr. Balwant Singh Dhillon</br>FOUNDER DIRECTOR</h4>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-xs-12">
+                                    <div class="col-lg-8">
+                                        <br>
+                                        <br>
+                                        <br>
+                                        <br>
+                                        <img class="size_dir img-circle img-responsive img-thumbnail" src="img/faculty/prof kang2.jpg" alt="">
+                                        <h4 style="font-family:'Raleway-ExtraLight';">Dr Gulzar Singh Kang<br>OFFICATING DIRECTOR</h4>
+                                    </div>
+                                    <div class="col-lg-4"></div>
+                                </div>
+                            </div>
+                            <br>
                         </div>
                     </div>
 
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-12">
-                <div data-toggle="modal" data-target="#mohan" style="font-family:'Raleway-ExtraLight'; cursor: pointer">
-                    <div class=" center" style="color:#fff">
-                        <img class="size img-responsive img-thumbnail img-circle" src="img/faculty/n.jpg">
-                        <h5 style="font-family:'Raleway-ExtraLight'">Dr. N Muthumohan<br /> <br /><p>Professor</p></h5>
-                        <p style="font-family:'Raleway-ExtraLight'">M.Sc., Ph.D.  (Joined in Nov. 2013).</p>
-                    </div>
-                </div>
-                <div class="modal fade" id="mohan" role="dialog">
-                    <div class="modal-dialog">
+                    <br>
+                    <br>
+                    <section id="about-us" class="container">
+                        <div class="row">
+                            <center>
+                                <h1 class="head1" style="font-family:'Raleway-SemiBold'"> Faculty and Supporting Staff</h1></center>
+                            <div class="col-sm-6" style="font-size:16px;font-weight:500;text-align:center;">
+                                <p style="font-family:'Raleway-ExtraLight';text-align:left;padding-left:20px;">As the proposed research works of the Centre are of serious and delicate nature, which require professional skills and excellent academic understanding of Sikh religion, history and literature. The research projects that have been proposed can be done only if the services of mature and seasoned scholars are available. Therefore besides the regular faculty of One Director, Six Professors and Eighteen Project Fellows there is a pool of Six Visiting Professors. Superannuated scholars are requested to join as Visiting Professors to undertake short term projects relating to the thrust areas of the Centre. Eminent scholars who have done commendable work on the studies on Sri Guru Granth Sahib has worked in the Centre as Visiting Professors on term based projects. Centre has also attracted the attention of foreign scholars of Sikh Studies who are very keen to do Sikh studies in the capacity of Honorary Visiting Professors.</p>
+                            </div>
+                            <div class="col-sm-6">
+                                <img class="img-responsive" style="margin :auto" src="img/team.jpg">
+                            </div>
+                        </div>
+                        <br>
+                        <br>
+                    </section>
+                    <div class="container head alter2">
+                        <br />
+                        <br />
+                        <h1 class="center" style="font-family:'Raleway';color:#fff">Meet the Team</h1>
 
-                        <!-- Modal content-->
-                        <div class="modal-content">
+                        <p class="lead center" style="font-family:'Raleway-ExtraLight';color:#fff">Following scholars are presently working on the faculty of the Centre</p>
 
-                            <div class="modal-body">
-                                <p style="font-family: Raleway-ExtraLight; text-align: justified">
-                                    Dr. N. Muthu Mohan is M.Sc (Chemistry, Peoples’ Friendship University, Moscow, USSR, 1982) and Ph.D (The Becoming of Indian Philosophy, Moscow State University, USSR, 1987). His specialization is Sikhism, Indian Philosophy and Religious Studies. He worked as Lecturer (1987-1995), Reader (1995-2003) and Professor (2003-2013) in Guru Nanak Devji Chair and later Department of Guru Nanak Studies of Madurai Kamaraj University, Madurai, Tamil Nadu. He was also the Chairperson of the School of Religions, Philosophy and Humanist Thought, Madurai Kamaraj University, Madurai. He served as the Deputy Coordinator of the DRS-SAP-UGC (Phase I) 2002-2007 and Coordinator DRS-SAP-UGC (Phase II) 2007-2012. He was also the Deputy Coordinator for the UPE Projects for the School of Religions, Philosophy and Humanist Thought, MKU. He was a Member of Senate, Madurai Kamarai University for the period of 1995-2013. He took the Administrative responsibilities of Additional Controller of Examinations (2009-2010) and Director (2010-2011) of the Directorate of Distance Education, Madurai Kamaraj University, Madurai. He has published more than 25 books both in English and Tamil, and around hundred papers in regional, national and International journals. 5 of books are on Sikhism. He has visited USSR (Education), United Kingdom (Training in Religious Studies), Singapore and Sri Lanka for presenting papers at International Conferences. He is the recipient of Best Book and Best Article Awards from Tamil Nadu State Government, Thiruppur Tamil Sangam, Tamil Nadu Art and Literary Association and Bhai Vir Singh Sahitya Sadan, New Delhi.
-                                    Presently (from November 2013), Dr. N. Muthu Mohan is serving as the Professor in the Centre on Studies in Sri Guru Granth Sahib, Guru Nanak Dev University, Amritsar, Punjab. His project at the Centre is “Writing Sikh Philosophy on its Own Terms”. He may be contacted at 09443195624. His e mail is m_uthumohan@yahoo.co.in. He can be visited at nmuthumohan@wordpress.com for his latest articles in Tamil and English.
-                                </p>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <div id="meet-the-team" class="row">
+                            <div class="col-md-3 col-sm-6 col-xs-12">
+
+
+
+                                <div data-toggle="modal" data-target="#gulzar" style="font-family:'Raleway-ExtraLight'; cursor: pointer">
+                                    <div class=" center" style="color:#fff">
+                                        <img class="size img-responsive img-thumbnail img-circle" src="img/faculty/prof kang2.jpg">
+                                        <h5 style="font-family:'Raleway-ExtraLight'">Dr Gulzar Singh Kang<br /> <br /><p>Director</p></h5>
+                                        <p style="font-family:'Raleway-ExtraLight'">MA. Punjabi, M.A. Rel. Studies, Ph.D.
+                                            <br>(joined in Nov. 2011)</p>
+                                        <!-- <a class="btn btn-social btn-facebook" href="#"><i class="icon-facebook"></i></a> <a class="btn btn-social btn-google-plus" href="#"><i class="icon-google-plus"></i></a> <a class="btn btn-social btn-twitter" href="#"><i class="icon-twitter"></i></a> <a class="btn btn-social btn-linkedin" href="#"><i class="icon-linkedin"></i></a> -->
+                                    </div>
+                                </div>
+                                <div class="modal fade" id="gulzar" role="dialog">
+                                    <div class="modal-dialog">
+
+                                        <!-- Modal content-->
+                                        <div class="modal-content">
+
+                                            <div class="modal-body">
+                                                <p style="font-family: Raleway-ExtraLight; text-align: justified">
+                                                    Dr. Gulzar Singh Kang (02 September 1954) is currently Director of Centre on Studies in Sri Guru Granth Sahib, GNDU, Amritsar. He did M.A. Punjabi April 1977, M.A. Religious Studies 1992 and Ph.D. (Concept of Shabad in Sikhism) Punjabi University, Patiala. His specialization is in Medieval Punjabi literature and Sikh Studies. He has published 18 books and contributed more than 50 papers published in reputed journals and books. Among his earlier works “Shabad Anubhav te Darshan” is a scholarly work in the field of Sikh Philosophy. “Sufimat Silsile te Saadhak”, “Miran Shah Jalandhari Jivan te Rachna” and four volumes of “S.G.B. Singh dian Durlabh Likhtaan” are some other major works done by him. Recently he has published a Expositions of Japuji Sahib under the title of “Japuji Sahib: Bahupakhhi Viakhia”. He pays keen interest in collecting the old manuscripts of Punjabi literature and Sikhism. Some of them he had in his collections are old more than 350 years. For his academic achievements he has been awarded by many institutions. Some of the awards are: on 26 January 2007 by Dr. A.P.J. Abdul Kalam (President of India), S. Kapoor Singh memorial award by Bhai Randhir Singh Trust, Ludhiana, Kesgarh Sahib Anandpur Sahib, Guru Gobind Singh Study circle etc.Dr. Gulzar Singh Kang is soon going to publish a Book on “Gurmat Chetna te Chintan”. Currently he is working on Expositions of Sri Guru Granth Sahib.
+                                                </p>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
                                 </div>
                             </div>
-
-                        </div>
-                    </div>
-
-                </div>
-
-
-
-
-            </div>
-
-
-            <div class="col-md-3 col-sm-6 col-xs-12">
-                <div data-toggle="modal" data-target="#3" style="font-family:'Raleway-ExtraLight'; cursor: pointer">
-                    <div class=" center" style="color:#fff">
-                        <img class="size img-responsive img-thumbnail img-circle" src="img/faculty/amarjit.jpg">
-                        <h5 style="font-family:'Raleway-ExtraLight'">Dr. Amarjit singh<br /> <br /><p>Professor</p></h5>
-                        <p style="font-family:'Raleway-ExtraLight'">M.A. Punjabi, M.A. Rel. Studies, Ph.D. (joined in Oct.  2014).</p>
-                    </div>
-                </div>
-                <div class="modal fade" id="3" role="dialog">
-                    <div class="modal-dialog">
-
-                        <!-- Modal content-->
-                        <div class="modal-content">
-
-                            <div class="modal-body">
-                                <p style="font-family: Raleway-ExtraLight; text-align: justified">Dr. AMARJIT SINGH is presently working as Professor in Centre on Studies in Sri Guru Granth Sahib, Guru Nanak Dev University Amritsar. He is a member of ‘Board of Studies’ for Masters in Sikh Studies at Sri Guru Granth Sahib World University, Fatehgarh Sahib, Punjab. He has done his graduation from Punjab University Chandigarh with Honors in Economics and Masters in Religious Studies and M. Phil. in Religious Studies from Punjabi University Patiala (1989). He was awarded Ph.D degree on ‘Rahitnama Sahit da Adiain’ (1996) by Guru Nanak Dev University Amritsar. After completing studies he worked (1990 to 1998) as a Professor at Shahid Sikh Missionary College Amritsar run by SGPC Amritsar. He has been Director-Principal (1998-2014) of Guru Kashi College of Sikh Studies Talwandi Sabo, Takhat Sri Damdama Sahib Bathinda. He has got about 23 years teaching and research experience. He specializes in the study of primary Sikh sources and analysis of manuscripts of Gurbani. He is a keen scholar of Sikh Studies, especially Sikh Code of Conduct, religion and literature. He has edited/authored Gurbilas Patshahi 6 (ed.), ‘Baba Banda Singh Bahadur Jiwan de Hall: 300 Swal’-2010, ‘Baba Nidhan Singh: Jiwan te Yogdan’ (ed.)-2012,  ‘Mudhle Sikh Sarot te Sikh Rahit’-2013,  Langar te Daswand Sanstha de Smajak Sarokar (ed.)-2014, Sri Guru Granth Sahib: Bani Beora te Adab Satkar-2014. He has also published more than 40 Research papers and articles on Sikh Philosophy, History and Sikh way of life. Dr. Ganda Singh Memorial Trust Patiala awarded First Prize to his Research Paper ‘Importance of Kirtan in Gurmat’(1991) and Special Prize to ‘Role and Status of Women in Sikhism’ (1990). He has organized and participated in various National and State level seminars/conferences. His contribution to the field of Sikh Studies, especially the study of Sikh Code of Conduct, Scripture and religion is laudable. Presently he is working on the projects of Sikh Perspective on the Others: A Source Book, ‘Interpretation and Making of the Sikh Code of Conduct’ and ‘Gurbani de Mudhle Kharian di Samikhia’. He may be approached at amarjitprincipal@yahoo.co.in and his contact no. is 91-94174-05209</p>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            <div class="col-md-3 col-sm-6 col-xs-12">
+                                <div data-toggle="modal" data-target="#mohan" style="font-family:'Raleway-ExtraLight'; cursor: pointer">
+                                    <div class=" center" style="color:#fff">
+                                        <img class="size img-responsive img-thumbnail img-circle" src="img/faculty/n.jpg">
+                                        <h5 style="font-family:'Raleway-ExtraLight'">Dr. N Muthumohan<br /> <br /><p>Professor</p></h5>
+                                        <p style="font-family:'Raleway-ExtraLight'">M.Sc., Ph.D. (Joined in Nov. 2013).</p>
+                                    </div>
                                 </div>
+                                <div class="modal fade" id="mohan" role="dialog">
+                                    <div class="modal-dialog">
+
+                                        <!-- Modal content-->
+                                        <div class="modal-content">
+
+                                            <div class="modal-body">
+                                                <p style="font-family: Raleway-ExtraLight; text-align: justified">
+                                                    Dr. N. Muthu Mohan is M.Sc (Chemistry, Peoples’ Friendship University, Moscow, USSR, 1982) and Ph.D (The Becoming of Indian Philosophy, Moscow State University, USSR, 1987). His specialization is Sikhism, Indian Philosophy and Religious Studies. He worked as Lecturer (1987-1995), Reader (1995-2003) and Professor (2003-2013) in Guru Nanak Devji Chair and later Department of Guru Nanak Studies of Madurai Kamaraj University, Madurai, Tamil Nadu. He was also the Chairperson of the School of Religions, Philosophy and Humanist Thought, Madurai Kamaraj University, Madurai. He served as the Deputy Coordinator of the DRS-SAP-UGC (Phase I) 2002-2007 and Coordinator DRS-SAP-UGC (Phase II) 2007-2012. He was also the Deputy Coordinator for the UPE Projects for the School of Religions, Philosophy and Humanist Thought, MKU. He was a Member of Senate, Madurai Kamarai University for the period of 1995-2013. He took the Administrative responsibilities of Additional Controller of Examinations (2009-2010) and Director (2010-2011) of the Directorate of Distance Education, Madurai Kamaraj University, Madurai. He has published more than 25 books both in English and Tamil, and around hundred papers in regional, national and International journals. 5 of books are on Sikhism. He has visited USSR (Education), United Kingdom (Training in Religious Studies), Singapore and Sri Lanka for presenting papers at International Conferences. He is the recipient of Best Book and Best Article Awards from Tamil Nadu State Government, Thiruppur Tamil Sangam, Tamil Nadu Art and Literary Association and Bhai Vir Singh Sahitya Sadan, New Delhi. Presently (from November 2013), Dr. N. Muthu Mohan is serving as the Professor in the Centre on Studies in Sri Guru Granth Sahib, Guru Nanak Dev University, Amritsar, Punjab. His project at the Centre is “Writing Sikh Philosophy on its Own Terms”. He may be contacted at 09443195624. His e mail is m_uthumohan@yahoo.co.in. He can be visited at nmuthumohan@wordpress.com for his latest articles in Tamil and English.
+                                                </p>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+
+
+
+
                             </div>
 
-                        </div>
-                    </div>
 
-                </div>
-
-            </div>
-
-
-            <div class="col-md-3 col-sm-6 col-xs-12">
-                <div data-toggle="modal" data-target="#amar" style="font-family:'Raleway-ExtraLight'; cursor: pointer">
-                    <div class=" center" style="color:#fff">
-                        <img class="size img-responsive img-thumbnail img-circle" src="img/amars.jpg">
-                        <h5 style="font-family:'Raleway-ExtraLight'">Dr. Amar Singh<br /> <br /><p>Professor</p></h5>
-                        <p style="font-family:'Raleway-ExtraLight'">M.A. Punjabi, M.A. Rel. Studies, Ph.D. (joined in Oct. 2014).</p>
-                    </div>
-                </div>
-                <div class="modal fade" id="amar" role="dialog">
-                    <div class="modal-dialog">
-
-                        <!-- Modal content-->
-                        <div class="modal-content">
-
-                            <div class="modal-body">
-                                <p style="font-family: Raleway-ExtraLight; text-align: justified">
-                                    Name				:	Amar Singh Dr.
-                                    Father’s Name			:	S. Mukand Singh
-                                    Date of Birth			:	1st May 1967
-                                    Address			:	44-D, Chahal Enclave, Passey Road, Patiala
-                                    amarniamatpur@yahoo.com (Mob. 99155-11744)
-                                    Qualifications
-                                    M.A. (Religious Study-1993), Ph.D. (Sant Attar Singh Ji Di Dharmik ate Samajik Khetar Vich Den-2009)
-                                    Designation
-                                    Professor, Centre on Studies in Sri Guru Granth Sahib, Guru Nanak Dev University, Amritsar
-                                    Works Done
-                                    Books - 14
-                                    1. Line Index of Sri Guru Granth Sahib (ed.) Language Department, Punjab-1999
-                                    2. Bani Guru Nanak Dev ji (Line Index) (co- ed.) Punjabi University, Patiala-1999
-                                    3. Bani Guru Amar Dass ji (Line Index) (ed.) Punjabi University, Patiala-1996
-                                    4. Bani Guru Ram Dass ji (Line Index) (co- ed.) Punjabi University, Patiala-1998
-                                    5. Bani Guru Angad Dev ji (Path, Line Index, Concordence & Dictionary.) (co- ed.)
-                                    Punjabi University, Patiala-1995
-                                    6. Bani Bhagat Ravidas ji (Path, Line Index, Concordence & Dictionary.) (ed.)
-                                    Punjabi University, Patiala-1995
-                                    7. Bani Bhagat Namdev ji (Path, Line Index, Concordence & Dictionary.) (co- ed.)
-                                    Punjabi University, Patiala-1997
-                                    8. Atirikt Bhagat Bani (Path, Line Index, Concordence & Dictionary.) (co- ed.)
-                                    Punjabi University, Patiala-1997
-                                    9. ‘Haumae’ Da Gurmat Paripekh (ed.) Kalgidhar Trust, Baru Sahib-1999
-                                    10. ‘Satsangat’ Da Gurmat Paripekh (ed.) Prof. Sahib Singh Gurmat Trust, Patiala-1999
-                                    11. ‘Nadar’ Da Gurmat Paripekh (ed.) Prof. Sahib Singh Gurmat Trust, Patiala-2000
-                                    12. Sant Attar Singh Ji Di Dharmik ate Samajik Khetar Vich Den, Madaan Publishing House, Patiala-2012
-                                    13. Relative Index of Sri Gur Panth Parkash (Ratan Singh Bhangu) Lokgeet Parkashan, Chandigarh-2014
-                                    14. Descriptive List of Hand Written Manuscripts of Sri Guru Granth Sahib, Volume-1 (Completed and ready for publication)
-                                    Resarch Papers, Articles & Radio Talks - 16
-                                    Digitization of Hand written Manuscripts
-                                    1.	Sri Guru Granth Sahib		:	330
-                                    2.	Dasam Granth				:	50
-                                    3.	Pothies and other Sikh Scriptures	:	280
-                                    4.	Printed Important Books		:	1237
-                                    For C. D.
-                                    Punctuation in Faridkoti Teeka, for ‘Isher Micro Media’ CD by Bhai Baljinder Singh, Rara Sahib
-                                    Projects in hand
-                                    Digitization & Preparing descriptive lists of Hand Written Manuscripts of Sri Guru Granth Sahib
-                                    Honours
-                                    Sant Gurmukh Singh Award-2000
-                                    (By Guru Arjun Kirtan Mandal, Patiala)
-                                </p>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            <div class="col-md-3 col-sm-6 col-xs-12">
+                                <div data-toggle="modal" data-target="#3" style="font-family:'Raleway-ExtraLight'; cursor: pointer">
+                                    <div class=" center" style="color:#fff">
+                                        <img class="size img-responsive img-thumbnail img-circle" src="img/faculty/amarjit.jpg">
+                                        <h5 style="font-family:'Raleway-ExtraLight'">Dr. Amarjit singh<br /> <br /><p>Professor</p></h5>
+                                        <p style="font-family:'Raleway-ExtraLight'">M.A. Punjabi, M.A. Rel. Studies, Ph.D. (joined in Oct. 2014).</p>
+                                    </div>
                                 </div>
+                                <div class="modal fade" id="3" role="dialog">
+                                    <div class="modal-dialog">
+
+                                        <!-- Modal content-->
+                                        <div class="modal-content">
+
+                                            <div class="modal-body">
+                                                <p style="font-family: Raleway-ExtraLight; text-align: justified">Dr. AMARJIT SINGH is presently working as Professor in Centre on Studies in Sri Guru Granth Sahib, Guru Nanak Dev University Amritsar. He is a member of ‘Board of Studies’ for Masters in Sikh Studies at Sri Guru Granth Sahib World University, Fatehgarh Sahib, Punjab. He has done his graduation from Punjab University Chandigarh with Honors in Economics and Masters in Religious Studies and M. Phil. in Religious Studies from Punjabi University Patiala (1989). He was awarded Ph.D degree on ‘Rahitnama Sahit da Adiain’ (1996) by Guru Nanak Dev University Amritsar. After completing studies he worked (1990 to 1998) as a Professor at Shahid Sikh Missionary College Amritsar run by SGPC Amritsar. He has been Director-Principal (1998-2014) of Guru Kashi College of Sikh Studies Talwandi Sabo, Takhat Sri Damdama Sahib Bathinda. He has got about 23 years teaching and research experience. He specializes in the study of primary Sikh sources and analysis of manuscripts of Gurbani. He is a keen scholar of Sikh Studies, especially Sikh Code of Conduct, religion and literature. He has edited/authored Gurbilas Patshahi 6 (ed.), ‘Baba Banda Singh Bahadur Jiwan de Hall: 300 Swal’-2010, ‘Baba Nidhan Singh: Jiwan te Yogdan’ (ed.)-2012, ‘Mudhle Sikh Sarot te Sikh Rahit’-2013, Langar te Daswand Sanstha de Smajak Sarokar (ed.)-2014, Sri Guru Granth Sahib: Bani Beora te Adab Satkar-2014. He has also published more than 40 Research papers and articles on Sikh Philosophy, History and Sikh way of life. Dr. Ganda Singh Memorial Trust Patiala awarded First Prize to his Research Paper ‘Importance of Kirtan in Gurmat’(1991) and Special Prize to ‘Role and Status of Women in Sikhism’ (1990). He has organized and participated in various National and State level seminars/conferences. His contribution to the field of Sikh Studies, especially the study of Sikh Code of Conduct, Scripture and religion is laudable. Presently he is working on the projects of Sikh Perspective on the Others: A Source Book, ‘Interpretation and Making of the Sikh Code of Conduct’ and ‘Gurbani de Mudhle Kharian di Samikhia’. He may be approached at amarjitprincipal@yahoo.co.in and his contact no. is 91-94174-05209</p>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+
                             </div>
 
+
+                            <div class="col-md-3 col-sm-6 col-xs-12">
+                                <div data-toggle="modal" data-target="#amar" style="font-family:'Raleway-ExtraLight'; cursor: pointer">
+                                    <div class=" center" style="color:#fff">
+                                        <img class="size img-responsive img-thumbnail img-circle" src="img/amars.jpg">
+                                        <h5 style="font-family:'Raleway-ExtraLight'">Dr. Amar Singh<br /> <br /><p>Professor</p></h5>
+                                        <p style="font-family:'Raleway-ExtraLight'">M.A. Punjabi, M.A. Rel. Studies, Ph.D. (joined in Oct. 2014).</p>
+                                    </div>
+                                </div>
+                                <div class="modal fade" id="amar" role="dialog">
+                                    <div class="modal-dialog">
+
+                                        <!-- Modal content-->
+                                        <div class="modal-content">
+
+                                            <div class="modal-body">
+                                                <p style="font-family: Raleway-ExtraLight; text-align: justified">
+                                                    Name : Amar Singh Dr. Father’s Name : S. Mukand Singh Date of Birth : 1st May 1967 Address : 44-D, Chahal Enclave, Passey Road, Patiala amarniamatpur@yahoo.com (Mob. 99155-11744) Qualifications M.A. (Religious Study-1993), Ph.D. (Sant Attar Singh Ji Di Dharmik ate Samajik Khetar Vich Den-2009) Designation Professor, Centre on Studies in Sri Guru Granth Sahib, Guru Nanak Dev University, Amritsar Works Done Books - 14 1. Line Index of Sri Guru Granth Sahib (ed.) Language Department, Punjab-1999 2. Bani Guru Nanak Dev ji (Line Index) (co- ed.) Punjabi University, Patiala-1999 3. Bani Guru Amar Dass ji (Line Index) (ed.) Punjabi University, Patiala-1996 4. Bani Guru Ram Dass ji (Line Index) (co- ed.) Punjabi University, Patiala-1998 5. Bani Guru Angad Dev ji (Path, Line Index, Concordence & Dictionary.) (co- ed.) Punjabi University, Patiala-1995 6. Bani Bhagat Ravidas ji (Path, Line Index, Concordence & Dictionary.) (ed.) Punjabi University, Patiala-1995 7. Bani Bhagat Namdev ji (Path, Line Index, Concordence & Dictionary.) (co- ed.) Punjabi University, Patiala-1997 8. Atirikt Bhagat Bani (Path, Line Index, Concordence & Dictionary.) (co- ed.) Punjabi University, Patiala-1997 9. ‘Haumae’ Da Gurmat Paripekh (ed.) Kalgidhar Trust, Baru Sahib-1999 10. ‘Satsangat’ Da Gurmat Paripekh (ed.) Prof. Sahib Singh Gurmat Trust, Patiala-1999 11. ‘Nadar’ Da Gurmat Paripekh (ed.) Prof. Sahib Singh Gurmat Trust, Patiala-2000 12. Sant Attar Singh Ji Di Dharmik ate Samajik Khetar Vich Den, Madaan Publishing House, Patiala-2012 13. Relative Index of Sri Gur Panth Parkash (Ratan Singh Bhangu) Lokgeet Parkashan, Chandigarh-2014 14. Descriptive List of Hand Written Manuscripts of Sri Guru Granth Sahib, Volume-1 (Completed and ready for publication) Resarch Papers, Articles & Radio Talks - 16 Digitization of Hand written Manuscripts 1. Sri Guru Granth Sahib : 330 2. Dasam Granth : 50 3. Pothies and other Sikh Scriptures : 280 4. Printed Important Books : 1237 For C. D. Punctuation in Faridkoti Teeka, for ‘Isher Micro Media’ CD by Bhai Baljinder Singh, Rara Sahib Projects in hand Digitization & Preparing descriptive lists of Hand Written Manuscripts of Sri Guru Granth Sahib Honours Sant Gurmukh Singh Award-2000 (By Guru Arjun Kirtan Mandal, Patiala)
+                                                </p>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
                         </div>
+                        <br>
+                        <br>
                     </div>
-
-                </div>
-
-            </div>
-
-
-        </div>
-        <br><br>
-    </div>
-    <br><br><br /><br />
-    <section id="visitors" class="container">
-        <div class="remain-team">
-            <h2 style="text-align:center;font-family:'Raleway">HONORARY VISITING PROFESSORS</h2>
-            <div class="row">
-                <div class="col-sm-6">
-                    <ul>
-                        <h4>
+                    <br>
+                    <br>
+                    <br />
+                    <br />
+                    <section id="visitors" class="container">
+                        <div class="remain-team">
+                            <h2 style="text-align:center;font-family:'Raleway">HONORARY VISITING PROFESSORS</h2>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <ul>
+                                        <h4>
 
 
 
@@ -444,11 +413,11 @@ Currently, visiting professor with Guru Nanak Dev University, Amritsar he is wor
 
 
                         </h4>
-                    </ul>
-                </div>
-                <div class="col-sm-6">
-                    <ul>
-                        <h4>
+                                    </ul>
+                                </div>
+                                <div class="col-sm-6">
+                                    <ul>
+                                        <h4>
 
                             <li>
                                 <div data-toggle="modal" data-target="#6" style="font-family:'Raleway-ExtraLight'; cursor: pointer">Singh Sahib Giani Joginder Singh<small class="designation muted"> Vedanti.</small></div>
@@ -600,19 +569,20 @@ Currently, visiting professor with Guru Nanak Dev University, Amritsar he is wor
 
 
                 </h4>
-                </ul>
-            </div>
-            <br />
-        </div>
-    </section>
-    </br> </br>
-    <section id="research fellows" class="container">
+                                    </ul>
+                                </div>
+                                <br />
+                            </div>
+                    </section>
+                    </br>
+                    </br>
+                    <section id="research fellows" class="container">
 
-        <h2 style="text-align:center;">JUNIOR/ SENIOR RESEARCH FELLOWS</h2>
-        <br />
-        <div class="row">
-            <ul>
-                <h4>
+                        <h2 style="text-align:center;">JUNIOR/ SENIOR RESEARCH FELLOWS</h2>
+                        <br />
+                        <div class="row">
+                            <ul>
+                                <h4>
                     <div class="col-sm-6">
                         <li>
                             <div data-toggle="modal" data-target="#11" style="font-family:'Raleway-ExtraLight'; cursor: pointer">S. Sukhpal Singh<small class="designation muted"> M.A. Pbi., M.A. Rel. Studies, NET. </small></div>
@@ -1203,29 +1173,25 @@ Currently, visiting professor with Guru Nanak Dev University, Amritsar he is wor
                     </div>
         </div>
         </h4>
-        </ul>
-        </div>
-      
-    </section>
-    </div>
-    </section>
-    
-   </div> 
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    <?php include 'includes/footer.php'; include 'includes/js.php';?>
-</body>
-</html>
+                            </ul>
+                        </div>
+
+                    </section>
+                    </div>
+                    </section>
+
+                </div>
+
+
+
+
+
+
+
+
+
+
+                <?php include 'includes/footer.php'; include 'includes/js.php';?>
+        </body>
+
+        </html>

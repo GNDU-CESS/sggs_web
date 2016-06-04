@@ -7,11 +7,11 @@
 <link href="css/animate.css" rel="stylesheet">
 
 <style>
-  
+
 </style>
 <?php
         include 'admin/db/connect.php'; ?>
-<!--loader-->
-<script src="js/startload.min.js"></script>
-  <link href="css/startload.css" rel="stylesheet" />
-<link href="css/mediaset.min.css" rel="stylesheet" type="text/css">
+    <!--loader-->
+    <script src="js/startload.min.js"></script>
+    <link href="css/startload.css" rel="stylesheet" />
+    <link href="css/mediaset.min.css" rel="stylesheet" type="text/css">
