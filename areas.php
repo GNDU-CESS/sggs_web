@@ -419,22 +419,22 @@
 										</div>
 										<div class="back" >
 											<div class="row">
-													<p class=" p_text l media_text_2" style="font-size:18px;"><a href="areas#title">Interfaith Understanding</a></p>
+													<p class=" p_text l media_text_2" style="font-size:18px;"><a href="areas">Interfaith Understanding</a></p>
 											</div>
 											<div class="row">
-													<p class=" p_text  media_text_2" style="font-size:18px;"><a href="areas#title1">Scriptual Translations</a></p>
+													<p class=" p_text  media_text_2" style="font-size:18px;"><a href="areas#title5">Scriptual Translations</a></p>
 											</div>
 											<div class="row">
-												<p  class=" p_text r media_text_2" style="font-size:18px;"><a href="areas#title2">Scriptures</a></p>
+												<p  class=" p_text r media_text_2" style="font-size:18px;"><a href="areas#title1">Scriptures</a></p>
 											</div>
 											<div class="row">
-													<p class=" p_text l media_text_2" style="font-size:18px;"><a href="areas#title3">Musicology</a></p>
+													<p class=" p_text l media_text_2" style="font-size:18px;"><a href="areas#title2">Musicology</a></p>
 											</div>
 											<div class="row">
-													<p class=" p_text  media_text_2" style="font-size:18px;"><a href="areas#title4">Hermeneutic And Linguistic</a></p>
+													<p class=" p_text  media_text_2" style="font-size:18px;"><a href="areas#title3">Hermeneutic And Linguistic</a></p>
 											</div>
 											<div class="row">
-												<p  class=" p_text r media_text_2" style="font-size:18px;"><a href="areas#title5">Social And Culture</a></p>
+												<p  class=" p_text r media_text_2" style="font-size:18px;"><a href="areas#title4">Social And Culture</a></p>
 											</div>
 										</div>
 									</div>	

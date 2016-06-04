@@ -7,6 +7,7 @@
         include 'includes/css.php';
         include 'admin/db/connect.php'; ?>
 
+
         <style>
             body {
                 background-color: #ffffe5;
@@ -136,6 +137,7 @@
                                     <div class="panel-body eve" style="height:320px; overflow:hidden">
                                         <marquee direction="up" scrolldelay="160" onmouseover="stop();" onmouseout="start();">
                                             <?php
+
                             $sql = "SELECT * FROM events";
                             $result = $db->query($sql);
 
@@ -144,6 +146,7 @@
                                while($row = $result->fetch_assoc()) {
                                     ?><a href="events#<?php echo $row['id'];?>"><?php
                                     echo "<div class='col-md-12'><h4>".$row["title"]."<br></h4>Date :<i>".$row["date"]."</i><br> Venue :<i>".$row["venue"]."</i> <br>";
+
                                      echo "</div><hr></a>"; } } else { echo "
                                                 <div class='no_event'>No Latest Activities and Events</div>"; } $result->free(); ?>
                                         </marquee>
@@ -171,6 +174,7 @@
                                                 <h4 class="list-group-item-heading">Important Videos</h4>
                                                 <p class="list-group-item-text">Watch latest videos from Center on studies in Shri Guru Granth Sahib</p>
                                             </a>
+
 
                                         </div>
                                     </div>
@@ -230,6 +234,7 @@
                                         <p style="text-align:justify; padding:3%;padding-top:10%; font-family: raleway">Information technology has ushered in a new era of transmission of knowledge. There are numerous websites on which information about Sikhism is available. These websites are not managed/hosted by professional or academic institutions but by freelancers, thus sometimes their contents are out of the mark. In order to reach out to the people as well as to provide authoritative and authentic information about the Sikh Scripture and other aspects of Sikh Studies, the Centre is developing its own website known as Gyan Anjan. It will be launched very shortly.
                                         </p>
 
+
                                     </div>
 
                                     <div class="col-left col-lg-6 col-lg-height col-middle no-padding mob-align" style="padding-top:5%;">
@@ -260,6 +265,31 @@
 
 
 
+
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title size_reset">About GyanAnjan</h3>
+  </div>
+  <div class="panel-body">
+    	<div class="row">
+				<div class="row-same-heigt" >
+					<div class="col-left col-lg-6 col-lg-height col-middle">
+
+
+
+						<p style="text-align:justify; padding:3%;padding-top:5%; font-family: 'raleway';font-size: 18px;">Information technology has ushered in a new era of transmission of knowledge. There are numerous websites on which information about Sikhism is available. These websites are not managed/hosted by professional or academic institutions but by freelancers, thus sometimes their contents are out of the mark. In order to reach out to the people as well as to provide authoritative and authentic information about the Sikh Scripture and other aspects of Sikh Studies, the Centre is developing its own website known as Gyan Anjan. It will be launched very shortly.
+						</p>
+
+					</div>
+
+					 <div class="col-left col-lg-6 col-lg-height col-middle no-padding mob-align" style="padding-top:5%;">
+                     	<img src="img/group.JPG" class="img img-responsive">
+					</div>
+				 </div>
+			</div>
+  </div>
+</div>
+
                                         <p style="text-align:justify;margin-top:10%; font-family: raleway; padding:3%">In the context of Sri Guru Granth Sahib being a repository of Divine Word, interfaith dialogue, and also being relevant for an holistic approach to human life and civilization, the study of the origin of Bani, (holy verses), its preservation, various modes of transmission, different schools of exegesis and impact of Sri Guru Granth Sahib upon human beings in general and on its devotees in particular, the establishment of a Centre on Studies in Sri Guru Granth Sahib is one of the most desirable academic endeavour. </p>
                                     </div>
                                 </div>
@@ -282,8 +312,10 @@
 
 
 
+
                 <?php include 'includes/footer.php'; include 'includes/js.php';
-        $db->close();
+        		$db->close();
+
 
     ?>
                     <script src="js/jssor.slider.mini.js"></script>
