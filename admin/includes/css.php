@@ -7,144 +7,166 @@
 <link href="../css/animate.css" rel="stylesheet">
 
 <style>
-    textarea {
-        resize: vertical;
+    textarea{
+        resize:vertical;
     }
-    
     @media screen and (max-width:1200px) {
-        .navbar {
-            display: none;
-        }
+    .navbar {
+        display:none;
+    }
+
         .toph {
-            text-align: left;
+            text-align:left;
         }
-        .navbar-fixed-top {
-            position: static !important;
-        }
+
+           .navbar-fixed-top {
+          position: static !important;
+      }
+
         .head {
-            margin-top: 0 !important;
+            margin-top:0 !important;
         }
+
         .headd {
-            margin-top: 0 !important;
+            margin-top:0 !important;
         }
+
+
         .result {
-            margin-top: 0 !important;
+            margin-top:0 !important;
         }
+
         .gset {
             margin-top: 0 !important;
         }
+
         .carous {
-            padding: 0;
+            padding:0;
         }
-    }
-    
+}
+
     .mob-nav {
-        width: 100%;
-        height: auto;
+        width:100%;
+        height:auto;
+
     }
-    
+
     .mob-title {
         display: block;
         line-height: 55px;
-        font-size: 24px;
+        font-size:24px;
     }
-    
-    @media screen and (min-width:1200px) {
+
+  @media screen and (min-width:1200px ) {
         .mob-nav {
-            display: none;
+            display:none;
         }
-        .smalls {
-            display: none;
-        }
+
+      .smalls {
+          display:none;
+      }
+
+
+
     }
-    
-    @media screen and (max-width:400px) {
+
+    @media screen and (max-width:400px ) {
+
         .mob-title {
-            padding: 4px;
-            text-align-last: center;
-            line-height: 35px;
-            font-size: 18px;
+        padding:4px;
+        text-align-last:center;
+          line-height: 35px;
+        font-size:18px;
         }
+
     }
-    
+
+
     .sliden {
-        position: fixed;
+        position:fixed;
         overflow-y: scroll;
-        top: 0;
-        z-index: 20;
-        height: 100%;
-        width: 70%;
-        display: none;
+        top:0;
+        z-index:20;
+        height:100%;
+
+        width:70%;
+        display:none;
         background-color: rgb(5, 25, 56);
-        color: #fff;
-        left: 0;
-        border: 2px solid white;
+        color:#fff;
+       left:0;
+        border:2px solid white;
         box-shadow: 2px 0px 5px grey;
     }
-    
+
     .o2 {
-        background-color: #313156;
+        background-color:#313156;
     }
-    
-    .o2 li {
-        border: 0px solid white !important;
+    .o2 li{
+        border:0px solid white !important;
     }
-    
+
     .sliden ul> li {
         list-style-type: none;
-        padding: 2%;
-        margin: 1%;
-        border-left: 3px solid white;
-    }
-    
-    body > div.navbar-fixed-top.container > div > div.smalls > div.col-md-12.col-sm-12 > div > a > span {
-        margin-top: 10px;
-    }
-    
+        padding:2%;
+        margin:1%;
+        border-left:3px solid white;
+
+      }
+
+
+      body > div.navbar-fixed-top.container > div > div.smalls > div.col-md-12.col-sm-12 > div > a > span {
+       margin-top:10px;
+      }
+
     .sliden .dropdown-menu {
-        background-color: rgb(5, 25, 56);
+        background-color:rgb(5, 25, 56);
         box-shadow: 2px 0px 5px grey;
-        border-bottom: 2px solid white;
+          border-bottom:2px solid white;
+
     }
-    
+
     .sliden li.dropdown {
-        margin-left: -39px;
+        margin-left:-39px;
     }
-    
+
     .sliden li {
-        margin-left: -39px !important;
+        margin-left:-39px !important;
     }
-    
+
     input {
-        position: static;
+        position:static;
     }
-    
+
     .btn-default {
-        box-shadow: 0 0 0.2px black;
+        box-shadow:0 0 0.2px black;
     }
-    
+
     .gset {
         margin-top: 75px;
     }
-    
-    @media screen and (min-width:1200px) {
+
+    @media screen and (min-width:1200px){
         .hset {
-            float: left;
-            margin-left: 10px;
+            float:left;
+            margin-left:10px;
         }
     }
     
     a {
-        text-decoration: underline !important;
+     text-decoration:underline !important;   
     }
-    
+
     body {
-        background-image: url('../img/bhavan.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
+        background-image:url('../img/bhavan.jpg');
+        background-repeat:no-repeat;
+        background-size:cover;
+
     }
+
+
+
 </style>
 <!--loader-->
 <script src="../js/startload.min.js"></script>
-<link href="../css/startload.css" rel="stylesheet" />
+  <link href="../css/startload.css" rel="stylesheet" />
 <link href="../css/mediaset.min.css" rel="stylesheet" type="text/css">

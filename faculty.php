@@ -1,48 +1,50 @@
 <?php include 'includes/meta.php';  ?>
-    <title>
-        Center On Studies in Sri Guru Granth Sahib
-    </title>
+<title>
+    Center On Studies in Sri Guru Granth Sahib
+</title>
 
     <?php include 'includes/css.php';
     include 'admin/db/connect.php'?>
-        <style>
-            .size1 {
-                width: 220px;
-                height: 250px;
-                margin: auto;
-            }
-            
-            .name_style {
-                text-align: center;
-                color: #000033;
-                font-size: 20px;
-                height: 30px;
-            }
-            
-            .card {
-                margin-bottom: 2%;
-            }
-        </style>
-        </head>
+<style>
+  .size1
+    {
+        width:220px;
+        height: 250px;
+        margin:auto;
+    }
+    
+    .name_style
+    {
+        text-align: center;
+        color:#000033;
+        font-size: 20px;
+        height:30px;
 
-        <body class="container">
-            <?php include 'includes/nav.php';
+    }
+    
+  .card{
+        margin-bottom:2%;   
+    }
+</style>
+</head>
+<body class="container">
+<?php include 'includes/nav.php';
       include 'includes/map.php';?>
 
-                <div class="head">
-                    <div class="col-md-12">
-                        <div class="center alter2">
-                            <h1 style="line-height:60px">Faculty and Supporting Staff</h1>
-                        </div>
-                    </div>
-                    <?php
+<div class="head">
+    <div class="col-md-12">
+            <div class="center alter2" >
+                <h1 class="headx head1 head" style="line-height:60px">Faculty and Supporting Staff</h1>
+            </div>
+    </div>
+<?php
     $data_fac= "SELECT id, name, designation, image FROM faculty ORDER BY id ASC";
     $result = $db->query($data_fac); 
 
 
 ?>
-                        <div class="row">
-                            <?php  
+    <div class="row">
+   <?php  
         if ($result->num_rows > 0) {
 
                                while($row = $result->fetch_assoc()) {
@@ -62,20 +64,19 @@
     }
     $result->free();
 ?>
+           
+         
+            
+    </div>
+    
+    
 
 
-
-                        </div>
-
-
-
-
-                </div>
-                <?php  include 'includes/js.php';
+</div>
+<?php  include 'includes/js.php';
     include 'includes/footer.php'
 ?>
 
 
-        </body>
-
-        </html>
+</body>
+</html>
