@@ -19,9 +19,6 @@
  
 
     
-			<script src="js/jquery.lettering.js"></script>
-  	<script  src="js/jquery.textillate.js"></script>
-	<script  src="js/js.js"></script>
     <script type="text/javascript" src="js/jssor.slider.min.js"></script>
     <!-- use jssor.slider.debug.js instead for debug -->
     <script>

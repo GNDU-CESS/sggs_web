@@ -1,12 +1,5 @@
 <script src="js/jquery.min.js"></script>
-<script src="js/jquery.lettering.min.js"></script>
-<script src="http://jschr.github.io/textillate/jquery.textillate.js"></script>
-<script src="js/smoothscroll.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
-<script src="js/jquery.prettyPhoto.min.js"></script>
-<script src="js/main.min.js"></script>
-
-<script src="js/js.min.js"></script>
 <script src="js/jq.js"></script>
 <script src="js/jqueryUI.js"></script>
 
@@ -43,4 +36,6 @@
             }, 300);
         })
     })
+	
+	console.warn("hey what you are doing?");
 </script>

@@ -3,7 +3,8 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.php [NC,L]
 
 
-<IfModule mod_speling.c>
-CheckSpelling on
-CheckCaseOnly on
-</IfModule>
+# secure htaccess file
+<Files .htaccess>
+ order allow,deny
+ deny from all
+</Files>
