@@ -70,7 +70,7 @@ $desc= $data['description'];
     </div>
 <div class="row container">
    
-        <div class="col-md-4"><img class="size1 img-responsive" id="change1" src="admin/images/<?php echo $imgname; ?>"><h2 class="name_style1" id="change2"><?php echo $name; ?> </h2><h4 class="name_style" id="change3"><?php echo $desig; ?></h4><h4 class="name_style" id="change4">CONTACT: <?php echo $contact; ?></h4><h4 class="name_style" id="change5"><?php echo $email; ?></h4>
+        <div class="col-md-4"><img class="size1 img-responsive" id="change1" src="admin/images/reduceSize/<?php echo $imgname; ?>"><h2 class="name_style1" id="change2"><?php echo $name; ?> </h2><h4 class="name_style" id="change3"><?php echo $desig; ?></h4><h4 class="name_style" id="change4">CONTACT: <?php echo $contact; ?></h4><h4 class="name_style" id="change5"><?php echo $email; ?></h4>
         </div>
         <div class="col-md-8">
         <p style="font-size: 20px;text-align: justify; margin: 10px;" id="change6">

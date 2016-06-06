@@ -60,15 +60,15 @@ else {
 }
 
 ?>
-<style>
-    .alert {
-        margin-top:5%;
-    }
+    <style>
+        .alert {
+            margin-top: 5%;
+        }
+    </style>
 
-</style>
-<body class="container">
-<div id="alert" class="alert alert-<?php echo $alertype;?>" aria-hidden="true" role="alert">
-    <span class="glyphicon glyphicon-<?php echo $sign;?>" aria-hidden="true"></span>
-    <span class="sr-only" style="position:relative">  <?php echo $rsp; ?></span>
-</div>
-</body>
+    <body class="container">
+        <div id="alert" class="alert alert-<?php echo $alertype;?>" aria-hidden="true" role="alert">
+            <span class="glyphicon glyphicon-<?php echo $sign;?>" aria-hidden="true"></span>
+            <span class="sr-only" style="position:relative">  <?php echo $rsp; ?></span>
+        </div>
+    </body>

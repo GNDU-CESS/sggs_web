@@ -77,9 +77,9 @@
 
     }
     
-    @media screen and (max-width:349px) {
-        .cset .panel {
-            height: auto;
+    @media screen and (max-width:986px) {
+         .panel-body {
+            height: auto !important;
         }
 
     }
