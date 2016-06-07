@@ -61,7 +61,7 @@ body
 				</div>
 				<div class="row">
 					<div class="col-lg-4 col-xs-4">
-						<img src="img/infra/25.jpg">
+						<img src="img/infra/25.JPG">
 					</div>
 					<div class="col-lg-4 col-xs-4">
 						<img src="img/infra/29.jpg">
@@ -142,7 +142,7 @@ body
 			</div>
 			<div class="col-lg-5">
                 <div class="shift_bottom">
-				    <img src="img/facilities/manuscript.jpg" style="width:300px;height:200px" class="img img-responsive">
+				    <img src="img/facilities/manuscript.JPG" style="width:300px;height:200px" class="img img-responsive">
                 </div>
 			</div>
         </div>
@@ -158,7 +158,7 @@ body
 			</div>
 			<div class="col-lg-5">
                 <div class="shift_bottom">
-				    <img src="img/facilities/i3.jpg" style="width:300px;height:200px" class="img img-responsive">
+				    <img src="img/facilities/i3.JPG" style="width:300px;height:200px" class="img img-responsive">
                 </div>
 			</div>
         </div>
@@ -174,7 +174,7 @@ body
 			</div>
 			<div class="col-lg-5">
                 <div class="shift_bottom">
-				    <img src="img/DSC00086.jpg" style="width:300px;height:200px" class="img img-responsive">
+				    <img src="img/DSC00086.JPG" style="width:300px;height:200px" class="img img-responsive">
                 </div>
 			</div>
         </div>

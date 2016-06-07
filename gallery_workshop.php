@@ -213,82 +213,82 @@ Gallery Workshop
         </div>
         <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 240px; width: 720px; height: 480px; overflow: hidden;">
             <div data-p="150.00" style="display: none;">
-                <img data-u="image" src="img/gallery/workshops/img1.jpg" />
+                <img data-u="image" src="img/gallery/images/workshops/img1.JPG" />
                 <div class="carousel-caption"><p class="boxed">A group photo of the staff.</p></div>
                 <img data-u="thumb" src="img/gallery/thumbs_workshops/thumb15.jpg" />
             </div>
             <div data-p="150.00" style="display: none;">
-                <img data-u="image" src="img/gallery/workshops/img2.jpg" />
+                <img data-u="image" src="img/gallery/images/workshops/img2.jpg" />
                 <div class="carousel-caption"><p class="boxed">A group photo of teacher (Dr. Parmjit Singh Sidhu) and students (USA's teacher)</p></div>
                 <img data-u="thumb" src="img/gallery/thumbs_workshops/thumb2.jpg" />
             </div>
             <div data-p="150.00" style="display: none;">
-                <img data-u="image" src="img/gallery/workshops/img3.jpg" />
+                <img data-u="image" src="img/gallery/images/workshops/img3.jpg" />
                 <div class="carousel-caption"><p class="boxed">CSSGGS hosted a workshop with colaboration with fullbright fellowship heys.</p></div>
                 <img data-u="thumb" src="img/gallery/thumbs_workshops/thumb3.jpg" />
             </div>
             <div data-p="150.00" style="display: none;">
-                <img data-u="image" src="img/gallery/workshops/img4.jpg" />
+                <img data-u="image" src="img/gallery/images/workshops/img4.jpg" />
                 <div class="carousel-caption"><p class="boxed">A group photo in building of the centre</p></div>
                 <img data-u="thumb" src="img/gallery/thumbs_workshops/thumb4.jpg" />
             </div>
             <div data-p="150.00" style="display: none;">
-                <img data-u="image" src="img/gallery/workshops/img5.jpg" />
+                <img data-u="image" src="img/gallery/images/workshops/img5.jpg" />
                 <div class="carousel-caption"><p class="boxed">Farewell party after the successful end of workshop</p></div>
                 <img data-u="thumb" src="img/gallery/thumbs_workshops/thumb5.jpg" />
             </div>
             <div data-p="150.00" style="display: none;">
-                <img data-u="image" src="img/gallery/workshops/img6.jpg" />
+                <img data-u="image" src="img/gallery/images/workshops/img6.jpg" />
                 <div class="carousel-caption"><p class="boxed">A group photo of the deligates of workshop and  the staff of school (khadoor sahib)</p></div>
                 <img data-u="thumb" src="img/gallery/thumbs_workshops/thumb6.jpg" />
             </div>
             <div data-p="150.00" style="display: none;">
-                <img data-u="image" src="img/gallery/workshops/img7.jpg" />
+                <img data-u="image" src="img/gallery/images/workshops/img7.jpg" />
                 <div class="carousel-caption"><p class="boxed">Jatinder singh a scholar of CSSGGS presenting punjabi folk songs  in farewll</p></div>
                 <img data-u="thumb" src="img/gallery/thumbs_workshops/thumb7.jpg" />
             </div>
             <div data-p="150.00" style="display: none;">
-                <img data-u="image" src="img/gallery/workshops/img8.jpg" />
+                <img data-u="image" src="img/gallery/images/workshops/img8.jpg" />
                 <div class="carousel-caption"><p class="boxed"></p>Charnjit Singh a scholar of the CSSGGS singing poetry in farewell party of the workshop</div>
                 <img data-u="thumb" src="img/gallery/thumbs_workshops/thumb8.jpg" />
             </div>
             <div data-p="150.00" style="display: none;">
-                <img data-u="image" src="img/gallery/workshops/img9.jpg" />
+                <img data-u="image" src="img/gallery/images/workshops/img9.JPG" />
                 <div class="carousel-caption"><p class="boxed">Staff with a foreign dignitary during a workshop.</p></div>
                 <img data-u="thumb" src="img/gallery/thumbs_workshops/thumb9.jpg" />
             </div>
             <div data-p="150.00" style="display: none;">
-                <img data-u="image" src="img/gallery/workshops/img10.jpg" />
+                <img data-u="image" src="img/gallery/images/workshops/img10.jpg" />
                 <div class="carousel-caption"><p class="boxed"></p>A group of foreign delegates during a workshop</div>
                 <img data-u="thumb" src="img/gallery/thumbs_workshops/thumb10.jpg" />
             </div>
             <div data-p="150.00" style="display: none;">
-                <img data-u="image" src="img/gallery/workshops/img11.jpg" />
+                <img data-u="image" src="img/gallery/images/workshops/img11.jpg" />
                 <div class="carousel-caption"><p class="boxed">American deligates with President of SGPC  while visit of Sri Darbar Sahib (Golden Temple)</p></div>
                 <img data-u="thumb" src="img/gallery/thumbs_workshops/thumb11.jpg" />
             </div>
             <div data-p="150.00" style="display: none;">
-                <img data-u="image" src="img/gallery/workshops/img12.jpg" />
+                <img data-u="image" src="img/gallery/images/workshops/img12.jpg" />
                 <div class="carousel-caption"><p class="boxed">A moment of pride for the two differetn cultures</p></div>
                 <img data-u="thumb" src="img/gallery/thumbs_workshops/thumb12.jpg" />
             </div>
             <div data-p="150.00" style="display: none;">
-                <img data-u="image" src="img/gallery/workshops/img13.jpg" />
+                <img data-u="image" src="img/gallery/images/workshops/img13.jpg" />
                 <div class="carousel-caption"><p class="boxed">Dr. Johnson presenting a gift of honor to the Vice Chancelor of Guru Nanak Dev University</p></div>
                 <img data-u="thumb" src="img/gallery/thumbs_workshops/thumb13.jpg" />
             </div>
             <div data-p="150.00" style="display: none;">
-                <img data-u="image" src="img/gallery/workshops/img14.jpg" />
+                <img data-u="image" src="img/gallery/images/workshops/img14.jpg" />
                 <div class="carousel-caption"><p class="boxed">Group photo of the American deligates and staff of SGGS</p></div>
                 <img data-u="thumb" src="img/gallery/thumbs_workshops/thumb14.jpg" />
             </div>
 			<div data-p="150.00" style="display: none;">
-                <img data-u="image" src="img/gallery/workshops/img15.jpg" />
+                <img data-u="image" src="img/gallery/images/workshops/img15.jpg" />
                 <div class="carousel-caption"><p class="boxed">Simmi, Salinder Singh, Frank, Jerry Tanaka in workshop</p></div>
                 <img data-u="thumb" src="img/gallery/thumbs_workshops/thumb15.jpg" />
             </div>
 			<div data-p="150.00" style="display: none;">
-                <img data-u="image" src="img/gallery/workshops/img16.jpg" />
+                <img data-u="image" src="img/gallery/images/workshops/img16.jpg" />
                 <div class="carousel-caption"><p class="boxed">A Group photo of the staff of Centre on Studies in Sri Guru Granth Sahib  and American teachers</p></div>
                 <img data-u="thumb" src="img/gallery/thumbs_workshops/thumb16.jpg" />
             </div>

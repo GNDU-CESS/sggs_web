@@ -45,7 +45,7 @@ google.maps.event.addDomListener(window, 'load', initialize);
 				<div class="col-lg-2"></div>
 				<div class="col-lg-10 panel panel-default alter1" style="padding-top:15px;">
                   	<div class="panel-heading text-center alter2">Please Leave Your Message</div>
-				<form role="form" action="mail.php" method="POST">
+				<form role="form" action="mail" method="POST">
 									<div class="form-group"><br />
 										<label for="name">Name</label>
 										<input type="text" class="form-control" placeholder ="Your Name" name="name" id="name1">

@@ -216,35 +216,35 @@
         </div>
         <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 240px; width: 720px; height: 480px; overflow: hidden;">
             <div data-p="150.00" style="display: none;">
-                <img data-u="image" src="img/gallery/images/fieldworks/img1.jpg" />
+                <img data-u="image" src="img/gallery/images/fieldworks/img1.JPG" />
                 <div class="carousel-caption"><p class="boxed">Recording team in the centre before interviewing principal Shergil</p></div>
                 <img data-u="thumb" src="img/gallery/thumbs_fieldworks/thumb1.jpg" />
             </div>
            
             <div data-p="150.00" style="display: none;">
-                <img data-u="image" src="img/gallery/images/fieldworks/img3.jpg" />
+                <img data-u="image" src="img/gallery/images/fieldworks/img3.JPG" />
                 <div class="carousel-caption"><p class="boxed">Research scholars interviewing principal Shergil in recording room at centre</p></div>
                 <img data-u="thumb" src="img/gallery/thumbs_fieldworks/thumb3.jpg" />
             </div>
             <div data-p="150.00" style="display: none;">
-                <img data-u="image" src="img/gallery/images/fieldworks/img4.jpg" />
+                <img data-u="image" src="img/gallery/images/fieldworks/img4.JPG" />
                 <div class="carousel-caption"><p class="boxed">Shukhpal Singh trying to communicate with interviewee</p></div>
                 <img data-u="thumb" src="img/gallery/thumbs_fieldworks/thumb4.jpg" />
             </div>
             <div data-p="150.00" style="display: none;">
-                <img data-u="image" src="img/gallery/images/fieldworks/img5.jpg" />
+                <img data-u="image" src="img/gallery/images/fieldworks/img5.JPG" />
                 <div class="carousel-caption"><p class="boxed">Centre's team visiting nangal for interview related to 1947</p></div>
                 <img data-u="thumb" src="img/gallery/thumbs_fieldworks/thumb5.jpg" />
             </div>
             <div data-p="150.00" style="display: none;">
-                <img data-u="image" src="img/gallery/images/fieldworks/img6.jpg" />
+                <img data-u="image" src="img/gallery/images/fieldworks/img6.JPG" />
                 <div class="carousel-caption"><p class="boxed">Centre's team visiting malwa region of punjab for the documentation</p></div>
                 <img data-u="thumb" src="img/gallery/thumbs_fieldworks/thumb6.jpg" />
             </div>
             
             
             <div data-p="150.00" style="display: none;">
-                <img data-u="image" src="img/gallery/images/fieldworks/img10.jpg" />
+                <img data-u="image" src="img/gallery/images/fieldworks/img10.JPG" />
                 <div class="carousel-caption"><p class="boxed">Visit of chak fateh singh by the team of centre</p></div>
                 <img data-u="thumb" src="img/gallery/thumbs_fieldworks/thumb10.jpg" />
             </div>
@@ -265,7 +265,7 @@
                 <img data-u="thumb" src="img/gallery/thumbs_fieldworks/thumb14.jpg" />
             </div>
 			<div data-p="150.00" style="display: none;">
-                <img data-u="image" src="img/gallery/images/fieldworks/img15.jpg" />
+                <img data-u="image" src="img/gallery/images/fieldworks/img15.JPG" />
                 <div class="carousel-caption"><p class="boxed">Reasearch scholars interviewing a person related to 1947 partition</p></div>
                 <img data-u="thumb" src="img/gallery/thumbs_fieldworks/thumb15.jpg" />
             </div>

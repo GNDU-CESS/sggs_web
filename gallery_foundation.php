@@ -216,62 +216,62 @@
         </div>
         <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 240px; width: 720px; height: 480px; overflow: hidden;">
             <div data-p="150.00" style="display: none;">
-                <img data-u="image" src="img/gallery/images/foundation/img1.jpg" />
+                <img data-u="image" src="img/gallery/images/foundation/img1.JPG" />
                 <div class="carousel-caption"><p class="boxed">02-11-2012 The historic date of foundation stone of Centre on studies in Sri Guru Granth Sahib</p></div>
                 <img data-u="thumb" src="img/gallery/thumbs_foundation/thumb1.jpg" />
             </div>
             <div data-p="150.00" style="display: none;">
-                <img data-u="image" src="img/gallery/images/foundation/img2.jpg" />
+                <img data-u="image" src="img/gallery/images/foundation/img2.JPG" />
                 <div class="carousel-caption"><p class="boxed">02-11-2012 The historic date of foundation stone of Centre on studies in Sri Guru Granth Sahib</p></div>
                 <img data-u="thumb" src="img/gallery/thumbs_foundation/thumb2.jpg" />
             </div>
             <div data-p="150.00" style="display: none;">
-                <img data-u="image" src="img/gallery/images/foundation/img3.jpg" />
+                <img data-u="image" src="img/gallery/images/foundation/img3.JPG" />
                 <div class="carousel-caption"><p class="boxed">2-11-12 Foundation stone of Centre on studies in Sri Guru Granth Sahib</p></div>
                 <img data-u="thumb" src="img/gallery/thumbs_foundation/thumb3.jpg" />
             </div>
             <div data-p="150.00" style="display: none;">
-                <img data-u="image" src="img/gallery/images/foundation/img4.jpg" />
+                <img data-u="image" src="img/gallery/images/foundation/img4.JPG" />
                 <div class="carousel-caption"><p class="boxed">2-11-12 Foundation stone of Centre on studies in Sri Guru Granth Sahib</p></div>
                 <img data-u="thumb" src="img/gallery/thumbs_foundation/thumb4.jpg" />
             </div>
             <div data-p="150.00" style="display: none;">
-                <img data-u="image" src="img/gallery/images/foundation/img5.jpg" />
+                <img data-u="image" src="img/gallery/images/foundation/img5.JPG" />
                 <div class="carousel-caption"><p class="boxed">Prof.Ajaib Singh Brar(VC)during ardas before Inauguration ceremony</p></div>
                 <img data-u="thumb" src="img/gallery/thumbs_foundation/thumb5.jpg" />
             </div>
             <div data-p="150.00" style="display: none;">
-                <img data-u="image" src="img/gallery/images/foundation/img6.jpg" />
+                <img data-u="image" src="img/gallery/images/foundation/img6.JPG" />
                 <div class="carousel-caption"><p class="boxed">Sri Guru Granth Sahib being carried by devotees after ardas.</p></div>
                 <img data-u="thumb" src="img/gallery/thumbs_foundation/thumb6.jpg" />
             </div>
             <div data-p="150.00" style="display: none;">
-                <img data-u="image" src="img/gallery/images/foundation/img7.jpg" />
+                <img data-u="image" src="img/gallery/images/foundation/img7.JPG" />
                 <div class="carousel-caption"><p class="boxed">Ragis reciting hymns during Inauguration ceremony</p></div>
                 <img data-u="thumb" src="img/gallery/thumbs_foundation/thumb7.jpg" />
             </div>
             <div data-p="150.00" style="display: none;">
-                <img data-u="image" src="img/gallery/images/foundation/img8.jpg" />
+                <img data-u="image" src="img/gallery/images/foundation/img8.JPG" />
                 <div class="carousel-caption"><p class="boxed">The Inauguration ceremony of Sri Guru Granth Sahib Bhawan</p></div>
                 <img data-u="thumb" src="img/gallery/thumbs_foundation/thumb8.jpg" />
             </div>
             <div data-p="150.00" style="display: none;">
-                <img data-u="image" src="img/gallery/images/foundation/img9.jpg" />
+                <img data-u="image" src="img/gallery/images/foundation/img9.JPG" />
                 <div class="carousel-caption"><p class="boxed">Prof.Ajaib Singh Brar(VC),Avtar Singh Makkar presiding over Inauguration ceremony</p></div>
                 <img data-u="thumb" src="img/gallery/thumbs_foundation/thumb9.jpg" />
             </div>
             <div data-p="150.00" style="display: none;">
-                <img data-u="image" src="img/gallery/images/foundation/img10.jpg" />
+                <img data-u="image" src="img/gallery/images/foundation/img10.JPG" />
                 <div class="carousel-caption"><p class="boxed">Prof.Ajaib Singh Brar(VC),Avtar Singh Makkar presiding over Inauguration ceremony</p></div>
                 <img data-u="thumb" src="img/gallery/thumbs_foundation/thumb10.jpg" />
             </div>
             <div data-p="150.00" style="display: none;">
-                <img data-u="image" src="img/gallery/images/foundation/img11.jpg" />
+                <img data-u="image" src="img/gallery/images/foundation/img11.JPG" />
                 <div class="carousel-caption"><p class="boxed">Inauguration of Sri Guru Granth Sahib Bhawan</p></div>
                 <img data-u="thumb" src="img/gallery/thumbs_foundation/thumb11.jpg" />
             </div>
             <div data-p="150.00" style="display: none;">
-                <img data-u="image" src="img/gallery/images/foundation/img12.jpg" />
+                <img data-u="image" src="img/gallery/images/foundation/img12.JPG" />
                 <div class="carousel-caption"><p class="boxed">Prof.Ajaib Singh Brar(VC),Avtar Singh Makkar presiding over Inauguration ceremony</p></div>
                 <img data-u="thumb" src="img/gallery/thumbs_foundation/thumb12.jpg" />
             </div>

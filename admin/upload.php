@@ -21,7 +21,7 @@ if(move_uploaded_file($sourcePath,$targetPath)) {
 echo "&emsp;Image Uploaded Successfully";
 }
 }
-}
+
 
 
 if ($imgType === "jpg") {
@@ -43,7 +43,8 @@ elseif($imgType  === "png") {
 else {
 	echo "&emsp;Please upload .jpg or .png format image";
 }
-
+}
+else echo "&emsp;Please upload image and click submit";
 
 ?>
 

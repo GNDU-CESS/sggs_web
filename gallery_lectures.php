@@ -250,47 +250,47 @@
                 <img data-u="thumb" src="img/gallery/thumbs_lectures/thumb7.jpg" />
             </div>
             <div data-p="150.00" style="display: none;">
-                <img data-u="image" src="img/gallery/images/lectures/img8.jpg" />
+                <img data-u="image" src="img/gallery/images/lectures/img8.JPG" />
                 <div class="carousel-caption"><p class="boxed">Audience in the auditoriom of the Centre on Studies in Sri Guru Granth Sahib</p></div>
                 <img data-u="thumb" src="img/gallery/thumbs_lectures/thumb8.jpg" />
             </div>
             <div data-p="150.00" style="display: none;">
-                <img data-u="image" src="img/gallery/images/lectures/img9.jpg" />
+                <img data-u="image" src="img/gallery/images/lectures/img9.JPG" />
                 <div class="carousel-caption"><p class="boxed">Audience in the auditoriom of the Centre on Studies in Sri Guru Granth Sahib</p></div>
                 <img data-u="thumb" src="img/gallery/thumbs_lectures/thumb9.jpg" />
             </div>
             <div data-p="150.00" style="display: none;">
-                <img data-u="image" src="img/gallery/images/lectures/img10.jpg" />
+                <img data-u="image" src="img/gallery/images/lectures/img10.JPG" />
                 <div class="carousel-caption"><p class="boxed">Dr. Balwant Singh Dhillon presides over a special lecture.</p></div>
                 <img data-u="thumb" src="img/gallery/thumbs_lectures/thumb10.jpg" />
             </div>
             <div data-p="150.00" style="display: none;">
-                <img data-u="image" src="img/gallery/images/lectures/img11.jpg" />
+                <img data-u="image" src="img/gallery/images/lectures/img11.JPG" />
                 <div class="carousel-caption"><p class="boxed">Dr. Balwant Singh Dhillon presides over a special lecture.</p></div>
                 <img data-u="thumb" src="img/gallery/thumbs_lectures/thumb11.jpg" />
             </div>
             <div data-p="150.00" style="display: none;">
-                <img data-u="image" src="img/gallery/images/lectures/img12.jpg" />
+                <img data-u="image" src="img/gallery/images/lectures/img12.JPG" />
                 <div class="carousel-caption"><p class="boxed">Audience in the auditoriom of the Centre on Studies in Sri Guru Granth Sahib</p></div>
                 <img data-u="thumb" src="img/gallery/thumbs_lectures/thumb12.jpg" />
             </div>
             <div data-p="150.00" style="display: none;">
-                <img data-u="image" src="img/gallery/images/lectures/img13.jpg" />
+                <img data-u="image" src="img/gallery/images/lectures/img13.JPG" />
                 <div class="carousel-caption"><p class="boxed">Jatinder Singh, Rajwinder Singh, Maan Bahadur Singh, Salinder Singh reciting shabad before the starting of special lecture</p></div>
                 <img data-u="thumb" src="img/gallery/thumbs_lectures/thumb13.jpg" />
             </div>
             <div data-p="150.00" style="display: none;">
-                <img data-u="image" src="img/gallery/images/lectures/img14.jpg" />
+                <img data-u="image" src="img/gallery/images/lectures/img14.JPG" />
                 <div class="carousel-caption"><p class="boxed">Attender of Special lecture held in Centre on Studies in Sri Guru Granth Sahib.</p></div>
                 <img data-u="thumb" src="img/gallery/thumbs_lectures/thumb14.jpg" />
             </div>
 			<div data-p="150.00" style="display: none;">
-                <img data-u="image" src="img/gallery/images/lectures/img15.jpg" />
+                <img data-u="image" src="img/gallery/images/lectures/img15.JPG" />
                 <div class="carousel-caption"><p class="boxed">Dr. Purewal delevering a special lecture on Sikh Calender and  its future.</p></div>
                 <img data-u="thumb" src="img/gallery/thumbs_lectures/thumb15.jpg" />
             </div>
 			<div data-p="150.00" style="display: none;">
-                <img data-u="image" src="img/gallery/images/lectures/img16.jpg" />
+                <img data-u="image" src="img/gallery/images/lectures/img16.JPG" />
                 <div class="carousel-caption"><p class="boxed">Dr. Purewal delevering a special lecture on Sikh Calender and  its future.</p></div>
                 <img data-u="thumb" src="img/gallery/thumbs_lectures/thumb16.jpg" />
             </div>

@@ -45,7 +45,7 @@ body
                                         <p id="services1"></p>  <a href="files/intro.PDF"><p style="text-align:center" class="btn btn-primary pull-right">Read More</p></a>
                                     </div>
                                     <div class="col-lg-5">
-                                        <img src="img/DSC00075.jpg" class="img img-responsive" />
+                                        <img src="img/activities/manthan.JPG" class="img img-responsive" />
                                     </div>
                                 </div>
                                 
@@ -69,7 +69,7 @@ body
 						<div class="col-md-6 col-sm-6"  >
 							<div class="media">
 								<div class="media-body"><br />
-                                    <img class="img img-responsive" src="img/DSC00023.jpg">
+                                    <img class="img img-responsive" src="img/activities/lecture.JPG">
 								</div>
 							</div>
 						</div>
@@ -130,7 +130,7 @@ body
 						<div class="col-md-6 col-sm-6" style="padding-left:40px;padding-top:20px;">
 							<div class="media">
 								<div class="media-body">
-									<img class="img img-responsive" src="img/img3.jpg" >
+									<img class="img img-responsive" src="img/activities/img3.jpg" >
 								</div>
 							</div>
 						</div>

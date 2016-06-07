@@ -216,82 +216,82 @@
         </div>
         <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 240px; width: 720px; height: 480px; overflow: hidden;">
             <div data-p="150.00" style="display: none;">
-                <img data-u="image" src="img/gallery/seminars/img1.jpg" />
+                <img data-u="image" src="img/gallery/images/seminars/img1.JPG" />
                 <div class="carousel-caption"><p class="boxed">Bhai Baldeep Singh, Jathedar Avtar Singh Makkar, and Ajaib Sinhg Brar (VC)</p></div>
                 <img data-u="thumb" src="img/gallery/thumbs_seminars/thumb15.jpg" />
             </div>
             <div data-p="150.00" style="display: none;">
-                <img data-u="image" src="img/gallery/seminars/img2.jpg" />
+                <img data-u="image" src="img/gallery/images/seminars/img2.JPG" />
                 <div class="carousel-caption"><p class="boxed">Bhai Baldeep Singh ji While Singing 31 Raaga's</p></div>
                 <img data-u="thumb" src="img/gallery/thumbs_seminars/thumb2.jpg" />
             </div>
             <div data-p="150.00" style="display: none;">
-                <img data-u="image" src="img/gallery/seminars/img3.jpg" />
+                <img data-u="image" src="img/gallery/images/seminars/img3.JPG" />
                 <div class="carousel-caption"><p class="boxed">CSSGGS hosted a symposium on ''Contribution of Sikhism in promoting peace and Communal Hamony in the collaboration with  NFCH Delhi</p></div>
                 <img data-u="thumb" src="img/gallery/thumbs_seminars/thumb3.jpg" />
             </div>
             <div data-p="150.00" style="display: none;">
-                <img data-u="image" src="img/gallery/seminars/img4.jpg" />
+                <img data-u="image" src="img/gallery/images/seminars/img4.JPG" />
                 <div class="carousel-caption"><p class="boxed">CSSGGS hosted a seminar on ''The Relevance of Sri Guru Granth Sahib  in Interfaith Understanding'' on 7,8 March 2013</p></div>
                 <img data-u="thumb" src="img/gallery/thumbs_seminars/thumb4.jpg" />
             </div>
             <div data-p="150.00" style="display: none;">
-                <img data-u="image" src="img/gallery/seminars/img5.jpg" />
+                <img data-u="image" src="img/gallery/images/seminars/img5.JPG" />
                 <div class="carousel-caption"><p class="boxed">Prof. Gurbir Singh Brar giving a presentation on the ''Relics of the Sikh Guru at Takhat Sri Damdma Sahib''</p></div>
                 <img data-u="thumb" src="img/gallery/thumbs_seminars/thumb5.jpg" />
             </div>
             <div data-p="150.00" style="display: none;">
-                <img data-u="image" src="img/gallery/seminars/img6.jpg" />
+                <img data-u="image" src="img/gallery/images/seminars/img6.JPG" />
                 <div class="carousel-caption"><p class="boxed">Dr. Gulzar Singh Kang presenting a paper in Seminar</p></div>
                 <img data-u="thumb" src="img/gallery/thumbs_seminars/thumb6.jpg" />
             </div>
             <div data-p="150.00" style="display: none;">
-                <img data-u="image" src="img/gallery/seminars/img7.jpg" />
+                <img data-u="image" src="img/gallery/images/seminars/img7.JPG" />
                 <div class="carousel-caption"><p class="boxed">Attender of the Seminar ''Sri Guru Granth Sahib di Sampurnta te Sangeet Parbandh</p></div>
                 <img data-u="thumb" src="img/gallery/thumbs_seminars/thumb7.jpg" />
             </div>
             <div data-p="150.00" style="display: none;">
-                <img data-u="image" src="img/gallery/seminars/img8.jpg" />
+                <img data-u="image" src="img/gallery/images/seminars/img8.JPG" />
                 <div class="carousel-caption"><p class="boxed">Gurdev Singh Brar (Retired IAS) presiding over a everning  session of seminar.</p></div>
                 <img data-u="thumb" src="img/gallery/thumbs_seminars/thumb8.jpg" />
             </div>
             <div data-p="150.00" style="display: none;">
-                <img data-u="image" src="img/gallery/seminars/img9.jpg" />
+                <img data-u="image" src="img/gallery/images/seminars/img9.JPG" />
                 <div class="carousel-caption"><p class="boxed">Prof. Gurbir Singh Brar giving a presentation on the ''Relics of the Sikh Guru at Takhat Sri Damdma Sahib</p></div>
                 <img data-u="thumb" src="img/gallery/thumbs_seminars/thumb9.jpg" />
             </div>
             <div data-p="150.00" style="display: none;">
-                <img data-u="image" src="img/gallery/seminars/img10.jpg" />
+                <img data-u="image" src="img/gallery/images/seminars/img10.JPG" />
                 <div class="carousel-caption"><p class="boxed">Bahi Baldeep Singh, Jathedar Avtar Singh Makkar, and Ajaib Sinhg Brar (VC)</p></div>
                 <img data-u="thumb" src="img/gallery/thumbs_seminars/thumb10.jpg" />
             </div>
             <div data-p="150.00" style="display: none;">
-                <img data-u="image" src="img/gallery/seminars/img11.jpg" />
+                <img data-u="image" src="img/gallery/images/seminars/img11.JPG" />
                 <div class="carousel-caption"><p class="boxed">Giani Joginder Singh Vedanti presenting keynote adress of symposium</p></div>
                 <img data-u="thumb" src="img/gallery/thumbs_seminars/thumb11.jpg" />
             </div>
             <div data-p="150.00" style="display: none;">
-                <img data-u="image" src="img/gallery/seminars/img12.jpg" />
+                <img data-u="image" src="img/gallery/images/seminars/img12.JPG" />
                 <div class="carousel-caption"><p class="boxed">Dr. N. Muthu Mohan presenting  paper in the Seminar</p></div>
                 <img data-u="thumb" src="img/gallery/thumbs_seminars/thumb12.jpg" />
             </div>
             <div data-p="150.00" style="display: none;">
-                <img data-u="image" src="img/gallery/seminars/img13.jpg" />
+                <img data-u="image" src="img/gallery/images/seminars/img13.JPG" />
                 <div class="carousel-caption"><p class="boxed">Bhai Baldeep Singh ji While Singing 31 Raaga's</p></div>
                 <img data-u="thumb" src="img/gallery/thumbs_seminars/thumb13.jpg" />
             </div>
             <div data-p="150.00" style="display: none;">
-                <img data-u="image" src="img/gallery/seminars/img14.jpg" />
+                <img data-u="image" src="img/gallery/images/seminars/img14.JPG" />
                 <div class="carousel-caption"><p class="boxed">CSSGGS hosted a seminar on ''The Relevance of Sri Guru Granth Sahib  in Interfaith Understanding'' on 7,8 March 2013</p></div>
                 <img data-u="thumb" src="img/gallery/thumbs_seminars/thumb14.jpg" />
             </div>
 			<div data-p="150.00" style="display: none;">
-                <img data-u="image" src="img/gallery/seminars/img15.jpg" />
+                <img data-u="image" src="img/gallery/images/seminars/img15.JPG" />
                 <div class="carousel-caption"><p class="boxed">Prof. Gurbir Singh Brar giving a presentation on the ''Relics of the Sikh Guru at Takhat Sri Damdma Sahib</p></div>
                 <img data-u="thumb" src="img/gallery/thumbs_seminars/thumb15.jpg" />
             </div>
 			<div data-p="150.00" style="display: none;">
-                <img data-u="image" src="img/gallery/seminars/img16.jpg" />
+                <img data-u="image" src="img/gallery/images/seminars/img16.JPG" />
                 <div class="carousel-caption"><p class="boxed">Attending the Seminar ''Sri Guru Granth Sahib di Sampurnta te Sangeet Parbandh</p></div>
                 <img data-u="thumb" src="img/gallery/thumbs_seminars/thumb16.jpg" />
             </div>

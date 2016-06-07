@@ -215,42 +215,42 @@
         </div>
         <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 240px; width: 720px; height: 480px; overflow: hidden;">
             <div data-p="150.00" style="display: none;">
-                <img data-u="image" src="img/gallery/images/manthan/img1.jpg" />
+                <img data-u="image" src="img/gallery/images/manthan/img1.JPG" />
                 <div class="carousel-caption"><p class="boxed">Dr. Balwant Singh Dhillon presenting presidential remarks over the paper of ''Sikh Virasat di Sambh Sambhal'' in Manthan</p></div>
                 <img data-u="thumb" src="img/gallery/thumbs_manthan/thumb1.jpg" />
             </div>
             <div data-p="150.00" style="display: none;">
-                <img data-u="image" src="img/gallery/images/manthan/img2.jpg" />
+                <img data-u="image" src="img/gallery/images/manthan/img2.JPG" />
                 <div class="carousel-caption"><p class="boxed">Giani Joginder Singh Vedanti presiding in Manthan Programme</p></div>
                 <img data-u="thumb" src="img/gallery/thumbs_manthan/thumb2.jpg" />
             </div>
             <div data-p="150.00" style="display: none;">
-                <img data-u="image" src="img/gallery/images/manthan/img3.jpg" />
+                <img data-u="image" src="img/gallery/images/manthan/img3.JPG" />
                 <div class="carousel-caption"><p class="boxed">Dr. Balwant Singh Dhillon presenting presidential remarks over the paper of ''Sikh Virasat di Sambh Sambhal'' in Manthan</p></div>
                 <img data-u="thumb" src="img/gallery/thumbs_manthan/thumb3.jpg" />
             </div>
             <div data-p="150.00" style="display: none;">
-                <img data-u="image" src="img/gallery/images/manthan/img4.jpg" />
+                <img data-u="image" src="img/gallery/images/manthan/img4.JPG" />
                 <div class="carousel-caption"><p class="boxed">Dr. Balwant Singh Dhillon presenting presidential remarks over the paper of ''Sikh Virasat di Sambh Sambhal'' in Manthan</p></div>
                 <img data-u="thumb" src="img/gallery/thumbs_manthan/thumb4.jpg" />
             </div>
             <div data-p="150.00" style="display: none;">
-                <img data-u="image" src="img/gallery/images/manthan/img5.jpg" />
+                <img data-u="image" src="img/gallery/images/manthan/img5.JPG" />
                 <div class="carousel-caption"><p class="boxed">Dr. Jasbir Singh Maan (Canada) in presenting paper in Manthan</p></div>
                 <img data-u="thumb" src="img/gallery/thumbs_manthan/thumb5.jpg" />
             </div>
             <div data-p="150.00" style="display: none;">
-                <img data-u="image" src="img/gallery/images/manthan/img6.jpg" />
+                <img data-u="image" src="img/gallery/images/manthan/img6.JPG" />
                 <div class="carousel-caption"><p class="boxed">Dr. Jasbir Singh Maan (Canada) in presenting paper in Manthan</p></div>
                 <img data-u="thumb" src="img/gallery/thumbs_manthan/thumb6.jpg" />
             </div>
             <div data-p="150.00" style="display: none;">
-                <img data-u="image" src="img/gallery/images/manthan/img7.jpg" />
+                <img data-u="image" src="img/gallery/images/manthan/img7.JPG" />
                 <div class="carousel-caption"><p class="boxed">Dr. Dhillon, Purewal, Jathedar Vedanti, Variam Singh in Manthan programe</p></div>
                 <img data-u="thumb" src="img/gallery/thumbs_manthan/thumb7.jpg" />
             </div>
             <div data-p="150.00" style="display: none;">
-                <img data-u="image" src="img/gallery/images/manthan/img8.jpg" />
+                <img data-u="image" src="img/gallery/images/manthan/img8.JPG" />
                 <div class="carousel-caption"><p class="boxed">Dr. Dhillon, Purewal, Jathedar Vedanti, Dr. Kang, Dr. JK Dhillon, Variam Singh in Manthan programe</p></div>
                 <img data-u="thumb" src="img/gallery/thumbs_manthan/thumb8.jpg" />
             </div>
