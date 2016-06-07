@@ -77,13 +77,7 @@
 
     }
     
-    @media screen and (max-width:349px) {
-        .cset .panel {
-            height: auto;
-        }
-
-    }
-
+    
     .cset {
         margin:auto;
     }
@@ -127,7 +121,8 @@
         <div><img class="img img-resposive" u="image" src="img/infra/infra.jpg" /></div>
          <!--div><img class="img img-resposive" u="image" src="img/gallery/workshops/IMG_1527.jpg" /></div-->
         <div><img class="img img-resposive" u="image" src="img/gallery/seminars/DSC00825.JPG" /></div>
-        <div><img class="img img-resposive" u="image" src="img/carousel3.JPG" /></div>
+        <div><img class="img img-resposive" u="image" src="img/carousel3.jpg" /></div>
+        <div><img class="img img-resposive" u="image" src="img/carousel4.jpg" /></div>
 
     </div>
 </div>

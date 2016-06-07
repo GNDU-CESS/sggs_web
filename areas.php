@@ -365,7 +365,7 @@
  
 
     .img_right_cult {
-    background: url('../images/10-crop.jpg')!important;
+    background: url('../images/10-crop.JPG')!important;
   
 }
 /*===============--- very important css---========*/
