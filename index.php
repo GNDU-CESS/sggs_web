@@ -77,7 +77,15 @@
 
     }
     
-    
+
+    @media screen and (max-width:986px) {
+         .panel-body {
+            height: auto !important;
+        }
+
+    }
+
+
     .cset {
         margin:auto;
     }
