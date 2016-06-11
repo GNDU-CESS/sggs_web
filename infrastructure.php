@@ -64,10 +64,10 @@ body
 						<img src="img/infra/25.JPG">
 					</div>
 					<div class="col-lg-4 col-xs-4">
-						<img src="img/infra/29.jpg">
+						<img src="img/infra/final.jpg">
 					</div>
 					<div class="col-lg-4 col-xs-4">
-						<img src="img/infra/27.jpg">
+						<img src="img/infra/final1.jpg">
 					</div>
 				</div>
 			</div>

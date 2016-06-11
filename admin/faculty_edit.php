@@ -174,7 +174,7 @@ $alertype="";
                         <br>
                         <input type="contact" name="contact" class="form-control" value="<?php echo $contact; ?>" placeholder="Venue">
                         <br>
-                        <textarea name="desc" rows="5" class="form-control" maxlength="140" placeholder="Description.....">
+                        <textarea name="desc" rows="5" class="form-control"  placeholder="Description.....">
                             <?php echo $desc; ?>
                         </textarea>
                         <br>
