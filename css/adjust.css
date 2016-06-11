@@ -1,3 +1,4 @@
+
 @media screen and (max-width:1200px) {
 .navbar {
     display:none;
@@ -250,26 +251,26 @@ background-color:#428BCA;
 		}
 
 		img, section, footer, .navbar {
-			box-shadow: 0px 0px 7px black;
-			-webkit-box-shadow: 0px 0px 7px black;
-			-moz-box-shadow: 0px 0px 7px black;
+			box-shadow: 0px 0px 2px 0px black;
+			-webkit-box-shadow: 0px 0px 2px 0px black;
+			-moz-box-shadow: 0px 0px 2px 0px black;
 		}
 
 		.alter2  img {
-			box-shadow: 0px 0px 7px white;
-			-webkit-box-shadow: 0px 0px 7px white;
-			-moz-box-shadow:0px 0px 7px white;
+			box-shadow: 0px 0px 2px 0px black;
+			-webkit-box-shadow: 0px 0px 2px 0px black;
+			-moz-box-shadow:0px 0px 2px 0px black;
 		}
 		.alter2 .btn   {
-			box-shadow: 0px 0px 7px white;
-			-webkit-box-shadow: 0px 0px 7px white;
-			-moz-box-shadow:0px 0px 7px white;
+			box-shadow: 0px 0px 2px 0px black;
+			-webkit-box-shadow:0px 0px 2px 0px black;
+			-moz-box-shadow:0px 0px 2px 0px black;
 		}
 
 		.btn, .more  {
-				box-shadow: 0px 0px 7px black;
-			-webkit-box-shadow: 0px 0px 7px black;
-			-moz-box-shadow: 0px 0px 7px black
+				box-shadow: 0px 0px 2px 0px black;
+			-webkit-box-shadow:0px 0px 2px 0px black;
+			-moz-box-shadow:0px 0px 2px 0px black;
 		}
 
 		#footer {

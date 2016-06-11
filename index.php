@@ -120,7 +120,7 @@
 <body class="container">
 <?php  include 'includes/map.php';include 'includes/nav.php';
 ?>
-<div class="head  animated fadeInUpBig">
+<div class="head  animated fadeInUp">
     <div class="land-1">
         <div class="row">
         <div class="col-md-12 cset ">

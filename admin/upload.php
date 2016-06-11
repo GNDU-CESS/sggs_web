@@ -1,4 +1,5 @@
 <?php
+error_reporting(0);
 session_start();
 
 if (!(isset($_SESSION['login']) && $_SESSION['login'] != 'off')) {
@@ -6,6 +7,7 @@ if (!(isset($_SESSION['login']) && $_SESSION['login'] != 'off')) {
 die("<div style='color:red'>Process Failed!!!</div><br><br>");
 
 }
+error_reporting(0);
 if(is_array($_FILES)) {
 if(is_uploaded_file($_FILES['userImage']['tmp_name'])) {
 $sourcePath = $_FILES['userImage']['tmp_name'];

@@ -1,3 +1,5 @@
+<?php //error_reporting(0);
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,3 +11,4 @@
     <meta content='#003' name='theme-color' />
     <meta content='#003' name='msapplication-navbutton-color' />
     <meta content='#003' name='apple-mobile-web-app-status-bar-style' />
+	

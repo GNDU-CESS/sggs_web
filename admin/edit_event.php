@@ -1,16 +1,14 @@
 <?php
-
-require_once('db/connect.php');
-
 session_start();
 
 if (!(isset($_SESSION['login']) && $_SESSION['login'] != 'off')) {
-
-header ("Location: login");
-
 $msg="You Need To Login First";
+header ("Location: login?ee=$msg");
 
 }
+require_once('db/connect.php');
+
+
 
 include 'includes/meta.php';
 include 'includes/css.php';

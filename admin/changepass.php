@@ -3,8 +3,12 @@ require_once('db/connect.php');
 session_start();
 
 if (!(isset($_SESSION['login']) && $_SESSION['login'] != 'off')) {
+$msg="You Need To Login First";
+header ("Location: login?ee=$msg");
 
-header ("Location: login");
+
+
+}
 
 $msg="You Need To Login First";
 

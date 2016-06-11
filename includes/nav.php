@@ -21,7 +21,9 @@
                     <li>
                         <a href="index">Home</a>
                     </li>
-
+					 <li>
+                        <a href="blog">Blogs</a>
+                    </li>
 
                     <li class="dropdown">
                         <a href="#">About Us</a>
@@ -180,11 +182,11 @@
                             <li><a href="gallery_fieldwork">Fieldwork</a></li>
                         </ul>
                     </li>
-                    <!--    <li class="dropdown">
-                                <a href="admin"  role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-lock"></span> Login</a>
+                     <li class="dropdown">
+                                <a href="blog"  role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-pencil"></span>  Blogs</a>
                                
                             </li>
-                          -->
+                         
                 </ul>
             </div>
         </div>

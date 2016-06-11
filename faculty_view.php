@@ -1,12 +1,37 @@
+<?php
+if (!isset($_GET['id'])) {
+	header('location:faculty');
+}
+else {
+include 'admin/db/connect.php';
+$id= $_GET['id'];
+
+$dataQuery = "SELECT * FROM faculty WHERE id ='$id'";
+
+$getData = @$db->query($dataQuery);
+
+$data = $getData->fetch_array();
 
 
-<?php include 'includes/meta.php';  ?>
+$name= $data['name'];
+$desig= $data['designation'];
+$email= $data['email'];
+$contact= $data['contact'];
+$imgname= $data['image'];
+$desc= $data['description'];
+     
+if($data===null) {
+	header('location:faculty');
+}
+}
+
+
+ include 'includes/meta.php';  ?>
 <title>
     Center On Studies in Sri Guru Granth Sahib
 </title>
 
-    <?php include 'includes/css.php';
-    include 'admin/db/connect.php'?>
+    <?php include 'includes/css.php';?>
 <style>
   .size1
     {
@@ -34,27 +59,13 @@
 
     }
     
+	
   
     
 </style>
 <?php
    
-$id= $_GET['id'];
 
-$dataQuery = "SELECT * FROM faculty WHERE id ='$id'";
-
-$getData = @$db->query($dataQuery);
-
-$data = $getData->fetch_array();
-
-
-$name= $data['name'];
-$desig= $data['designation'];
-$email= $data['email'];
-$contact= $data['contact'];
-$imgname= $data['image'];
-$desc= $data['description'];
-     
 ?>
 
 </head>

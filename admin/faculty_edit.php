@@ -1,15 +1,16 @@
 <?php
 
-require_once('db/connect.php');
-
 session_start();
 
 if (!(isset($_SESSION['login']) && $_SESSION['login'] != 'off')) {
+$msg="You Need To Login First";
+header ("Location: login?ee=$msg");
 
-header ("Location: login");
 
 
 }
+require_once('db/connect.php');
+
 
 include 'includes/meta.php';
 include 'includes/css.php';
@@ -137,11 +138,6 @@ $alertype="";
                                 <br/>
                                 <input name="userImage" type="file" id="picupname" class="inputFile form-control" />
                                 <br>
-
-
-
-
-
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                                     <input type="submit" value="Submit" onclick="setname()" class="btnSubmit btn btn-info" />
@@ -174,7 +170,7 @@ $alertype="";
                         <br>
                         <input type="contact" name="contact" class="form-control" value="<?php echo $contact; ?>" placeholder="Venue">
                         <br>
-                        <textarea name="desc" rows="5" class="form-control" maxlength="140" placeholder="Description.....">
+                        <textarea name="desc" rows="5" class="form-control" placeholder="Description.....">
                             <?php echo $desc; ?>
                         </textarea>
                         <br>
