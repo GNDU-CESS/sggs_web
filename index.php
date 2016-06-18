@@ -118,7 +118,7 @@
 </style>
 </head>
 <body class="container">
-<?php  include 'includes/map.php';include 'includes/nav.php';
+<?php  include 'includes/nav.php';
 ?>
 <div class="head  animated fadeInUp">
     <div class="land-1">

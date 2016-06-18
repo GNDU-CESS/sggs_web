@@ -12,7 +12,7 @@
 <a href=""><img src="img/index.jpg" class="img-responsive back"  style="width:60px;height:60px;float: left;display:none;margin-top:50px;position: fixed;" /></a>
 <div class="container" >
 <?php include 'includes/nav.php';
-      include 'includes/map.php';?>
+      ?>
       
     <style >
     .name_style

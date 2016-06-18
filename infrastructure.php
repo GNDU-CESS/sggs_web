@@ -19,7 +19,7 @@ body
 </head>
 <body class="container">
 <?php include 'includes/nav.php';
-      include 'includes/map.php';?>
+      ?>
  <div class="head">  
 		
         

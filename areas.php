@@ -399,7 +399,7 @@
 		
 	</head>		
 		 
-<?php include 'includes/map.php';
+<?php 
         include 'includes/nav.php'; ?>
 	<body class="container" style="margin-top:0px" >
 

@@ -24,7 +24,7 @@ if(@mysqli_query($link, $sql_db)) {
 } 
 
 else {
-    echo "Operation failed. Trying Changing user name and password in db_info. ", mysqli_error($link);
+    echo "Operation failed. Try Changing user name and password in db_info. ", mysqli_error($link);
 }
 
 

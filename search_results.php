@@ -28,7 +28,7 @@ include 'includes/js.php'; ?>
 </head>
 <body class="container">
 <?php include 'includes/nav.php';
-      include 'includes/map.php';?>
+      ?>
 <div class="head">
     <div class="found" id="tipue_search_content"></div>   
 </div>   

@@ -16,7 +16,7 @@ body
 </head>
 <body class="container">
 <?php include 'includes/nav.php';
-      include 'includes/map.php';?>
+      ?>
  <div class="head">  
 		
         <!--<div style="background-image: url('img/infra/bahwan22.jpg');height:450px "></div>-->

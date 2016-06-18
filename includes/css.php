@@ -6,7 +6,10 @@
 <link href="css/animate.css" rel="stylesheet">
 
 <style>
-
+	.container {
+		margin-right: auto !important;
+		margin-left: auto !important;
+	}
 </style>
 <?php
         include 'admin/db/connect.php'; ?>
