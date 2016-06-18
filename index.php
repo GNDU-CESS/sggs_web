@@ -130,16 +130,16 @@
             </div>
             <div class="panel-body" style="height:370px;overflow:hidden">
                 <div id="slider1_container" style="position: relative; top: 0px; left: 0px;width:auto; height: 300px;">
-    <!-- Slides Container -->
-    <div u="slides" style="cursor: move; position: absolute; overflow: hidden; left: 0px; top: 0px; width: 550px; height: 320px;object-fit:fill">
-        <div><img class="img img-resposive" u="image" src="img/carousel1.jpg" /></div>
-        <div><img class="img img-resposive" u="image" src="img/carousel2.jpg" /></div>
-         <div><img class="img img-resposive" u="image" src="img/carousel22.JPG" /></div>
-        <div><img class="img img-resposive" u="image" src="img/carousel3.jpg" /></div>
-        <div><img class="img img-resposive" u="image" src="img/carousel4.jpg" /></div>
+                <!-- Slides Container -->
+                <div u="slides" style="cursor: move; position: absolute; overflow: hidden; left: 0px; top: 0px; width: 550px; height: 320px;object-fit:fill">
+                    <div><img class="img img-resposive" u="image" src="img/carousel1.jpg" /></div>
+                    <div><img class="img img-resposive" u="image" src="img/carousel2.jpg" /></div>
+                     <div><img class="img img-resposive" u="image" src="img/carousel22.JPG" /></div>
+                    <div><img class="img img-resposive" u="image" src="img/carousel3.jpg" /></div>
+                    <div><img class="img img-resposive" u="image" src="img/carousel4.jpg" /></div>
 
-    </div>
-</div>
+                </div>
+            </div>
             </div>
         </div>
 <div class="panel panel-info col-md-5">

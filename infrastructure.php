@@ -8,7 +8,7 @@
 body
 	{
 		background-color:#ffffe5;
-		overflow-x:hidden;
+		
 	}
 	.shift_bottom{
 		padding: 40px;
@@ -47,29 +47,29 @@ body
               </div>
                      
 
-<div class="container" style="width:1000px;">
+            <div class="container" style="width:86%;">
 				<div class="row">
-					<div class="col-lg-4 col-xs-4">
-						<img src="img/infra/22.jpg">
+					<div class="col-md-4 col-xs-6 ">
+						<img class="img img-responsive" src="img/infra/22.jpg">
 					</div>
-					<div class="col-lg-4 col-xs-4">
-						<img src="img/infra/23.jpg">
+					<div class="col-md-4 col-xs-6 ">
+						<img class="img img-responsive" src="img/infra/23.jpg">
 					</div>
-					<div class="col-lg-4 col-xs-4">
-						<img src="img/infra/24.jpg">
+					<div class="col-md-4 col-xs-6 ">
+						<img class="img img-responsive" src="img/infra/24.jpg">
 					</div>
-				</div>
-				<div class="row">
-					<div class="col-lg-4 col-xs-4">
-						<img src="img/infra/25.JPG">
+				
+				
+					<div class="col-md-4 col-xs-6 ">
+						<img class="img img-responsive" src="img/infra/25.JPG">
 					</div>
-					<div class="col-lg-4 col-xs-4">
-						<img src="img/infra/final.jpg">
+					<div class="col-md-4 col-xs-6 ">
+						<img class="img img-responsive" src="img/infra/final.jpg">
 					</div>
-					<div class="col-lg-4 col-xs-4">
-						<img src="img/infra/final1.jpg">
+					<div class="col-md-4 col-xs-6">
+						<img class="img img-responsive" src="img/infra/final1.jpg">
 					</div>
-				</div>
+                </div>
 			</div>
 		        
                <div class="row">
@@ -174,7 +174,7 @@ body
 			</div>
 			<div class="col-lg-5">
                 <div class="shift_bottom">
-				    <img src="img/DSC00086.JPG" style="width:300px;height:200px" class="img img-responsive">
+				    <img src="img/facilities/recording.JPG" style="width:300px;height:200px" class="img img-responsive">
                 </div>
 			</div>
         </div>

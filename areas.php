@@ -138,7 +138,12 @@
                     background-color:#ffffe5;
                     overflow-x:hidden;
                 }
-
+                @media(max-width:992px){
+                    .disappear{
+                        visibility: hidden;
+                        height: 30px;
+                    }
+                }
 				@media (max-width: 855px) {
 					
 					.s{
@@ -440,7 +445,7 @@
 									</div>	
 								</div>
 						</div>
-						<div class="col-sm-6 col-md-6">
+						<div class="disappear col-sm-6 col-md-6">
 							<div class="col-sm-12 col-md-12 tile_1 img_right_cult" style="background-size: cover !important;
     background-repeat: no-repeat !important; height:250px">
 								<div class="tile_1_inner">
