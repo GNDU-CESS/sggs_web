@@ -11,7 +11,7 @@
             </div>
             <div class="col-sm-6 align-mob">
                 <ul class="pull-right">
-                    <li id="this"><a id="map-toggle" class="link" data-toggle="modal" data-target="#siteMap">SiteMap</a></li>
+                    <li id="this"><a href="sitemap.html">SiteMap</a></li>
                 </ul>
             </div>
         </div>

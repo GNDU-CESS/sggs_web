@@ -60,6 +60,7 @@ include 'includes/meta.php';
 	<script type="text/javascript">
 		$(document).ready(function (e) {
 		                    $("#uploadForm").on('submit', (function (e) {
+								$("#picupld").val("Uploading Pic....");
 		                        e.preventDefault();
 		                        $.ajax({
 		                            url: "upload.php"
@@ -70,6 +71,7 @@ include 'includes/meta.php';
 		                            , processData: false
 		                            , success: function (data) {
 		                                $("#targetLayer").html(data);
+										$("#picupld").val("Done");
 		                            }
 		                            , error: function () {}
 		                        });
@@ -109,6 +111,16 @@ include 'includes/meta.php';
 		border:1px solid #003 !important;
 		
 	}
+		
+		.block {
+			display: block;
+			background-color: #003;
+			color:white;
+			padding:10px;
+			text-align: center;
+			font-weight: 600;
+			margin:auto auto 5px auto;
+		}
 	</style>
 	</head>
 
@@ -132,7 +144,7 @@ include 'includes/meta.php';
 								<br>
 								<div class="modal-footer">
 									<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-									<input type="submit" value="Submit" onclick="setname()" class="btnSubmit btn btn-info" />
+									<input type="submit" id="picupld" value="Submit" onclick="setname()" class="btnSubmit btn btn-info" />
 						</form>
 						</div>
 						</div>
@@ -149,7 +161,7 @@ include 'includes/meta.php';
 		</div>
 		<div class="container col-md-9" style="border:1px solid #eee;padding:15px;background-color:#fff">
 			
-			<form id="blogForm" method="get">
+			<form id="blogForm" method="post">
 				<h3 class="pull-left">Write down your post here:</h3>
 				<input type="submit" id="post_blog" class="pull-right btn btn-info" value="Publish Post">
 				<br>
@@ -178,6 +190,7 @@ include 'includes/meta.php';
 									<div id="alert" class="alert alert-<?php echo $dalert;?>" aria-hidden="true" role="alert">
 						<span class="glyphicon glyphicon-<?php echo $dsign;?>" aria-hidden="true"></span>
 						<span class="sr-only" style="position:relative">  <?php echo $dmsg; ?></span></div>
+						<a href="stats.php"><div class="block">View Stats</div></a>
 					<ul class="list-group">
 						<?php
                     $sql = "SELECT title,id, date FROM blog ORDER BY id ASC";
@@ -196,10 +209,13 @@ include 'includes/meta.php';
 
 
                     $run->free();
+						
+					
                 ?>
 
 
 					</ul>
+					
 				</div>
 
 				</div>
@@ -209,6 +225,7 @@ include 'includes/meta.php';
 		<script>
 			$(document).ready(function() {
 				$("#post_blog").click(function(e){
+					$(this).val("Publishing...Please Wait!");
 					 tinyMCE.triggerSave();
 					var data=$('#blogForm').serialize();
 					$.post('post.php',data,response);
@@ -217,6 +234,7 @@ include 'includes/meta.php';
 				
 				function response(res) {
 					alert(res);
+					$("#post_blog").val("Publish");
 					$("#blogForm")[0].reset();
 					$("#update").load('create_post #live');
 				}

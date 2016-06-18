@@ -14,7 +14,7 @@ Gallery Workshop
 </head>
 <body class="container gset">
 <?php include 'includes/nav.php';
-      include 'includes/map.php';?>
+      ?>
     
  
     <script type="text/javascript" src="js/jssor.slider.min.js"></script>

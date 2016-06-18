@@ -47,7 +47,7 @@
 </head>
 <body class="container">
 <?php include 'includes/nav.php';
-      include 'includes/map.php';?>
+      ?>
     
 
    <div class="navbar-fixed-top container" style="height:50px;z-index:15;position:fixed;"></div>

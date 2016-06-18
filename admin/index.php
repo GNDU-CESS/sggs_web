@@ -60,8 +60,7 @@ include 'includes/css.php';
 		function timeout() {
 		            alert('You are about to Logout. Please Login again');
 		            window.setTimeout("location=('logout.php');", 7);
-		
-		        }
+					}
 		
 		        window.setTimeout(timeout, 7000000);
 	</script>

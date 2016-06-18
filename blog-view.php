@@ -12,6 +12,15 @@ if($row===null) {
 	header('location:blog');
 }
 
+//page counter
+$pres = $row['views'];
+$pres++;
+$count = "UPDATE blog
+SET views='$pres'
+WHERE id='$id'";
+$setview = $db->query($count);
+//===================
+
 ?>
 <?php include 'includes/meta.php';  ?>
 	<title>
@@ -45,12 +54,22 @@ if($row===null) {
 				justify-content: center !important;
 				width:100%;
 			} 
+			
+			<?php
+				if ($row['image']=="") {
+					echo ".pres {
+					display:none;
+					}
+					";
+				}
+			
+			?>
 		</style>
 		</head>
 
 		<body class="container">
 			<?php include 'includes/nav.php';
-      include 'includes/map.php';?>
+      ?>
 				<div class="container head">
 					<div class="row">
 						<div class="col-md-8">
@@ -63,12 +82,13 @@ if($row===null) {
 									</div>
 								</div>
 
-								<div  style="border:1px solid #eee;padding:15px;background-color:#fff">
-								<img src="<?php echo 'admin/images/reduceSize/'.$row["image"].'"'; ?> class="text-center img img-responsive">
+								<div  style="border:1px solid #eee;padding:15px;background-color:#fff;word-wrap:break-word;">
+								<img  src="admin/images/reduceSize/<?php echo $row["image"]; ?>" class="text-center img img-responsive pres">
 
 								<br />
-						<?php echo $row['blog']; ?>
 								
+						<?php echo $row['blog']; ?>
+							
 								</div>
 							</article>
 						</div>

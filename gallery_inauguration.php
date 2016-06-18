@@ -8,7 +8,7 @@
 </head>
 <body class="container gset">
 <?php include 'includes/nav.php';
-      include 'includes/map.php';?>
+      ?>
     
  
 

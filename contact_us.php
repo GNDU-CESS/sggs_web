@@ -19,7 +19,7 @@ google.maps.event.addDomListener(window, 'load', initialize);
 </head>
 <body class="container">
 <?php include 'includes/nav.php';
-      include 'includes/map.php';?>
+      ?>
     
 
 

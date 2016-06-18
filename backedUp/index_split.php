@@ -54,7 +54,7 @@
 </style>
 </head>
 <body class="container">
-<?php  include 'includes/map.php';include 'includes/nav.php';
+<?php  include 'includes/nav.php';
 ?>
     
 

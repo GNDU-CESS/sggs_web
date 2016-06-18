@@ -9,10 +9,10 @@ header ("Location: login?ee=$msg");
 
 
 }
-
+else {
 $msg="You Need To Login First";
-
 }
+
 $query="SELECT pass FROM auth";
 $result = $db->query($query);
 $getpass=$result->fetch_array();

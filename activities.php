@@ -16,8 +16,7 @@ body
 </style>
 </head>
 <body class="container">
-<?php include 'includes/nav.php';
-      include 'includes/map.php';?>
+<?php include 'includes/nav.php';?>
     
 
  <div class="head info">  

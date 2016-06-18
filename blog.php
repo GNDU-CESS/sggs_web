@@ -1,9 +1,29 @@
 <?php include 'includes/meta.php';
 include 'admin/db/connect.php';
+// popularity algo //
+
+$getClick = "SELECT views FROM blog";
+$data = $db->query($getClick);
+
+$i=0; $avg=0;
+if($data->num_rows>0) {
+	while($row=$data->fetch_assoc()) {
+		$view[$i] = $row["views"];
+		$i++;
+	}
+}
+for ($j=0;$j<$i;$j++) {
+	$avg +=$view[$j]/$i;	
+}
+
+//===============//
 $query="SELECT * FROM blog ORDER BY date DESC";
 $result=$db->query($query);
-$queryo = "SELECT * FROM blog ORDER BY date DESC LIMIT 5";
+$queryo = "SELECT * FROM blog WHERE views > '$avg'";
 $resulto = $db->query($queryo);
+
+
+
 ?>
 	<title>
 		Blog-Center On Studies In Shri Guru Granth Sahib
@@ -13,11 +33,25 @@ $resulto = $db->query($queryo);
     ?>
 
 		<style>
-			.evd img {
-				height: 200px;
-				width: 100%;
-				margin-top: 4%;
-				margin-bottom: 2%;
+			.setimg {
+				width:100%;
+				height:300px;
+			}
+			
+			.setimgp {
+				width:100%;
+				height:160px !important;
+			}
+			
+			.evd{
+				width:100%;
+				height:400px;
+				
+				
+			}
+			
+			.thumbnail:hover {
+				box-shadow:0px 0.3px 5px 0px #222;
 			}
 			
 			.events_list {
@@ -37,7 +71,9 @@ $resulto = $db->query($queryo);
 			
 			.attr {
 				display: flex;
-				justify-content: space-around
+				justify-content: space-around;
+				flex-direction:column;
+				text-align:center
 			}
 			
 			.attr1 {
@@ -50,15 +86,16 @@ $resulto = $db->query($queryo);
 			.main-head {
 				font-family: 'helvetica' !important;
 			}
+			
 		</style>
 		</head>
 
 		<body class="container">
 			<?php include 'includes/nav.php';
-      include 'includes/map.php';?>
+      ?>
 				<div class="head">
 
-					<div class="evd col-md-12">
+					<div class="col-md-12">
 						<div class="col-md-8">
 							<?php
 						
@@ -66,13 +103,15 @@ $resulto = $db->query($queryo);
 								
 								while ($row=$result->fetch_assoc()) {
 							echo    '<a href="blog-view?id='.$row['id'].'">';
-							echo		'<div class="posts thumbnail">';
-							echo			'<img class="img-responsive" src="admin/images/reduceSize/'.$row['image'].'"alt="" style="box-shadow:none">';
-							echo			'<div class="caption">';
+							echo		'<div class="posts thumbnail row">';
+							echo          '<div class="col-md-8">';
+							echo			'<img class="img-responsive setimg" src="admin/images/reduceSize/'.$row['image'].'" alt="'.$row['title'].'" style="box-shadow:none">';
+							echo          '</div>';
+							echo			'<div class="caption col-md-4">';
 							echo				'<div class="heading">'.$row['title'].'</div><hr>';
 							echo				'<div class="attr">';
-							echo				'<span class="date"><span class="glyphicon glyphicon-calendar"></span> '.date("d M Y",strtotime($row['date'])).'</span>';
-							echo				'<span class="main-head"><span class="glyphicon glyphicon-pencil"> '.$row['author'].'</span>';
+							echo				'<div class="date"><span class="glyphicon glyphicon-calendar"></span>&nbsp;&nbsp;'.date("d M Y",strtotime($row['date'])).'</div><br>';
+							echo				'<div class="main-head"><span class="glyphicon glyphicon-pencil"></span>&nbsp;'.$row['author'].'</div>';
 							echo				'</div>';
 							echo			'</div>';
 							echo		'</div>';
@@ -98,7 +137,7 @@ $resulto = $db->query($queryo);
 							echo		'<div class="panel-body">';
 							echo    '<a href="blog-view?id='.$data['id'].'">';
 							echo	'<div class="attr1">';
-							echo		'<img class="img-responsive" src="admin/images/reduceSize/'.$data['image'].'" alt="" style="height:100px">';
+							echo		'<img class="img-responsive setimgp" src="admin/images/reduceSize/'.$data['image'].'" alt="" style="height:100px">';
 							echo		'<div class="tname text-center">.'.$data['title'].'</div>';
 							echo	'</div>';
 							echo '</a>';

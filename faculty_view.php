@@ -71,7 +71,7 @@ if($data===null) {
 </head>
 <body class="container">
 <?php include 'includes/nav.php';
-      include 'includes/map.php';?>
+      ?>
 
 <div class="head">
     <div class="col-md-12">
