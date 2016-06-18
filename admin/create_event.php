@@ -1,7 +1,4 @@
 <?php
-
-require_once('db/connect.php');
-
 session_start();
 
 if (!(isset($_SESSION['login']) && $_SESSION['login'] != 'off')) {
@@ -11,6 +8,9 @@ header ("Location: login");
 $msg="You Need To Login First";
 
 }
+require_once('db/connect.php');
+
+
 
 
 
@@ -107,54 +107,7 @@ else {
         include 'includes/css.php';
 
     ?>
-            <style>
-                .panel {
-                    border-color: rgba(10, 1, 6, 0.4);
-                    height: 550px !important;
-                    overflow-y: scroll;
-                }
-                
-                .panel-heading {
-                    background-color: #003 !important;
-                    color: #fff !important;
-                    border-radius: 0%;
-                    text-align: center;
-                }
-                
-                .panel a {
-                    color: #34495E !important;
-                    text-transform: underline !important;
-                }
-                
-                .nav {
-                    margin-top: 0 !important;
-                    margin-bottom: 2%;
-                    width: 100%;
-                    min-height: 50px;
-                }
-                
-                .nav span {
-                    padding: 18px;
-                    background-color: #003;
-                    border: #003 4px solid;
-                    color: white;
-                    min-width: 147px;
-                    font-weight: 600;
-                    transition: background-color 0.5s ease-in, border 0.5s;
-                }
-                
-                .nav span:hover {
-                    background-color: teal;
-                    border: 4px rgba(14, 21, 41, 0.3) solid;
-                }
-                
-                body {
-                    padding-top: 30px;
-                    background-image: url('../img/bhavan.jpg');
-                    background-repeat: no-repeat;
-                    background-size: cover;
-                }
-            </style>
+            
             <script type="text/javascript">
                 function timeout() {
                     alert('You are about to Logout. Please Login again');

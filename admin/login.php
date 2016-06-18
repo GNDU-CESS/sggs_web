@@ -2,13 +2,14 @@
 
 require_once('db/connect.php');
 
-include 'includes/meta.php';
-include 'includes/css.php';
-
-
-
 $msg="Login with Username and Password";  
  $error = "success";
+
+if (isset($_GET['ee'])) {
+	$msg=$_GET['ee']; 
+}
+
+
 
 
 
@@ -61,7 +62,8 @@ if(isset($_POST['auth'])) {
 
 
 $db->close();
-    
+ include 'includes/meta.php';
+include 'includes/css.php';   
 ?>
 
     <style>
