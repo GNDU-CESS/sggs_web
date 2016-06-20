@@ -20,7 +20,8 @@
 			
 		$('.nav-close').click(function() {
 			
-			$('.in-nav').addClass('nav-hid');
+			$('.in-nav').addClass('animated slideOutDown');
+			$('.in-nav').css('display','none');
 
 		});
 </script>

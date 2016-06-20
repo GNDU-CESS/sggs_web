@@ -12,14 +12,18 @@
 	});
 	});
 		$('.in-nav').click(function() {
-			$('.nav-lay').addClass('animated slideInUp').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {$('.nav-lay').removeClass('animated slideInUp')});
+			$('.nav-lay').addClass('animated fadeInUp').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {$('.nav-lay').removeClass('animated fadeInUp')});
 			$('.nav-lay').removeClass("nav-hid");
 			
 
 		});
 			
 		$('.nav-close').click(function() {
-			$('.nav-lay').addClass('nav-hid');
+			$('.nav-lay').addClass('animated fadeOutDown').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
+				$('.nav-lay').removeClass('animated fadeOutDown');
+				$('.nav-lay').addClass('nav-hid');
+			});
+			
 
 		});
 </script>
