@@ -177,6 +177,13 @@
                     font-weight: 600;
                     transition: background-color 0.5s ease-in, border 0.5s;
                 }
+				
+	.overlay {
+		position:fixed;
+		width:100%;
+		height:100%;
+	}
+					
 	input,textarea {
 		border-radius: 0!important;
 		border:1px solid #003 !important;

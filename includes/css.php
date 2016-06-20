@@ -4,12 +4,15 @@
 <link href="css/main.min.css" rel="stylesheet">
 <link href="css/adjust.min.css" rel="stylesheet">
 <link href="css/animate.css" rel="stylesheet">
+<link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
 
 <style>
 	.container {
 		margin-right: auto !important;
 		margin-left: auto !important;
 	}
+	
+	
 </style>
 <?php
         include 'admin/db/connect.php'; ?>

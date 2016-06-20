@@ -1,41 +1,25 @@
 <script src="js/jquery.min.js"></script>
+<script src="js/smoothscroll.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/jq.js"></script>
 <script src="js/jqueryUI.js"></script>
 
 <script>
-    $(document).ready(function () {
-        $(".modal").addClass("right");
-        $('p').css('font-align', 'left');
-    })
+	$(document).ready(function() {
+		$('.in-nav').click(function() {
+		$('nody').toggleClass();
+		
+	});
+	});
+		$('.in-nav').click(function() {
+			$('.nav-lay').addClass('animated slideInUp').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {$('.nav-lay').removeClass('animated slideInUp')});
+			$('.nav-lay').removeClass("nav-hid");
+			
 
-    $(document).ready(function () {
-        $("#open").click(function () {
-            $(".sliden").show("slide", {
-                direction: "left"
-            }, 300);
-        });
+		});
+			
+		$('.nav-close').click(function() {
+			$('.nav-lay').addClass('nav-hid');
 
-    })
-
-    $(document).ready(function () {
-        $("#close").click(function () {
-            $(".sliden").hide("slide", {
-                direction: "left"
-            }, 300);
-            $(".sliden").blur(function () {
-                $(this).hide("slide", {
-                    direction: "left"
-                }, 300);
-            });
-        });
-
-        $('section').click(function () {
-            $(".sliden").hide("slide", {
-                direction: "left"
-            }, 300);
-        })
-    })
-	
-	console.warn("hey what you are doing?");
+		});
 </script>
