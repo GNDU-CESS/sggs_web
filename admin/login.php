@@ -71,6 +71,8 @@ include 'includes/css.php';
             padding: 20px !important;
             box-shadow: 0px 1px 5px 1px black;
             width: 300px;
+			margin:100px auto
+				
         }
         
         body {

@@ -136,11 +136,7 @@
         text-decoration: underline !important;
     }
     
-    body {
-        background-image: url('../img/bhavan.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
+    
 </style>
 <!--loader-->
 <script src="../js/startload.min.js"></script>
@@ -194,9 +190,7 @@
                 
                 body {
                     padding-top: 30px;
-                    background-image: url('../img/bhavan.jpg');
-                    background-repeat: no-repeat;
-                    background-size: cover;
+                    background-color: rgba(113, 105, 116, 0.57);
                 }
 
 </style>

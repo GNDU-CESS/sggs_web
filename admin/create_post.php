@@ -40,6 +40,7 @@ else {
 }
 
 include 'includes/meta.php';
+include 'includes/css.php';
 ?>
 	<title>Post-Create</title>
 	<script src="//cdn.tinymce.com/4/tinymce.min.js"></script>
