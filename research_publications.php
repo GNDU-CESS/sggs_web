@@ -8,7 +8,7 @@
 	body
 	{
 		background-color:#ffffe5;
-		
+		overflow-x:hidden;
 	}
 
     
@@ -43,7 +43,7 @@
 </head>
 <body class="container">
 <?php include 'includes/nav.php';
-      ?>
+      include 'includes/map.php';?>
     
 
     
@@ -62,8 +62,7 @@
 						<p></p>
 					</div>
 					<hr>
-                    
-					<div class="container" style="background-color:#e0e0d1;">
+					<div class="container" style="background-color:#e0e0d1; width:auto;">
 					<p style="text-align:justify; font-family: 'Raleway-ExtraLight'">
 						
 						<div style="padding-left:40px;padding-top:40px;background-color:#e0e0d1;">
@@ -94,7 +93,7 @@ It was released on the inauguration of the building of the Centre.</div>
 						</div>
 					</p>
 
-						<div class="container"  style="padding-left:40px;padding-top:40px;background-color:#e0e0d1;">
+						<div class="container"  style="padding-left:40px;padding-top:40px;background-color:#e0e0d1; width:auto;">
 					<p style="text-align:justify; font-family: 'Raleway-ExtraLight';">
 							<div class="col-sm-8">
 							<h3>Sri Guru Granth Sahib Ki Mulya-Mimansa</h3>
@@ -119,7 +118,7 @@ It was released on the inauguration of the building of the Centre.</div>
 						</div>
 					</p>
 					
-              <div class="container"  style="background-color:#e0e0d1;">
+              <div class="container"  style="background-color:#e0e0d1; width:auto;">
 
 					<p style="text-align:justify; font-family: 'Raleway-ExtraLight'">
 						<div class="" style="padding-left:40px;padding-top:40px;;background-color:#e0e0d1;">
@@ -139,18 +138,6 @@ It was released on the inauguration of the building of the Centre.</div>
 						</div>
 					</p>	
 					</div>
-                    
-                    <p style="text-align:justify; font-family: 'Raleway-ExtraLight'">
-						<div class="row" style="padding-left:40px;padding-top:40px;">
-							<div class="col col-sm-8">
-							<h3>Sri Guru Granth Sahib: Arabic and Persian Dictionary </h3>
-							<p style="text-align:justify">With the help of Dr. Amarwant Singh (formerly Professor and Head of Persian Department, Pbi. University, Patiala) Dr. Balwant Singh Dhillon, Director of the Centre and Dr. Muhabat Singh, JRF in the Centre has worked on the Persian-Arabic Glossary of Sri Guru Granth Sahib. It contains more than three thousand entries wherein besides the root meanings in Persian, their occurrence in Gurbani along with their context and examples have been explained. </div>
-							<div class="col col-sm-4" style="padding-top:20px;">
-							<img src="img/books/glossary.jpg" style="height:200px"><br /><br />
-							<a href="img/books/Sri Guru Granth Arbi-Farsi Shabadvali Kosh.pdf"><button type="button" class="btn btn-success" style="margin-left:25px;">Download</button></a><br /><br /><br />
-							</div>
-						</div>
-					</p>
 					</div>
 				<div class="col col-sm-1">
 				<br /><br />

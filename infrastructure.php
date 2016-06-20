@@ -13,7 +13,10 @@ body
 	.shift_bottom{
 		padding: 40px;
 	}
-
+    .mob-set{
+     margin-left: 0px;
+     margin-right: 0px;     
+    }
     
 </style>
 </head>
@@ -21,13 +24,12 @@ body
 <?php include 'includes/nav.php';
       ?>
  <div class="head">  
-		
+		<h1 class="center">Infrastructure</h1>
         
-	<div class="row" id="services"  style="margin:40px 40px 40px 20px;text-align:justify;">
+	<div id="services"  style="text-align:justify;">
                      <div class="media">
                             <div class="media-body">
-                                <br /><br><br>
-                                <div class="row">
+                                <div class="row mob-set">
                                     <div class="col-lg-7">
                                         <h2 style="text-align:center;" class="subheadx media-heading">The Main Building</h2><br />
                                         <p class="textx" style="text-align:justify;"> The Centre is housed in its own building known as Sri Guru Granth Sahib Bhawan<br/>
@@ -72,7 +74,7 @@ body
                 </div>
 			</div>
 		        
-               <div class="row">
+               <div class="row mob-set">
               <div class ="col-lg-7" style="text-align: left;">
 			  
 
@@ -94,7 +96,7 @@ body
         </div>
 
 
-        <div class="row">
+        <div class="row mob-set">
         
               <div class ="col-lg-7" style="text-align: left;">
 			  
@@ -112,7 +114,7 @@ body
 			</div>
         </div>
 
-<div class="row">
+<div class="row mob-set">
 	
               <div class ="col-lg-7" style="text-align: left;">
 			  
@@ -130,7 +132,7 @@ body
 			</div>
         </div>
 
-		<div class="row">
+		<div class="row mob-set">
               <div class ="col-lg-7" style="text-align: left;">
 			  
 
@@ -147,7 +149,7 @@ body
 			</div>
         </div>
 
-<div class="row">
+<div class="row mob-set">
               <div class ="col-lg-7" style="text-align: left;">
 			  
 
@@ -163,7 +165,7 @@ body
 			</div>
         </div>
 
-<div class="row">
+<div class="row mob-set">
               <div class ="col-lg-7" style="text-align: left;">
 			  
 

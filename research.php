@@ -11,7 +11,13 @@
 		overflow-x:hidden;
 	}
 
-    
+    @media screen and (max-width: 1200px){
+    .mob-set{
+      display: none;
+        
+    }
+       
+}
 		
     .head h1{
       text-align: center;
@@ -53,7 +59,7 @@
    <div class="navbar-fixed-top container" style="height:50px;z-index:15;position:fixed;"></div>
 	
 <div class="head">         
-  <section style="background-image:url('img/research.jpg');background-repeat:no-repeat;margin-top:-40px;height:150px;">
+  <section class="mob-set" style="background-image:url('img/research.jpg');background-repeat:no-repeat;margin-top:-40px;height:150px;">
   <br><br><h2 style="text-align:center"></h2>
   </section><!--/#title-->     
 
@@ -61,7 +67,7 @@
 <br>
 <br>
 
-  <section id="career" class="container">
+  <section id="career" class="container mob-set-top">
   <div class="col col-sm-6">
 		<div class="center"style:font-family: "Raleway">
 		
@@ -76,14 +82,13 @@
 					For the proper interpretation of the message of Sri Guru Granth Sahib and for the dissemination of research work done on it, publication of books in various languages of India and world is the need of the hour. Presently this work is not being done academically and in a systematic manner. Even to facilitate the scholars interested in taking up studies on Sri Guru Granth Sahib, research tools in the form of bibliographies, dictionaries, encyclopedias, subject indices, glossaries etc. are not available. The Centre, besides publishing this type of material, will also publish the research work done by the faculty and make it available at international level. 
 					Sri Guru Granth Sahib epitomizes the spiritual tradition of Indian sub-continent. Besides that of the Sikh Gurus, it comprises the sacred writings of the medieval Indian Bhagats and Sufis. Its message is holistic in nature which is of immense value in solving the ills that we are facing today. It needs to be propagated and made known to the world community. In the recent years, scholars from diverse fields have shown keen interest in Sri Guru Granth Sahib to access the unfathomed ocean of wisdom. The research work done by such scholars need to be published. 
 			<br>
-					<br>
-					The projects under progress, the completed projects and the research publication are as follows:
+					
 		</p> 
 	</div>
-	<div class="col col-sm-1">
+	<div class="col col-sm-1 mob-set">
 		<br /><br />
 	</div>
-	<div class="col col-sm-4" style="padding-top:100px;">
+	<div class="col col-sm-4 " style="padding-top:100px;">
 	The projects under progress, the completed projects and the research publication are as follows:<br /><br />
 		<ul style="list-style:none;">
 		<br /><br >
