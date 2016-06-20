@@ -21,12 +21,12 @@
 					<span class="nav-item">   <a href="research_publications">Research Publications</a></span>
 					<span class="nav-item">  <a href="completed_projects">Completed Projects</a></span>
 					<span class="nav-item"><a href="underprogress">Projects Under Progress</a></span>
-					<span class="nav-item"> <a href="#">Activities</a></span>
+					<span class="nav-item"> <a href="activities">Activities</a></span>
 					<span class="nav-item"><a href="activities">Manthan</a></span>
 					<span class="nav-item"><a href="activities#services1">Lectures</a></span>
 					<span class="nav-item"> <a href="activities#services1">Seminars</a></span>
 					<span class="nav-item"> <a href="activities#services2">Councelling Services</a></span>
-					<span class="nav-item"><a href="#">Gallery</a></span>
+					<span class="nav-item" style="background-color:#362626"><a href="#">Gallery</a></span>
 					<span class="nav-item"><a href="gallery_foundation">Foundation Stone</a></span>
 					<span class="nav-item"> <a href="gallery_inaugration">Inauguration</a></span>
 					<span class="nav-item"><a href="gallery_manthan">Manthan</a></span>
