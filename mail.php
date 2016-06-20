@@ -12,7 +12,7 @@
        
         ?>
         <script>
-            alert("your message has been delivered. Thank You.");
+            alert("Your message has been delivered. Thank You.");
             window.location.href="contact_us";
         </script>
         <?php
@@ -20,7 +20,7 @@
         else
              ?>
         <script>
-            alert("Sorry your message was not delivered. please try agin later.");
+            alert("Sorry your message was not delivered. please try again later.");
             window.location.href="contact_us";
         </script>
         <?php

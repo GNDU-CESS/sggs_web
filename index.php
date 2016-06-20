@@ -283,28 +283,8 @@
 			</div>
   </div>
 </div>
-
-
-
-
-    </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-     <?php include 'includes/footer.php'; include 'includes/js.php';
-       
-    ?>
+</div>
+<?php include 'includes/footer.php'; include 'includes/js.php'; ?>
    <script src="js/jssor.slider.mini.js"></script>
 <script>
     jQuery(document).ready(function ($) {
