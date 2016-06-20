@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=-4 user-scalable=no">
     <meta name="description" content="Center on Studies in Shri Guru Granth Sahib">
     <meta name="author" content="wdc">
     <meta content='#003' name='theme-color' />

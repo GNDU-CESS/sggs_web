@@ -546,9 +546,11 @@ $(document).ready(function() {
 		});
 			
 		$('.nav-close').click(function() {
-			$('.nav-lay').addClass('nav-hid');
-
-		});
+			$('.nav-lay').addClass('animated fadeOutDown').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
+				$('.nav-lay').removeClass('animated fadeOutDown');
+				$('.nav-lay').addClass('nav-hid');
+			});
+		})
 $('a[href*=#]:not([href=#])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
         || location.hostname == this.hostname) {

@@ -12,6 +12,11 @@
 		margin-left: auto !important;
 	}
 	
+	body {
+		width:90% !important;
+		margin:auto !important;
+	}
+	
 	
 </style>
 <?php
