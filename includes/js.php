@@ -1,5 +1,4 @@
 <script src="js/jquery.min.js"></script>
-<script src="js/smoothscroll.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/jq.js"></script>
 <script src="js/jqueryUI.js"></script>
