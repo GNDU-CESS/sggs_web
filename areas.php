@@ -4,6 +4,11 @@
 		<meta charset="UTF-8"></meta>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /> 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+		 <meta name="description" content="Center on Studies in Shri Guru Granth Sahib">
+		<meta name="author" content="wdc">
+		<meta content='#003' name='theme-color' />
+		<meta content='#003' name='msapplication-navbutton-color' />
+		<meta content='#003' name='apple-mobile-web-app-status-bar-style' />
 		<title>Centre on Studies in Guru Granth Sahib</title>
 	
 	
@@ -459,7 +464,7 @@
 						</div>
 						
 						<div class="col-sm-12 col-xs-12 col-md-12">
-							<div id="1" class="col-sm-10 col-xs-12 col-md-12 long_tile" style="padding-top:-10px;">
+							<div id="1" class="col-sm-12 col-xs-12 col-md-12 long_tile" style="padding-top:-10px;">
 								<h2  id="title" style="padding-top:30px;font-family:ralvey;">
 									INTERFAITH UNDERSTANDING
 								</h2>
@@ -470,7 +475,7 @@
 						</div>
 						
 						<div class="col-sm-12 col-xs-12 col-md-12">
-							<div id="3" class="col-sm-10 col-xs-12 col-md-12 long_tile">
+							<div id="3" class="col-sm-12 col-xs-12 col-md-12 long_tile">
 								<h2 id="title1" style="padding-top:30px;font-family:ralvey;">
 									SCRIPTURAL STUDIES
 								</h2>
@@ -481,7 +486,7 @@ The writings of medieval Indian Bhaktas and Sufis form a glorious part of the Si
 							</div>
 						</div>
 						<div class="col-sm-12 col-xs-12 col-md-12">
-							<div id="4 " class="col-sm-10 col-xs-12 col-md-12 long_tile">
+							<div id="4 " class="col-sm-12 col-xs-12 col-md-12 long_tile">
 								<h2 id="title2" style="padding-top:30px;font-family:ralvey;" >
 									MUSICOLOGY
 								</h2>
@@ -490,7 +495,7 @@ The writings of medieval Indian Bhaktas and Sufis form a glorious part of the Si
 				</div>
 						</div>
 						<div class="col-sm-12 col-xs-12 col-md-12">
-							<div  id="5 " class="col-sm-10 col-xs-12 col-md-12 long_tile">
+							<div  id="5 " class="col-sm-12 col-xs-12 col-md-12 long_tile">
 								<h2 id="title3" style="padding-top:30px;font-family:ralvey;">
 									HERMENEUTIC AND LINGUISTIC STUDIES
 								</h2>
@@ -499,7 +504,7 @@ The writings of medieval Indian Bhaktas and Sufis form a glorious part of the Si
 				</div>
 						</div>
 						<div class="col-sm-12 col-xs-12 col-md-12">
-							<div  id="6 " class="col-sm-10 col-xs-12 col-md-12 long_tile">
+							<div  id="6 " class="col-sm-12 col-xs-12 col-md-12 long_tile">
 								<h2 id="title4" style="padding-top:30px;font-family:ralvey;">
 									SOCIAL AND CULTURAL STUDIES
 								</h2>
@@ -508,7 +513,7 @@ The writings of medieval Indian Bhaktas and Sufis form a glorious part of the Si
 						</div>
 						</div>
 						<div  class="col-sm-12 col-xs-12 col-md-12">
-							<div id="2" class="col-sm-10 col-xs-12 col-md-12 long_tile">
+							<div id="2" class="col-sm-12 col-xs-12 col-md-12 long_tile">
 								<h2  id="title5" style="padding-top:30px;font-family:ralvey;">
 									SCRIPTURAL TRANSLATIONS
 								</h2>

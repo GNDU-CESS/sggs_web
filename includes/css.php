@@ -12,9 +12,11 @@
 		margin-left: auto !important;
 	}
 	
-	body {
-		width:90% !important;
+	@media screen  and (max-width:1200px ) {
+		body {
+		width:99% !important;
 		margin:auto !important;
+	}
 	}
 	
 	
