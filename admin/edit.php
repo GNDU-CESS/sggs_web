@@ -32,7 +32,7 @@ else {
     $venue=addslashes($_POST['venue']);
     $desc=addslashes($_POST['desc']);
     $imagename=addslashes($_POST['pname']);
-    $event_edit= "UPDATE events
+    $event_edit= "UPDATE gyananjan_events
         SET
             title='$title',
             date = '$date',

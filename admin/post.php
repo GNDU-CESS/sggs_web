@@ -26,7 +26,7 @@ header ("Location: login?ee=$msg");
   	$image =  addslashes($_POST['pname']);
 
  
-    $query= "INSERT INTO `blog` (`title`,`date`, `author`,`blog`,`image`) VALUES ('$title','$date','$writer','$text','$image')";
+    $query= "INSERT INTO `gyananjan_blog` (`title`,`date`, `author`,`blog`,`image`) VALUES ('$title','$date','$writer','$text','$image')";
 
     $result=$db->query($query);
 

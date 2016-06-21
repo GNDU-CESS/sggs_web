@@ -15,7 +15,7 @@ include 'includes/css.php';
 
 $editid=$_GET['edit'];
 
-$dataQuery = "SELECT * FROM events WHERE id ='$editid'";
+$dataQuery = "SELECT * FROM gyananjan_events WHERE id ='$editid'";
 
 $getData = @$db->query($dataQuery);
 

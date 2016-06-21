@@ -2,7 +2,7 @@
 include 'admin/db/connect.php';
 // popularity algo //
 
-$getClick = "SELECT views FROM blog";
+$getClick = "SELECT views FROM gyananjan_blog";
 $data = $db->query($getClick);
 
 $i=0; $avg=0;
@@ -17,9 +17,9 @@ for ($j=0;$j<$i;$j++) {
 }
 
 //===============//
-$query="SELECT * FROM blog ORDER BY date DESC";
+$query="SELECT * FROM gyananjan_blog ORDER BY date DESC";
 $result=$db->query($query);
-$queryo = "SELECT * FROM blog WHERE views > '$avg'";
+$queryo = "SELECT * FROM gyananjan_blog WHERE views > '$avg'";
 $resulto = $db->query($queryo);
 
 

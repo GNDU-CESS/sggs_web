@@ -6,7 +6,7 @@ else {
 include 'admin/db/connect.php';
 $id= $_GET['id'];
 
-$dataQuery = "SELECT * FROM faculty WHERE id ='$id'";
+$dataQuery = "SELECT * FROM gyananjan_faculty WHERE id ='$id'";
 
 $getData = @$db->query($dataQuery);
 

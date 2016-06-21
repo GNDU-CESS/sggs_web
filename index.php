@@ -147,7 +147,7 @@
                <h3 class="panel-title size_reset">Introduction</h3>
             </div>
             <div class="panel-body" style="height:370px; font-size:18px;">
-                Centre on Studies in Sri Guru Granth Sahib, Guru Nanak Dev University, Amritsar established on 1st April 2011. It owes its origin to the public announcement of September 2004 made by the then Prime Minister of India, Dr. Manmohan Singh, that Govt. of India will establish a Centre in Guru Nanak Dev University, Amritsar for Studies on Sri Guru Granth Sahib. <br><br> The message of Sri Guru Granth Sahib is holistic in nature. It is of great significance and relevance for the modern age. The main objective of the establishment of this Centre is to disseminate this wisdom academically all over the world in its true and authentic form.  <br><br>
+                Centre on Studies in Sri Guru Granth Sahib, Guru Nanak Dev University, Amritsar established on April 2011. It owes its origin to the public announcement of September 2004 made by the then Prime Minister of India, Dr. Manmohan Singh, that Govt. of India will establish a Centre in Guru Nanak Dev University, Amritsar for Studies on Sri Guru Granth Sahib. <br><br> The message of Sri Guru Granth Sahib is holistic in nature. It is of great significance and relevance for the modern age. The main objective of the establishment of this Centre is to disseminate this wisdom academically all over the world in its true and authentic form.  <br><br>
                             <center><a href="files/English.pdf"><button style="text-align:center" class="btn btn-primary">Download PDF</button></a></center>
             </div>
         </div>
@@ -187,7 +187,7 @@
             <div class="panel-body eve" style="height:370px; overflow:hidden" >
                 <marquee direction="up" scrolldelay="160" onmouseover="stop();"  onmouseout="start();">
                 <?php
-                            $sql = "SELECT * FROM events";
+                            $sql = "SELECT * FROM gyananjan_events";
                             $result = $db->query($sql);
 
                             if ($result->num_rows > 0) {
@@ -271,7 +271,7 @@
 
 
 
-						<p style="text-align:justify; padding:3%;padding-top:5%; font-family: 'raleway';font-size: 18px;">Information technology has ushered in a new era of transmission of knowledge. There are numerous websites on which information about Sikhism is available. These websites are not managed/hosted by professional or academic institutions but by freelancers, thus sometimes their contents are out of the mark. In order to reach out to the people as well as to provide authoritative and authentic information about the Sikh Scripture and other aspects of Sikh Studies, the Centre is developing its own website known as Gyan Anjan. It will be launched very shortly.
+						<p style="text-align:justify; padding:3%;padding-top:5%; font-family: 'raleway';font-size: 18px;">Information technology has ushered in a new era of transmission of knowledge. There are numerous websites on which information about Sikhism is available. These websites are not managed/hosted by professional or academic institutions but by freelancers, thus sometimes their contents are out of the mark. In order to reach out to the people as well as to provide authoritative and authentic information about the Sikh Scripture and other aspects of Sikh Studies, the Centre has developed its own website known as Gyan Anjan. 
 						</p>
 
 					</div>

@@ -5,7 +5,7 @@ if (!isset($_GET['id'])) {
 	header('location:blog');
 }
 $id = $_GET['id'];
-$query = "SELECT * FROM blog WHERE id = '$id'";
+$query = "SELECT * FROM gyananjan_blog WHERE id = '$id'";
 $result= $db->query($query);
 $row = $result->fetch_array();
 if($row===null) {
@@ -15,7 +15,7 @@ if($row===null) {
 //page counter
 $pres = $row['views'];
 $pres++;
-$count = "UPDATE blog
+$count = "UPDATE gyananjan_blog
 SET views='$pres'
 WHERE id='$id'";
 $setview = $db->query($count);

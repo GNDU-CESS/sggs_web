@@ -38,7 +38,7 @@ else {
     $venue=addslashes($_POST['venue']);
     $desc=addslashes($_POST['desc']);
    $imagename=addslashes($_POST['pname']);
-    $event_in= "INSERT INTO `events` (`title`,`date`, `venue`,`description`,`imgname`) VALUES ('$title','$date','$venue','$desc','$imagename')";
+    $event_in= "INSERT INTO `gyananjan_events` (`title`,`date`, `venue`,`description`,`imgname`) VALUES ('$title','$date','$venue','$desc','$imagename')";
 
     $result=$db->query($event_in);
 
@@ -64,7 +64,7 @@ $dsign="";
 $dalert="";
 if(isset($_GET['del'])) {
  $delid=$_GET['del'];
-   $dquery="DELETE FROM events WHERE id='$delid'";
+   $dquery="DELETE FROM gyananjan_events WHERE id='$delid'";
 
    $dresult=$db->query($dquery);
 
@@ -234,7 +234,7 @@ else {
                                     <span class="sr-only" style="position:relative">  <?php echo $dmsg; ?></span></div>
                                 <ul class="list-group">
                                     <?php
-                    $sql = "SELECT title, date,id FROM events ORDER BY id DESC";
+                    $sql = "SELECT title, date,id FROM gyananjan_events ORDER BY id DESC";
                     $run = $db->query($sql);
 
                     if ($run->num_rows > 0) {

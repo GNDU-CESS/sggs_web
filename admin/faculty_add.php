@@ -39,7 +39,7 @@ else {
     $contact=addslashes($_POST['contact']);
     $desc=nl2br(addslashes($_POST['desc']));
    $imagename=addslashes($_POST['pname']);
-    $event_in= "INSERT INTO `faculty` (`name`,`designation`, `email`,`contact`,`description`,`image`) VALUES ('$name','$desig','$email','$contact','$desc','$imagename')";
+    $event_in= "INSERT INTO `gyananjan_faculty` (`name`,`designation`, `email`,`contact`,`description`,`image`) VALUES ('$name','$desig','$email','$contact','$desc','$imagename')";
 
     $result=$db->query($event_in);
 
@@ -65,7 +65,7 @@ $dsign="";
 $dalert="";
 if(isset($_GET['del'])) {
  $delid=$_GET['del'];
-   $dquery="DELETE FROM faculty WHERE id='$delid'";
+   $dquery="DELETE FROM gyananjan_faculty WHERE id='$delid'";
 
    $dresult=$db->query($dquery);
 
@@ -282,7 +282,7 @@ else {
                                     <span class="sr-only" style="position:relative">  <?php echo $dmsg; ?></span></div>
                                 <ul class="list-group">
                                     <?php
-                    $sql = "SELECT name, designation,id FROM faculty ORDER BY id ASC";
+                    $sql = "SELECT name, designation,id FROM gyananjan_faculty ORDER BY id ASC";
                     $run = $db->query($sql);
 
                     if ($run->num_rows > 0) {

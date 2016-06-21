@@ -58,7 +58,7 @@ body
 						<img class="img img-responsive" src="img/infra/23.jpg">
 					</div>
 					<div class="col-md-4 col-xs-6 ">
-						<img class="img img-responsive" src="img/infra/24.jpg">
+						<img class="img img-responsive" src="img/infra/infra3.jpg">
 					</div>
 				
 				

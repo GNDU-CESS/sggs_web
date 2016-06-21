@@ -9,12 +9,12 @@ header ("Location: login?ee=$msg");
 }
 
 
-$query = "SELECT title, views FROM blog ORDER BY views DESC";
+$query = "SELECT title, views FROM gyananjan_blog ORDER BY views DESC";
 $result = $db->query($query);
 
 //graph algo //
 
-$getClick = "SELECT views FROM blog";
+$getClick = "SELECT views FROM gyananjan_blog";
 $data = $db->query($getClick);
 
 $i=0; $avg=0;

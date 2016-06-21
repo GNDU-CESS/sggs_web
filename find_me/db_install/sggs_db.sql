@@ -26,7 +26,7 @@ SET time_zone = "+00:00";
 -- Table structure for table `auth`
 --
 
-CREATE TABLE `auth` (
+CREATE TABLE `gyananjan_auth` (
   `id` int(11) NOT NULL,
   `user` varchar(15) NOT NULL,
   `pass` varchar(150) CHARACTER SET macce COLLATE macce_bin NOT NULL
@@ -36,7 +36,7 @@ CREATE TABLE `auth` (
 -- Dumping data for table `auth`
 --
 
-INSERT INTO `auth` (`id`, `user`, `pass`) VALUES
+INSERT INTO `gyananjan_auth` (`id`, `user`, `pass`) VALUES
 (1, 'sggs', '01cfcd4f6b8770febfb40cb906715822');
 
 -- --------------------------------------------------------
@@ -45,7 +45,7 @@ INSERT INTO `auth` (`id`, `user`, `pass`) VALUES
 -- Table structure for table `blog`
 --
 
-CREATE TABLE `blog` (
+CREATE TABLE `gyananjan_blog` (
   `id` int(11) NOT NULL,
   `title` varchar(100) NOT NULL,
   `author` varchar(100) NOT NULL,
@@ -61,7 +61,7 @@ CREATE TABLE `blog` (
 -- Table structure for table `events`
 --
 
-CREATE TABLE `events` (
+CREATE TABLE `gyananjan_events` (
   `id` int(11) NOT NULL,
   `title` varchar(141) NOT NULL,
   `date` date NOT NULL,
@@ -76,7 +76,7 @@ CREATE TABLE `events` (
 -- Table structure for table `faculty`
 --
 
-CREATE TABLE `faculty` (
+CREATE TABLE `gyananjan_faculty` (
   `id` int(11) NOT NULL,
   `name` varchar(51) NOT NULL,
   `image` varchar(61) NOT NULL,
@@ -90,7 +90,7 @@ CREATE TABLE `faculty` (
 -- Dumping data for table `faculty`
 --
 
-INSERT INTO `faculty` (`id`, `name`, `image`, `designation`, `email`, `contact`, `description`) VALUES
+INSERT INTO `gyananjan_faculty` (`id`, `name`, `image`, `designation`, `email`, `contact`, `description`) VALUES
 (7, 'Dr. Balwant Singh Dhillon', 'director.jpg', 'FOUNDER DIRECTOR', 'balwantdhillon@yahoo.com', '9855057624', '                            Dr.Balwant Singh Dhillon (b. Feb.5, 1950) currently Adjunct Professor, has been the Founder Director (2011-Feb.2015), Centre for Studies on Sri Guru Granth Sahib, Guru Nanak Dev University, Amritsar; Professor and Head, Department of Guru Nanak Studies; Dean of Faculty of Humanities and Religious Studies. He has also served on the Senate and Syndicate of Guru Nanak Dev University, Amritsar. He did his Master in History from University of Rajasthan, Jaipur (1974); and in Religious Studies from Punjabi University, Patiala (1976) and was awarded Ph. D. by Guru Nanak Dev University, Amritsar in1985 for his thesis on The Sikh Gurus and the Mughal State.Dr. Dhillon specializes in the study and analysis of documents/manuscripts in Rajasthani, Hindi, Gurmukhi and Persian. He is a keen scholar of Sikh Studies, especially history, religion and literature. So far he has published/edited a dozen of books and contributed more than hundred papers published in research journals, books and encyclopedias. Among his earlier works Parmukh Sikh te Sikh Panth presents an exhaustive account of the expansion of Sikh Panth during the early 17th century and Early Sikh Scriptural Tradition: Myth and Reality responds to the issues that have cropped up from the textual studies of the Sikh scripture. He has also produced critical text of Sri Gur Panth Parkash (by Rattan Singh Bhangu), the only Sikh source on eighteenth century Sikh history. His latest work on the Eighteenth Century Persian Historiography on Banda Singh Bahadur brings into light a number of contemporary and eye witness accounts which have remained ignored by the scholars. He has been the Editor of two research journals- Journal of Sikh Studies, and Perspectives on Guru Granth Sahib both published by Guru Nanak Dev University, Amritsar. He has organized a number of National and International seminars/conferences at Guru Nanak Dev University, Amritsar. His participation in seminars/conferences at National and International level has been very consistent and fruitful. His contribution to the field of Sikh Studies, especially the study of Sikh scripture, history and religion, the Sikh institutions and their role in the formation of Sikh identity, analysis of contemporary sources of the Sikh tradition and several other debatable issues in Sikh history and religion is commendable. Presently, some important research projects are in progress under his supervision. Besides he is working on two projects--Rajasthani Sources of the Sikh History and Persian Sources on the Sikh Gurus.                        '),
 (8, 'Dr Gulzar Singh Kang', 'prof kang 3.jpg', 'OFFICATING DIRECTOR', '', '', 'Dr. Gulzar Singh Kang (02 September 1954) is currently Director of Centre on Studies in Sri Guru Granth Sahib, GNDU, Amritsar. He did M.A. Punjabi April 1977, M.A. Religious Studies 1992 and Ph.D. (Concept of Shabad in Sikhism) Punjabi University, Patiala. His specialization is in Medieval Punjabi literature and Sikh Studies. He has published 18 books and contributed more than 50 papers published in reputed journals and books. Among his earlier works â€œShabad Anubhav te Darshanâ€ is a scholarly work in the field of Sikh Philosophy. â€œSufimat Silsile te Saadhakâ€, â€œMiran Shah Jalandhari Jivan te Rachnaâ€ and four volumes of â€œS.G.B. Singh dian Durlabh Likhtaanâ€ are some other major works done by him. Recently he has published a Expositions of Japuji Sahib under the title of â€œJapuji Sahib: Bahupakhhi Viakhiaâ€. He pays keen interest in collecting the old manuscripts of Punjabi literature and Sikhism. Some of them he had in his collections are old more than 350 years. For his academic achievements he has been awarded by many institutions. Some of the awards are: on 26 January 2007 by Dr. A.P.J. Abdul Kalam (President of India), S. Kapoor Singh memorial award by Bhai Randhir Singh Trust, Ludhiana, Kesgarh Sahib Anandpur Sahib, Guru Gobind Singh Study circle etc.Dr. Gulzar Singh Kang is soon going to publish a Book on â€œGurmat Chetna te Chintanâ€. Currently he is working on Expositions of Sri Guru Granth Sahib.'),
 (9, 'Singh Sahib Joginder Singh Vedanti', 'vedanti2.jpg', '', '', '', 'Singh Sahib Joginder Singh Vedanti served as Jathedar of the Akal Takht since March of 2008. One would think this is a position which gives one the status of being, perhaps, the most senior figure in the Sikh community in India and perhaps throughout the world. He has wide knowledge of Sikh tradition and Sikh scripture. Currently he is working as a chief advisor in the exegesis Sri Guru Granth Sahib.'),
@@ -127,25 +127,25 @@ INSERT INTO `faculty` (`id`, `name`, `image`, `designation`, `email`, `contact`,
 --
 -- Indexes for table `auth`
 --
-ALTER TABLE `auth`
+ALTER TABLE `gyananjan_auth`
   ADD PRIMARY KEY (`id`);
 
 --
 -- Indexes for table `blog`
 --
-ALTER TABLE `blog`
+ALTER TABLE `gyananjan_blog`
   ADD PRIMARY KEY (`id`);
 
 --
 -- Indexes for table `events`
 --
-ALTER TABLE `events`
+ALTER TABLE `gyananjan_events`
   ADD PRIMARY KEY (`id`);
 
 --
 -- Indexes for table `faculty`
 --
-ALTER TABLE `faculty`
+ALTER TABLE `gyananjan_faculty`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -155,22 +155,22 @@ ALTER TABLE `faculty`
 --
 -- AUTO_INCREMENT for table `auth`
 --
-ALTER TABLE `auth`
+ALTER TABLE `gyananjan_auth`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 --
 -- AUTO_INCREMENT for table `blog`
 --
-ALTER TABLE `blog`
+ALTER TABLE `gyananjan_blog`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=29;
 --
 -- AUTO_INCREMENT for table `events`
 --
-ALTER TABLE `events`
+ALTER TABLE `gyananjan_events`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 --
 -- AUTO_INCREMENT for table `faculty`
 --
-ALTER TABLE `faculty`
+ALTER TABLE `gyananjan_faculty`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=35;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

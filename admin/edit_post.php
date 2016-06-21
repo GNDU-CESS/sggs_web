@@ -12,7 +12,7 @@ if(!isset($_GET['edit'])) {
 
 else {
 	$id = $_GET['edit'];
-	$query="SELECT * FROM blog WHERE id = '$id'";
+	$query="SELECT * FROM gyananjan_blog WHERE id = '$id'";
 	$result = $db->query($query);
 	$row=$result->fetch_array();
 $id=$row['id'];	

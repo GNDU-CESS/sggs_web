@@ -13,7 +13,7 @@ else {
 $msg="You Need To Login First";
 }
 
-$query="SELECT pass FROM auth";
+$query="SELECT pass FROM gyananjan_auth";
 $result = $db->query($query);
 $getpass=$result->fetch_array();
 $dataPass= $getpass['pass'];
@@ -22,7 +22,7 @@ $enterPass= $_GET['old'];
 $encrypPass= md5($_GET['old']);
 if($encrypPass===$dataPass && !empty($newPass)) {
 $encrypnew = md5($newPass);
-$upquery= "UPDATE auth SET pass='$encrypnew' WHERE pass='$dataPass'";
+$upquery= "UPDATE gyananjan_auth SET pass='$encrypnew' WHERE pass='$dataPass'";
 $set = $db->query($upquery);
 if($set){
     echo '<div id="changeresp" class="alert alert-success col-md-12" role="alert">Password Successfully Changed</div>';

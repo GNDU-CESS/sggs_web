@@ -42,7 +42,8 @@
                 <div id="header">
 					<span class="in-nav ion-navicon"></span>
                     <a href="index" style="color:#34495E">
-                        <h2 class="toph hset" style="font-family:'algerian' !important;text-align:center;">GYAN ANJAN</h2></a>
+                        <h2 class="toph hset" style="font-family:'algerian' !important;text-align:center;">GYAN ANJAN</h2></a><a href="http://www.gndu.ac.in"><h4 class="toph hset" style="font-family:'algerian' !important;text-align:center; margin-top:5.5%;"> Guru Nanak Dev University </h4></a>
+                       
                 </div>
             </div>
         </div>

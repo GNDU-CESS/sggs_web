@@ -42,8 +42,10 @@ else {
 include 'includes/meta.php';
 include 'includes/css.php';
 ?>
+
 	<title>Post-Create</title>
 	<script src="//cdn.tinymce.com/4/tinymce.min.js"></script>
+
 	<link href="../css/bootstrap.min.css" rel="stylesheet">
 	<script>
 		tinymce.init({ 
@@ -58,6 +60,26 @@ include 'includes/css.php';
 		});
 	</script>
 	<script src="../js/jquery.js"></script>
+<script>
+			$(document).ready(function() {
+				$("#post_blog").click(function(e){
+					$(this).val("Publishing...Please Wait!");
+					 tinyMCE.triggerSave();
+					var data=$('#blogForm').serialize();
+					$.post('post.php',data,response);
+					e.preventDefault();
+				})
+				
+				function response(res) {
+					alert(res);
+					$("#post_blog").val("Publish");
+					$("#blogForm")[0].reset();
+					$("#update").load('create_post #live');
+				}
+				
+				
+			})
+		</script>
 	<script type="text/javascript">
 		$(document).ready(function (e) {
 		                    $("#uploadForm").on('submit', (function (e) {
@@ -223,26 +245,7 @@ include 'includes/css.php';
 			</div>
 		</div>
 		<script src="../js/bootstrap.min.js" type="text/javascript"></script>
-		<script>
-			$(document).ready(function() {
-				$("#post_blog").click(function(e){
-					$(this).val("Publishing...Please Wait!");
-					 tinyMCE.triggerSave();
-					var data=$('#blogForm').serialize();
-					$.post('post.php',data,response);
-					e.preventDefault();
-				})
-				
-				function response(res) {
-					alert(res);
-					$("#post_blog").val("Publish");
-					$("#blogForm")[0].reset();
-					$("#update").load('create_post #live');
-				}
-				
-				
-			})
-		</script>
+		
 	</body>
 
 	</html>

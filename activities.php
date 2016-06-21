@@ -24,7 +24,7 @@ body
                 <h1 class="">Activities</h1>
 	</div>
 	<div class="row alter2" style=" padding:14px;margin:2px">
-		<h2 style="text-align:center;" class="subheadx media-heading">MANTHAN</h2>
+		<h2 style="text-align:center;" class="subheadx media-heading">Manthan</h2>
 		<div class="row-same-heigt" >
 					<div class="col-left col-lg-6 col-lg-height col-middle">
 						<p class="textx" style="font-size:16px;text-align:justify;"> A Research Forum of the Centre known as Manthan has been set up. It meets at least once in a month where Faculty members, Visiting Professors, Guest Scholars and Project Fellows present their papers. Its purpose is to make the upcoming scholars to know the new developments that are taking place in the field of Sikh Studies as well as to enhance the academic and professional skills of the Project Fellows working in the Centre. Since January 2013 fourteen meetings of it have taken place, wherein Faculty of the Centre, Project Fellows and Visiting Scholars have presented their papers.</p><br />
@@ -37,7 +37,7 @@ body
 				 </div>
 			</div>
 				<div class="row alter1" style=" padding:14px;margin:2px">
-		<h2 style="text-align:center;" class="subheadx media-heading">LECTURES and SEMINARS </h2>
+		<h2 style="text-align:center;" class="subheadx media-heading">Lectures and Seminars</h2>
 		<div class="row-same-heigt" >
 					<div class="col-left col-lg-6 col-lg-height col-middle no-padding mob-align" style="padding-top:5%;">
 					  <img class="img img-responsive" src="img/activities/lecture.JPG">
@@ -70,18 +70,22 @@ body
 				 </div>
 			</div>
 			<div class="row alter2" style="padding:14px;margin:2px">
-		<h2 style="text-align:center;" class="subheadx media-heading">COUNSELLING SERVICES</</h2>
+		<h2 style="text-align:center;" class="subheadx media-heading">Councelling Services</</h2>
 		<div class="row-same-heigt" >
 				<div class="col-left col-lg-6 col-lg-height col-middle">
-						<p class="textx" style="font-size:16px;text-align:justify;"><p>
-									<ul class="" style="font-size:16px;">
+						<p class="textx" style="font-size:16px;text-align:justify;">
+                            <p>
+									<ul class="textx" style="font-size:16px;text-align:justify;line-height:1.45;">
 											<li>Meera Dewan, an established documentary film maker on behalf of Ministry of Information and Broadcasting, Govt. of India approached the University for expert 
 													input for a film by her on Gur Parsad: The Grace of Food.  On the direction of Prof. A. S. Brar, Vice-Chancellor, GNDU, Centre provided all the academic input and 
-													help to Meera Dewan to shoot this film in and around Amritsar.</li><br />
-													<li>On August 13-23, 2013 three students of Chapman University, LA, namely David Thompson, Ryan Westra and Andrew Herkett who are doing documentary films on 
-													Sikhism requested the University to guide them about the history of Sikhism, the Golden Temple and  other significant features of Sikhism</li><br />
-													<li>Peder Gedda, a Ph.D. scholar at University of British Columbia, Canada, had a close reading of the various manuals of Sikh Rahit under the supervision of 
-													Dr. Balwant Singh Dhillon for three weeks. </li><br /></li><br />
+													help to Meera Dewan to shoot this film in and around Amritsar.
+                                           </li><br />
+								            <li>On August 13-23, 2013 three students of Chapman University, LA, namely David Thompson, Ryan Westra and Andrew Herkett who are doing documentary films on 
+													Sikhism requested the University to guide them about the history of Sikhism, the Golden Temple and  other significant features of Sikhism
+                                            </li><br />
+								            <li>Peder Gedda, a Ph.D. scholar at University of British Columbia, Canada, had a close reading of the various manuals of Sikh Rahit under the supervision of 
+													Dr. Balwant Singh Dhillon for three weeks. 
+                                            </li><br /><br />
 											
 					</p></p></ul>
 					

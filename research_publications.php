@@ -43,7 +43,7 @@
 </head>
 <body class="container">
 <?php include 'includes/nav.php';
-      include 'includes/map.php';?>
+      ?>
     
 
     
@@ -118,10 +118,25 @@ It was released on the inauguration of the building of the Centre.</div>
 						</div>
 					</p>
 					
+              
+		
               <div class="container"  style="background-color:#e0e0d1; width:auto;">
 
 					<p style="text-align:justify; font-family: 'Raleway-ExtraLight'">
 						<div class="" style="padding-left:40px;padding-top:40px;;background-color:#e0e0d1;">
+							<div class="col col-sm-8">
+							<h3>Persian-Arabic Glossary of Sri Guru Granth Sahib</h3>
+							<p style="text-align:justify;">Dr. Balwant Singh Dhillon, Director of the Centre and Dr. Muhabat Singh, JRF in the Centre has worked on the Persian-Arabic Glossary of Sri Guru Granth Sahib. It contains more than three thousand entries wherein besides the root meanings in Persian, their occurrence in Gurbani along with their context and examples have been explained.</p></div>
+							<div class="col col-sm-4" style="padding-top:20px;">
+								<img src="img/books/glossary.jpg" style="height:200px"><br /><br />
+								<a href="img/books/Sri Guru Granth Arbi-Farsi Shabadvali Kosh.pdf"><button type="button" class="btn btn-success" style="margin-left:25px;">Download</button></a><br /><br /><br />
+							</div>
+						</div>
+					</p>	
+					</div>
+
+<p style="text-align:justify; font-family: 'Raleway-ExtraLight'">
+						<div class="row" style="padding-left:40px;padding-top:40px;">
 							<div class="col col-sm-8">
 							<h3>Perspectives on Guru Granth Sahib</h3>
 							<p style="text-align:justify;">The Centre has launched an annual research journal, Perspectives on Guru Granth Sahib which is exclusively devoted to the studies on Sri Guru Granth Sahib. It is a referred and peer reviewed research journal accredited with ISSN. It carries high quality research papers on the various facets of Sikh Scripture and its literature. So far two issues (Vol. 7, 2009-12, and Vol. 8, 2013) of this journal have been published. Proceedings of the seminars/conferences/workshops are also published.</p></div>
@@ -136,13 +151,13 @@ It was released on the inauguration of the building of the Centre.</div>
 
 							</div>
 						</div>
-					</p>	
-					</div>
+					</p>
 					</div>
 				<div class="col col-sm-1">
 				<br /><br />
 				</div>
 				<div class="col col-sm-4">
+                    
 					<br /><br /><br /><br /><br />
 					The projects under progress, the completed projects and the research publication are as follows:<br /><br />
 					<ul style="list-style:none;">

@@ -91,11 +91,10 @@
 	<div class="col col-sm-4 " style="padding-top:100px;">
 	The projects under progress, the completed projects and the research publication are as follows:<br /><br />
 		<ul style="list-style:none;">
-		<br /><br >
-					<a href="research_publications.php"><li style="width:350px;height:40px;background-color:wheat;align:center;padding:2px"><h4>Research Publications</h4></li></a><br />
-					<a href="underprogress.php"><li style="width:350px;height:40px;background-color:wheat;align:center;padding:2px"><h4>Projects under Progress</h4></li></a><br />
-					<a href="completed_projects.php"><li style="width:350px;height:40px;background-color:wheat;align:center;padding:2px"><h4>Completed Projects</h4></li></a><br />
-		</ul>
+					<a href="research_publications.php"><li style="width:250px;height:40px;background-color:wheat;align:center;padding:2px"><h4>Research Publications</h4></li></a><br />
+					<a href="underprogress.php"><li style="width:250px;height:40px;background-color:wheat;align:center;padding:2px"><h4>Projects under Progress</h4></li></a><br />
+					<a href="completed_projects.php"><li style="width:250px;height:40px;background-color:wheat;align:center;padding:2px"><h4>Completed Projects</h4></li></a><br />
+					</ul>
 	</div>
 </section>   
     </div>

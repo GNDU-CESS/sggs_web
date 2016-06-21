@@ -34,11 +34,11 @@
 <div class="head">
     <div class="col-md-12">
             <div class="center alter2" >
-                <h1 class="headx head1 head" style="line-height:60px">Faculty and Supporting Staff</h1>
+                <h1 class="headx head1 head" style="line-height:60px; margin-top:1%; ">Faculty and Supporting Staff</h1>
             </div>
     </div>
 <?php
-    $data_fac= "SELECT id, name, designation, image FROM faculty ORDER BY id ASC";
+    $data_fac= "SELECT id, name, designation, image FROM gyananjan_faculty ORDER BY id ASC";
     $result = $db->query($data_fac); 
 
 

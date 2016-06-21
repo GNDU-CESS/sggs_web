@@ -33,7 +33,7 @@
     </div>
     <div class="evd">
     <?php
-$sql = "SELECT * FROM events";
+$sql = "SELECT * FROM gyananjan_events";
 $result = $db->query($sql);
 
                             if ($result->num_rows > 0) {

@@ -27,7 +27,7 @@ header ("Location: login?ee=$msg");
   	$image =  addslashes($_POST['pname']);
 
  
-    $query= "UPDATE `blog`  SET
+    $query= "UPDATE `gyananjan_blog`  SET
            title='$title',
             date= '$date',
            author= '$writer',

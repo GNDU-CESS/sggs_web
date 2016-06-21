@@ -32,7 +32,7 @@ else {
     $contact=addslashes($_POST['contact']);
     $desc=nl2br(addslashes($_POST['desc']));
     $imagename=addslashes($_POST['pname']);
-    $edit_fac= "UPDATE faculty
+    $edit_fac= "UPDATE gyananjan_faculty
         SET
            name='$name',
             designation= '$desig',
