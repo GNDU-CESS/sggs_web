@@ -139,9 +139,10 @@
     
 </style>
 <!--loader-->
+
 <script src="../js/startload.min.js"></script>
 <link href="../css/startload.css" rel="stylesheet" />
-<link href="../css/mediaset.min.css" rel="stylesheet" type="text/css">
+<!--removed coz conflicting with tinymice  link href="../css/mediaset.min.css" rel="stylesheet" type="text/css"-->
 <style>
 	          .panel {
                     border-color: rgba(10, 1, 6, 0.4);

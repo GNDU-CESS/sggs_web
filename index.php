@@ -137,7 +137,7 @@
                      <div><img class="img img-resposive" u="image" src="img/carousel22.JPG" /></div>
                     <div><img class="img img-resposive" u="image" src="img/carousel3.jpg" /></div>
                     <div><img class="img img-resposive" u="image" src="img/carousel4.jpg" /></div>
-
+			
                 </div>
             </div>
             </div>
@@ -185,7 +185,7 @@
                 <h3 class="panel-title size_reset" >Latest Activities and Events</h3>
             </div>
             <div class="panel-body eve" style="height:370px; overflow:hidden" >
-                <marquee direction="up" scrolldelay="160" onmouseover="stop();"  onmouseout="start();">
+                <marquee style="height:auto; margin:auto;" direction="up" scrolldelay="10" onmouseover="stop();"  onmouseout="start();">
                 <?php
                             $sql = "SELECT * FROM gyananjan_events";
                             $result = $db->query($sql);
@@ -204,6 +204,7 @@
                             }
                             $result->free();
                         ?>
+                    <br><br>
                 </marquee>
             </div>
         </div>            

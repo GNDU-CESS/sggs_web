@@ -97,7 +97,7 @@ $setview = $db->query($count);
 						<ul class="list-group col-md-4">
 								<li class="list-group-item text-center lead">Latest Posts</li>
 							<?php 
-							$query2 = "SELECT * FROM blog ORDER BY date DESC LIMIT 10";
+							$query2 = "SELECT * FROM gyananjan_blog ORDER BY date DESC LIMIT 10";
 							$getResult = $db->query($query2);
 							if ($getResult->num_rows > 0) {
 	while ($data = $getResult->fetch_assoc()) {

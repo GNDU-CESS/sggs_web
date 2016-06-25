@@ -40,8 +40,11 @@ body {
     }
     
     .head {
-        margin-top:6%;
+        margin-top:13%;
     }
+.head1{
+    margin-top: 7%;
+}
     
 /*@media screen and (max-width: 768px) {
     

@@ -17,7 +17,7 @@ $dsign="";
 $dalert="";
 if(isset($_GET['del'])) {
  $delid=$_GET['del'];
-   $dquery="DELETE FROM blog WHERE id='$delid'";
+   $dquery="DELETE FROM gyananjan_blog WHERE id='$delid'";
 
    $dresult=$db->query($dquery);
 
@@ -45,6 +45,18 @@ include 'includes/css.php';
 
 	<title>Post-Create</title>
 	<script src="//cdn.tinymce.com/4/tinymce.min.js"></script>
+    <style>
+        @font-face {
+  
+ 
+  src: url('editor/fonts/tinymce.woff') format('woff'), /* Pretty Modern Browsers */
+       url('editor/fonts/tinymce-small.woff') format('woff'), /* Pretty Modern Browsers */
+       url('editor/fonts/tinymce.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('editor/fonts/tinymce-small.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('editor/fonts/tinymce.svg#tinymice') format('svg'); /* Legacy iOS */
+       url('editor/fonts/tinymce-small.svg#tinymice-small') format('svg'); /* Legacy iOS */
+}
+    </style>
 
 	<link href="../css/bootstrap.min.css" rel="stylesheet">
 	<script>
@@ -60,26 +72,7 @@ include 'includes/css.php';
 		});
 	</script>
 	<script src="../js/jquery.js"></script>
-<script>
-			$(document).ready(function() {
-				$("#post_blog").click(function(e){
-					$(this).val("Publishing...Please Wait!");
-					 tinyMCE.triggerSave();
-					var data=$('#blogForm').serialize();
-					$.post('post.php',data,response);
-					e.preventDefault();
-				})
-				
-				function response(res) {
-					alert(res);
-					$("#post_blog").val("Publish");
-					$("#blogForm")[0].reset();
-					$("#update").load('create_post #live');
-				}
-				
-				
-			})
-		</script>
+
 	<script type="text/javascript">
 		$(document).ready(function (e) {
 		                    $("#uploadForm").on('submit', (function (e) {
@@ -216,7 +209,7 @@ include 'includes/css.php';
 						<a href="stats.php"><div class="block">View Stats</div></a>
 					<ul class="list-group">
 						<?php
-                    $sql = "SELECT title,id, date FROM blog ORDER BY id ASC";
+                    $sql = "SELECT title,id, date FROM gyananjan_blog ORDER BY id ASC";
                     $run = $db->query($sql);
 
                     if ($run->num_rows > 0) {
@@ -245,7 +238,26 @@ include 'includes/css.php';
 			</div>
 		</div>
 		<script src="../js/bootstrap.min.js" type="text/javascript"></script>
-		
+		<script>
+			$(document).ready(function() {
+				$("#post_blog").click(function(e){
+					$(this).val("Publishing...Please Wait!");
+					 tinyMCE.triggerSave();
+					var data=$('#blogForm').serialize();
+					$.post('post.php',data,response);
+					e.preventDefault();
+				})
+				
+				function response(res) {
+					alert(res);
+					$("#post_blog").val("Publish");
+					$("#blogForm")[0].reset();
+					$("#update").load('create_post #live');
+				}
+				
+				
+			})
+		</script>
 	</body>
 
 	</html>
