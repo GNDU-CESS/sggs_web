@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 25, 2016 at 09:39 AM
+-- Generation Time: Jun 26, 2016 at 07:47 AM
 -- Server version: 10.1.10-MariaDB
 -- PHP Version: 7.0.4
 
@@ -17,7 +17,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `sggs_db`
+-- Database: `send_sg`
 --
 
 -- --------------------------------------------------------
@@ -60,7 +60,8 @@ CREATE TABLE `gyananjan_blog` (
 --
 
 INSERT INTO `gyananjan_blog` (`id`, `title`, `author`, `blog`, `date`, `image`, `views`) VALUES
-(1, 'dfsifjidsj', 'jdjf', '<p>Pondering over the Guru, I have learnt the instruction, (p. 465)</p><br />\r\n<p>&nbsp;</p><br />\r\n<p>He, who calls himself a Sikh of the Great True Guru, should rise early and meditate on God Name</p><br />\r\n<p><em>Sloka </em>(Guru Ram Das)</p><br />\r\n<p>&nbsp;</p><br />\r\n<p>One known as disciple of the holy Preceptor</p><br />\r\n<p>Must, rising at dawn, on the Name Divine meditate.</p><br />\r\n<p>At dawn must he no way fail <em>to rise,</em></p><br />\r\n<p>Should cleanse himself and <em>in God''s Name,</em></p><br />\r\n<p>the Pool of Amrita3 take bath.</p><br />\r\n<p>Then, as by the Master instructed, must he the</p><br />\r\n<p>Name Divine repeatedly utter-</p><br />\r\n<p>Thereby shall all his sins, evil and foul doings be shed.</p><br />\r\n<p>Then with rise of day must he chant the Master''s WordIn</p><br />\r\n<p>rest and movement4 on the Name Divine must he</p><br />\r\n<p>meditate.</p><br />\r\n<p>The disciple that with each breath and morsel on</p><br />\r\n<p>the Lord meditates,</p><br />\r\n<p>Shall the Master''s pleasure w;n.</p><br />\r\n<p>The Master to such of the disciples his teaching imparts,</p><br />\r\n<p>As the Lord''s grace have received.</p><br />\r\n<p>Nanak, servant of God, seeks dust <em>offeet </em>of</p><br />\r\n<p>such a disciple</p><br />\r\n<p>As contemplating <em>the holy Name, </em>to it inspires others. (2) (P. 305-306)</p><br />\r\n<p>&nbsp;</p><br />\r\n<p>gur isKhu gur isKu hY pIr pIrhu koeI]</p><br />\r\n<p>Sbid suriq cylw gurU prmySr soeI] (vwr 13, pauVI 2) BweI gurdws</p><br />\r\n<p>&nbsp;</p><br />\r\n<p>&nbsp;</p><br />\r\n<p>gurU isKu isK gurU hY eyko gur aupdys clwey]</p><br />\r\n<p>Guru&rsquo;s Sikh and Sikh&rsquo;s Guru, are one and the same and both propagate Guru&rsquo;s mission. (p-444)</p><br />\r\n<p>&nbsp;</p><br />\r\n<p>^wlsw myro rUp hY Kws] ^wlsy mih ho kro invws]</p><br />\r\n<p>^wlsw myro ipMf prwn] ^wlsw myrI jwn kI jwn] (srbloh gRMQ, pMnw-531-532)</p><br />\r\n<p>&nbsp;</p><br />\r\n<p>Which means :-The Guru''s true sikh should get up early in</p><br />\r\n<p>the morning and recite the Lord''s True Name in the ambroisal</p><br />\r\n<p>hours of the morning; he should make an effort to wake up in the</p><br />\r\n<p>morning, then have a bath and join the company of holy</p><br />\r\n<p>congregations in singing the praises of the Lord reciting True Name.</p><br />\r\n<p>He could cast away all his ills and sufferings by repeating Lord''s</p><br />\r\n<p>True Name constantly according to the Guru''s teachings. Then by</p><br />\r\n<p>day dawn he should sing the Guru''s word (Gurbani) and recite the</p><br />\r\n<p>True Name while in sitting or standing postures. The Gursikh, who</p><br />\r\n<p>recites Lord''s True Name with every breath or morsel of food, is</p><br />\r\n<p>appreciated and liked by the Guru. The Gursikh who is bestowed</p><br />\r\n<p>with the Lord''s grace and benevolence, is favoured with the Guru''s</p><br />\r\n<p>message of True Name and worship.</p><br />\r\n<p>o Nanak ! I would seek the dust of the lotus-feet of the Gursikh</p><br />\r\n<p>(Guru''s follower) who recites Lord''s True Name himself and helps</p><br />\r\n<p>others in remembering the Lord with the Guru''s guidance.(2)</p>', '2016-01-22', '', 2);
+(2, 'XSCGVHBJNKMJ', 'RXCGVHBJNKM', '<p>kbhgio9uho</p>', 'rtygvhbjn', 'carousel1.jpg', 5),
+(3, 'ikugh', 'ilkhj', '<p>;lkmn</p>', 'oig', 'carousel2.jpg', 2);
 
 -- --------------------------------------------------------
 
@@ -85,7 +86,9 @@ INSERT INTO `gyananjan_events` (`id`, `title`, `date`, `venue`, `imgname`, `desc
 (2, 'Manthan', '2016-07-08', 'Centre on Studies in Sri Guru Granth Sahib', '', 'Gurmail Singh SRF of Centre will present his paper on the Life and contribution of Giani Nahar Singh in Sikh World.'),
 (7, 'Sikh Studies Workshop for US Teachers', '2016-07-21', 'Centre on Studies in Sri Guru Granth Sahib', '', 'df dsdf sd ds ds '),
 (8, 'International Seminar on Guru Gobind Singh: Life and Mission.', '2016-11-02', 'Centre on Studies in Sri Guru Granth Sahib', '', 'df h jj k;k jkj kj'),
-(10, 'National Seminar on Banda Singh Bahadur Jivan ate Virasat', '2016-06-23', 'Guru Granth Sahib Bhawan, GNDU, Amritsar.', '', 'gh shkaj k jfkdjk sakj s;');
+(10, 'National Seminar on Banda Singh Bahadur Jivan ate Virasat', '2016-06-23', 'Guru Granth Sahib Bhawan, GNDU, Amritsar.', '', 'gh shkaj k jfkdjk sakj s;'),
+(11, 'name', '0000-00-00', 'bij', '', 'jbjjinijnikj'),
+(12, 'hyguvf', '0000-00-00', 'FS', 'carousel1.jpg', 'XGNYD');
 
 -- --------------------------------------------------------
 
@@ -176,12 +179,12 @@ ALTER TABLE `gyananjan_auth`
 -- AUTO_INCREMENT for table `gyananjan_blog`
 --
 ALTER TABLE `gyananjan_blog`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 --
 -- AUTO_INCREMENT for table `gyananjan_events`
 --
 ALTER TABLE `gyananjan_events`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 --
 -- AUTO_INCREMENT for table `gyananjan_faculty`
 --
