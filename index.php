@@ -1,162 +1,122 @@
-<?php include 'includes/meta.php';  ?>
-<title>
-    Center On Studies in Sri Guru Granth Sahib
-</title>
+<?php 
+	require_once('admin/db/connect.php');
+	include 'includes/meta.php';
+	include 'includes/css.php';
+?>
+	</head>
 
-    <?php
-        include 'includes/css.php';
-        include 'admin/db/connect.php'; ?>
-
-<style>
-	body
-	{
-		background-color:#ffffe5;
-		overflow-x:hidden;
-	}
- 
-
-
-    .head h1{
-      text-align: center;
-      padding: 40px;
-    }
-    .container{
-      padding: 0px;
-    }
-
-   .fixed {
-            position: fixed;
-            z-index: 2;
-        }
-
-        * {
-            font-weight: 500;
-        }
-	.size_reset
-    {
-      font-size: 19px;
-    }
-
-    @media screen and (max-width:1024px) {
-    .container {
-        padding:5px !important;
-    }
-    }
-
-    @media screen and (min-width:1200px) {
-       .carous {
-           margin-top:11% !important;
-           padding:0;
-       }
-
-    }
-    @media screen and (max-width:698px) {
-     #slide img {
-    height: 500px;
-     }
-
-    }
-    body {margin:0;!important;
-    	
-    }
-
-
-    /* panel css*/
-
-    .cset>.panel {
-       padding:0;
-       border-radius:0%;
-       min-height:370px;
-       border-color:rgba(10,1,6,0.4);
-    }
-
-    @media screen and (min-width:993px) {
-        .cset .panel {
-            width:50%;
-        }
-
-    }
-    
-
-    @media screen and (max-width:986px) {
-         .panel-body {
-            height: auto !important;
-        }
-
-    }
-    @media screen and (max-width:349px) {
-        .cset .panel {
-            height: auto;
-        }
-
-    }
-
-
-    .cset {
-        margin:auto;
-    }
-
-    .panel {
-        border-color:rgba(10,1,6,0.4);
-    }
-
-    .panel-heading {
-        background-color:#003 !important;
-        color:white !important;
-        border-radius:0%;
-        text-align:center;
-
-    }
-    .no_event {
-        font-size:15px;
-        text-align:center;
-        padding:60px;
-
-    }
-
-
-</style>
-</head>
 <body class="container">
 <?php  include 'includes/nav.php';
 ?>
-<div class="head  animated fadeInUp">
-    <div class="land-1">
-        <div class="row">
-        <div class="col-md-12 cset ">
-        <div class="panel panel-info col-md-5">
-            <div class="panel-heading">
-                <h3 class="panel-title size_reset">At Glance</h3>
+		
+		<div class="head"></div>
+		<div class="container">
+			<div class="panel-body col-md-9">
+			<div id="sggsSlide" class="owl-carousel"> 
+				<img src="img/carousel1.jpg"> 
+				<img src="img/carousel2.jpg"> 
+				<img src="img/carousel3.jpg"> 
+				<img src="img/carousel4.jpg"> 
+				<img src="img/activities/manthan.JPG"> 
+				<img src="img/carousel22.JPG"> 
+			</div>
+		
+				<div class="dis colorido-gl">
+					<h2 class="welcome-text">Introduction</h2>
+					 <strong>Centre on Studies in Sri Guru Granth Sahib, Guru Nanak Dev University, Amritsar established on April 2011.</strong> It owes its origin to the public announcement of September 2004 made by the then Prime Minister of India, Dr. Manmohan Singh, that Govt. of India will establish a Centre in Guru Nanak Dev University, Amritsar for Studies on Sri Guru Granth Sahib. <br><br> The message of Sri Guru Granth Sahib is holistic in nature. It is of great significance and relevance for the modern age. The main objective of the establishment of this Centre is to disseminate this wisdom academically all over the world in its true and authentic form.  </p>
+				</div><br>
+			<div class="">
+			<div class="panel panel-info s-panel col-md-6">
+            <div class="panel-heading colorido-gh">
+               <h3 class="panel-title size_reset">Latest Activities</h3>
             </div>
-            <div class="panel-body" style="height:370px;overflow:hidden">
-                <div id="slider1_container" style="position: relative; top: 0px; left: 0px;width:auto; height: 300px;">
-                <!-- Slides Container -->
-                <div u="slides" style="cursor: move; position: absolute; overflow: hidden; left: 0px; top: 0px; width: 550px; height: 320px;object-fit:fill">
-                    <div><img class="img img-resposive" u="image" src="img/carousel1.jpg" /></div>
-                    <div><img class="img img-resposive" u="image" src="img/carousel2.jpg" /></div>
-                     <div><img class="img img-resposive" u="image" src="img/carousel22.JPG" /></div>
-                    <div><img class="img img-resposive" u="image" src="img/carousel3.jpg" /></div>
-                    <div><img class="img img-resposive" u="image" src="img/carousel4.jpg" /></div>
+            <div class="panel-body colorido-t cp-body">
+               
+                 <marquee style="height:auto; margin:auto;" direction="up" scrolldelay="140" onmouseover="stop();"  onmouseout="start();">
+                <?php
+                            $sql = "SELECT * FROM gyananjan_events";
+                            $result = $db->query($sql);
+
+                            if ($result->num_rows > 0) {
+
+                               while($row = $result->fetch_assoc()) {
+                                    ?>
+					 <a href="events#<?php echo $row['id'];?>">
+						 <div class='col-md-12 row' style="border-bottom:1px solid #333">
+						 	<div  class="col-md-10">
+								 <h5><b><?php echo $row["title"]; ?></b><br></h5>
+								  <b>Venue :</b><?php echo $row["venue"]; ?><br>
+							</div>
+							<h4 class="col-md-2 date-s colorido-gl"><?php echo date("d",strtotime($row['date'])); ?><br><?php echo date("M",strtotime($row['date'])); ?></h4><br> 
+							
+					   	</div>
+						
+					 </a> 
+					 <?php
+                                }
+
+                            }
+                            else {
+                                echo "<div class='no_event'>No Latest Activities and Events</div>";
+                            }
+                            $result->free();
+                        ?>
+                    <br><br>
+                </marquee>
+
+                
+            </div>
 			
+        </div>	
+		<div class="panel panel-info s-panel col-md-6 cp">
+            <div class="panel-heading colorido-gh">
+               <h3 class="panel-title size_reset">Latest blogs</h3>
+            </div>
+            <div class="panel-body colorido-t cp-body">
+                <div class="list-group">
+					<?php $query2 = "SELECT * FROM gyananjan_blog ORDER BY date DESC LIMIT 10";
+							$getResult = $db->query($query2);
+							if ($getResult->num_rows > 0) {
+	while ($data = $getResult->fetch_assoc()) { ?>
+			
+	  <a  href="blog-view?id=<?php echo $data['id']; ?>" class="list-group-item">
+	  <div class="row">
+		<h4 class="list-group-item-heading text-center"><b><?php echo $data['title']; ?></b></h4>
+		<p class="list-group-item-text pull-left"><span class="ion-edit"></span> <?php echo $data['author'];?></p><p class="list-group-item-text pull-right"><span class="ion-calendar"></span> <?php echo date("d M,Y",strtotime($data['date']))?></p>
+	  </div>
+	  </a>
+	<?php
+	}
+} else {echo '"<li class="list-group-item"><a href="">No Latest Posts! </a></li>"';}
+					
+		?>			
+                
+
                 </div>
             </div>
+			
+				</div>
+			<div class="panel panel-info s-panel col-md-12">
+            <div class="panel-heading colorido-gh">
+               <h3 class="panel-title size_reset">Infrastructure</h3>
             </div>
-        </div>
-<div class="panel panel-info col-md-5">
-            <div class="panel-heading">
-               <h3 class="panel-title size_reset">Introduction</h3>
+            <div class="panel-body colorido-t">
+				<div class="in-center">
+                <img src="img/infra/29.jpg" class="infra-m">
+                <img src="img/infra/26.jpg" class="infra-m">
+                <img src="img/infra/27.jpg" class="infra-m"><br>
+				<a href="infrastructure">
+				</div>
+				<h5 class="text-center" style="text-decoration:underline">More about Infrastructure</h5></a>
             </div>
-            <div class="panel-body" style="height:370px; font-size:18px;">
-                Centre on Studies in Sri Guru Granth Sahib, Guru Nanak Dev University, Amritsar established on April 2011. It owes its origin to the public announcement of September 2004 made by the then Prime Minister of India, Dr. Manmohan Singh, that Govt. of India will establish a Centre in Guru Nanak Dev University, Amritsar for Studies on Sri Guru Granth Sahib. <br><br> The message of Sri Guru Granth Sahib is holistic in nature. It is of great significance and relevance for the modern age. The main objective of the establishment of this Centre is to disseminate this wisdom academically all over the world in its true and authentic form.  <br><br>
-                            <center><a href="files/English.pdf"><button style="text-align:center" class="btn btn-primary">Download PDF</button></a></center>
-            </div>
-        </div>
-
-            <div class="panel panel-info col-md-5">
-            <div class="panel-heading">
+			</div></div>
+			</div>
+			<div class="col-md-3">
+		  	<div class="panel panel-info s-panel">
+            <div class="panel-heading colorido-gh">
                <h3 class="panel-title size_reset">Quick Links</h3>
             </div>
-            <div class="panel-body" style="height:370px;">
+            <div class="panel-body colorido-t">
                 <div class="list-group">
                   <a href="research_publications" class="list-group-item">
                     <h4 class="list-group-item-heading">Research Publications</h4>
@@ -174,106 +134,91 @@
                     <h4 class="list-group-item-heading">Important Videos</h4>
                     <p class="list-group-item-text">Watch latest videos from Center on studies in Shri Guru Granth Sahib</p>
                   </a>
-
+				</div>
                 </div>
             </div>
+        </div><div class="col-md-3">
+		  	<div class="panel panel-info s-panel">
+            <div class="panel-heading colorido-gh">
+               <h3 class="panel-title size_reset">Faculties</h3>
+            </div>
+            <div class="panel-body colorido-t">
+                <div class="list-group">
+                  <a href="faculty_view?id=7" class="list-group-item">
+                    <div class="row">
+						<img src="admin/images/reduceSize/_GSB2695.JPG" class="small-p pull-right">
+						<div class="text-center"> 
+						<h5><b>Dr. Balwant Singh Dhillon</b></h5>
+						<p class="text-center">Founder Director</p>
+						</div>
+				  	</div>
+                  </a>
+               <a href="faculty_view?id=8" class="list-group-item">
+                    <div class="row">
+						<img src="admin/images/reduceSize/_GSB2703.JPG" class="small-p pull-right">
+						<div class="text-center"> 
+						<h5><b>Dr. Gulzar Singh Kang</b></h5>
+						<p class="text-center">Oficiating Director</p>
+						</div>
+				  	</div>
+                  </a>
+                   
+				<a href="faculty" class="list-group-item">
+                    <div class="row text-center">
+						<h6 style="text-decoration:underline"><b>More</b></h6>
+				  	</div>
+                  </a>
+				</div>
+                </div>
+            </div>
+        </div><div class="col-md-3">
+		  	<div class="panel panel-info s-panel">
+            <div class="panel-heading colorido-gh">
+               <h3 class="panel-title size_reset">Gallery</h3>
+            </div>
+            <div class="panel-body colorido-t">
+                <div class="list-group">
+                  <a href="gallery_fieldwork" class="list-group-item in-center">
+                   	<img src="img/gallery/images/fieldworks/img16.JPG" class="img-gall">
+                   	<img src="img/gallery/images/fieldworks/img13.jpg" class="img-gall">
+                  </a><h5 class="text-center">Field Works</h5> 
+					<a href="gallery_inaugration" class="list-group-item in-center">
+                   	<img src="img/gallery/images/inauguration/img11.JPG" class="img-gall">
+                   	<img src="img/gallery/images/inauguration/img15.JPG" class="img-gall">
+                  </a><h5 class="text-center">Inaugration</h5>
+					<a href="gallery_seminars" class="list-group-item in-center">
+                   	<img src="img/gallery/images/seminars/img13.JPG" class="img-gall">
+                   	<img src="img/gallery/images/seminars/img11.JPG" class="img-gall">
+                  </a><h5 class="text-center">Seminars</h5>
+				</div>
+                </div>
+
+            </div>
         </div>
 
+	
+		</div>
+	
+		<?php
+			include 'includes/footer.php';
+			include 'includes/js.php'; ?>
+			<script>
+				$(document).ready(function () {
+					$("#sggsSlide").owlCarousel();
+				});
+				var owl = $('#sggsSlide');
+				owl.owlCarousel({
+					animateOut: 'fadeOutDown'
+					, animateIn: 'fadeInDown'
+					, items: 1
+					, dots: false
+					, loop: true
+					, autoplay: true
+					, autoplayTimeout: 3000
+					, autoplayHoverPause: true
+					,  navigation : false,
+				});
+			</script>
+	</body>
 
-        <div class="panel panel-default col-md-5">
-            <div class="panel-heading">
-                <h3 class="panel-title size_reset" >Latest Activities and Events</h3>
-            </div>
-            <div class="panel-body eve" style="height:370px; overflow:hidden" >
-                <marquee style="height:auto; margin:auto;" direction="up" scrolldelay="10" onmouseover="stop();"  onmouseout="start();">
-                <?php
-                            $sql = "SELECT * FROM gyananjan_events";
-                            $result = $db->query($sql);
-
-                            if ($result->num_rows > 0) {
-
-                               while($row = $result->fetch_assoc()) {
-                                    ?><a href="events#<?php echo $row['id'];?>"><?php
-                                    echo "<div class='col-md-12'><h4>".$row["title"]."<br></h4>Date :<i>".$row["edate"]."</i><br> Venue :<i>".$row["venue"]."</i> <br>";
-                                     echo "</div><hr></a>";
-                                }
-
-                            }
-                            else {
-                                echo "<div class='no_event'>No Latest Activities and Events</div>";
-                            }
-                            $result->free();
-                        ?>
-                    <br><br>
-                </marquee>
-            </div>
-        </div>            
-        </div>
-    </div>
-    </div>
-	<!--intro-===-->
-    
-	<div class="panel panel-default">
-  <div class="panel-heading">
-    <h3 class="panel-title size_reset">Objective</h3>
-  </div>
-  <div class="panel-body">
-    <div class="row" >
-
-
-				<div class="row-same-height">
-					<div class="col-left col-lg-6 col-lg-height col-middle no-padding mob-align" style="padding-top:5%">
-                     	<img src="img/IMG_9776.jpg" class="img img-responsive" >
-                   </div>
-
-					 <div class="col-left col-lg-6 col-lg-height col-middle no-padding" >
-
-
-
-                       <p style="text-align:justify;margin-top:10%; font-family: 'raleway'; font-size: 18px;">In the context of Sri Guru Granth Sahib being a repository of Divine Word, interfaith dialogue, and also being relevant for an holistic approach to human life and civilization, the study of the origin of Bani, (holy verses), its preservation, various modes of transmission, different schools of exegesis and impact of Sri Guru Granth Sahib upon human beings in general and on its devotees in particular, the establishment of a  Centre on Studies in Sri Guru Granth Sahib is one of the most desirable academic endeavour. </p>
-                 	</div>
-				 </div>
-			</div>
-  </div>
-</div>
-
-<div class="panel panel-default">
-  <div class="panel-heading">
-    <h3 class="panel-title size_reset">About GyanAnjan</h3>
-  </div>
-  <div class="panel-body">
-    	<div class="row">
-				<div class="row-same-heigt" >
-					<div class="col-left col-lg-6 col-lg-height col-middle">
-
-
-
-						<p style="text-align:justify; padding:3%;padding-top:5%; font-family: 'raleway';font-size: 18px;">Information technology has ushered in a new era of transmission of knowledge. There are numerous websites on which information about Sikhism is available. These websites are not managed/hosted by professional or academic institutions but by freelancers, thus sometimes their contents are out of the mark. In order to reach out to the people as well as to provide authoritative and authentic information about the Sikh Scripture and other aspects of Sikh Studies, the Centre has developed its own website known as Gyan Anjan. 
-						</p>
-
-					</div>
-
-					 <div class="col-left col-lg-6 col-lg-height col-middle no-padding mob-align" style="padding-top:5%;">
-                     	<img src="img/group.JPG" class="img img-responsive">
-					</div>
-				 </div>
-			</div>
-  </div>
-</div>
-</div>
-<?php include 'includes/footer.php'; include 'includes/js.php'; ?>
-   <script src="js/jssor.slider.mini.js"></script>
-<script>
-    jQuery(document).ready(function ($) {
-        var options = { $AutoPlay: true };
-        var jssor_slider1 = new $JssorSlider$('slider1_container', options);
-    });
-</script>
-
-
-
-
-
-
-</body>
-</html>
+	</html>

@@ -23,7 +23,7 @@ body
 	<div class="center">
                 <h1 class="">Activities</h1>
 	</div>
-	<div class="row alter2" style=" padding:14px;margin:2px">
+	<div class="row colorido-gl" style=" padding:14px;margin:2px">
 		<h2 style="text-align:center;" class="subheadx media-heading">Manthan</h2>
 		<div class="row-same-heigt" >
 					<div class="col-left col-lg-6 col-lg-height col-middle">
@@ -70,7 +70,7 @@ body
 				 
 				 </div>
 			</div>
-			<div class="row alter2" style="padding:14px;margin:2px">
+			<div class="row colorido-gd" style="padding:14px;margin:2px">
 		<h2 style="text-align:center;" class="subheadx media-heading">Councelling Services</</h2>
 		<div class="row-same-heigt" >
 				<div class="col-left col-lg-6 col-lg-height col-middle">
