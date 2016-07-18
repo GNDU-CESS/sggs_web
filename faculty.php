@@ -33,7 +33,7 @@
 
 <div class="head">
     <div class="col-md-12">
-            <div class="center alter2" >
+            <div class="center colorido-gh" >
                 <h1 class="headx head1 head" style="line-height:60px; margin-top:1%; ">Faculty and Supporting Staff</h1>
             </div>
     </div>

@@ -28,7 +28,7 @@
 <div class="head">
     <div class="col-md-12">
             <div class="center">
-                <h1 class="headx head1" style="margin-top:7%;">Events and Activities</h1>
+                <h1 style="margin-top:7%;">Events and Activities</h1>
             </div>
     </div>
     <div class="evd">
@@ -53,10 +53,10 @@ $result = $db->query($sql);
         </div>
       </div>
     </div>
-
+	
 
 <?php  include 'includes/js.php';
-    include 'includes/footer.php'?>
+  ?>
 
 
 </body>

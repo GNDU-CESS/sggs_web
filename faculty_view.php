@@ -73,9 +73,9 @@ if($data===null) {
 <?php include 'includes/nav.php';
       ?>
 
-<div class="head">
+<div style="margin-top:8%">
     <div class="col-md-12">
-            <div class="center alter2" >
+            <div class="center colorido-gl" >
                 <h1 class="headx head1 head" style="line-height:60px">Faculty and Supporting Staff</h1>
             </div>
     </div>

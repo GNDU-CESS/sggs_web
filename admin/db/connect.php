@@ -2,7 +2,7 @@
     $host="localhost";
     $user="root";
     $pass="";
-    $db_name= "send_sg";
+    $db_name= "sggs_db";
     $db= @new mysqli($host,$user,$pass,$db_name);
     
     if ($db->connect_error) {

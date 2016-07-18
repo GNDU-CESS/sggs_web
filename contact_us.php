@@ -31,7 +31,7 @@ google.maps.event.addDomListener(window, 'load', initialize);
 			<div class="col-lg-6">
 			
 				<div class="panel panel-default alter1"  style="padding:15px;">
-    			<div class="panel-heading text-center alter2">Contact us at</div>
+    			<div class="panel-heading text-center colorido-gh">Contact us at</div>
     			<div class="panel-body">
                     <h5>Phone :0183-2258802,2258809, 2450601-14 <small>ext 3442</small> </h5>
 					
@@ -44,7 +44,7 @@ google.maps.event.addDomListener(window, 'load', initialize);
 			<div class="col-lg-6"> 
 				<div class="col-lg-2"></div>
 				<div class="col-lg-10 panel panel-default alter1" style="padding-top:15px;">
-                  	<div class="panel-heading text-center alter2">Please Leave Your Message</div>
+                  	<div class="panel-heading text-center colorido-gh">Please Leave Your Message</div>
 				<form role="form" action="mail" method="POST">
 									<div class="form-group"><br />
 										<label for="name">Name</label>

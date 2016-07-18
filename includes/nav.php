@@ -1,6 +1,6 @@
 <div class="navbar-fixed-top container" style="background-color:#ffffe5;z-index:18">
 		
-	<div class="nav-lay nav-hid">
+	<div class="nav-lay nav-hid colorido-gl">
 		 
                      <span class="nav-close ion-close"></span> 
                    	<span class="nav-item"><a href="index">Home</a></span>
@@ -42,7 +42,7 @@
                 <div id="header">
 					<span class="in-nav ion-navicon"></span>
                     <a href="index" style="color:#34495E">
-                        <h2 class="toph hset" style="font-family:'algerian' !important;text-align:center;">GYAN ANJAN</h2></a><a href="http://www.gndu.ac.in"><h4 class="toph hset" style="font-family:'algerian' !important;text-align:center; margin-top:5.5%;"> Guru Nanak Dev University </h4></a>
+                        <h2 class="toph hset colorido-t" style="font-family:'algerian' !important;text-align:center;">GYAN ANJAN</h2></a><a href="http://www.gndu.ac.in"><h4 class="toph hset colorido-t" style="font-family:'algerian' !important;text-align:center; margin-top:5.5%;"> Guru Nanak Dev University </h4></a>
                        
                 </div>
             </div>
@@ -53,7 +53,7 @@
                 <div class="input-group">
                     <input id="tipue_search_input" autocomplete="off" required type="text" name="q" class="form-control len" placeholder="Search for...">
                     <span class="input-group-btn">
-                        <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+                        <button class="btn btn-default colorido" type="submit"><i class="glyphicon glyphicon-search"></i></button>
                     </span>
 
                 </div>
@@ -66,7 +66,7 @@
    
 
 
-    <nav class="navbar navbar-fixed-top container" style="margin-top:80px;z-index:800000000">
+    <nav class="navbar navbar-fixed-top container colorido-gd" style="margin-top:80px;z-index:800000000">
         <div class="container">
             <div class="nav-head">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
