@@ -11,7 +11,7 @@ var config = {
 		//'rgb(40, 100, 162)', 
 		'rgb(251, 158, 39)'
 	], 
-	gradMix : "rgb(251, 158, 39)", //any color value or type random,  update : grad mix color
+	gradMix : "rgb(251, 80, 39)", //any color value or type random,  update : grad mix color
 	autoChange: true, // Auto Color Change Settings true = yes, false= no
 	autoDuration: 0.4,  // Auto Color Change Duration in Seconds
 	animationDuration: 0.3,  //Color Changing Animation Duration
