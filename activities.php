@@ -27,8 +27,8 @@ body
 		<h2 style="text-align:center;" class="subheadx media-heading">Manthan</h2>
 		<div class="row-same-heigt" >
 					<div class="col-left col-lg-6 col-lg-height col-middle">
-						<p class="textx" style="font-size:16px;text-align:justify;"> A Research Forum of the Centre known as Manthan has been set up. It meets at least once in a month where Faculty members, Visiting Professors, Guest Scholars and Project Fellows present their papers. Its purpose is to make the upcoming scholars to know the new developments that are taking place in the field of Sikh Studies as well as to enhance the academic and professional skills of the Project Fellows working in the Centre. Since January 2013 fourteen meetings of it have taken place, wherein Faculty of the Centre, Project Fellows and Visiting Scholars have presented their papers.</p><br />
-					<p id="services1"></p>  <a href="files/intro.PDF"><p style="text-align:center" class="btn btn-primary pull-right">Read More</p></a>
+						<p class="textx" style="font-size:16px;text-align:justify;"> A Research Forum of the Centre known as Manthan has been set up. It meets at least once in a month where Faculty members, Visiting Professors, Guest Scholars and Project Fellows present their papers. Its purpose is to make the upcoming scholars to know the new developments that are taking place in the field of Sikh Studies as well as to enhance the academic and professional skills of the Project <p id="services1"></p>Fellows working in the Centre. Since January 2013 fourteen meetings of it have taken place, wherein Faculty of the Centre, Project Fellows and Visiting Scholars have presented their papers.</p><br />
+					  <a href="files/intro.PDF"><p style="text-align:center" class="btn btn-primary pull-right">Read More</p></a>
 				</div>
 
 				 <div class="col-left col-lg-6 col-lg-height col-middle no-padding mob-align" style="padding-top:5%;">
@@ -53,12 +53,12 @@ body
                                     </li>
                                     <br />
                                     <li>
-                                        Amrika Da Education System by Dr. Charanjit  Singh Gumtala, America on 26th November, 2015.
+                                     <p id="services2"></p>         Amrika Da Education System by Dr. Charanjit  Singh Gumtala, America on 26th November, 2015.
 
                                     </li>
                                     <br />
                                     <li>
-                            <p id="services2"></p>    Gurbani Vich Kudrat da Sankalp by Dr. Devinderpal Singh, B.C.Canada on 24th December, 2015.
+                                        Gurbani Vich Kudrat da Sankalp by Dr. Devinderpal Singh, B.C.Canada on 24th December, 2015.
                             </li>
                             <br />
                             <a href="files/intro.PDF"><p style="text-align:center" class="btn btn-primary pull-right">Read More</p></a>

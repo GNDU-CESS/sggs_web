@@ -17,8 +17,8 @@ $name= $data['name'];
 $desig= $data['designation'];
 $email= $data['email'];
 $contact= $data['contact'];
-$imgname= $data['image'];
-$desc= $data['description'];
+$imgname= $data['fimage'];
+$desc= $data['fdescription'];
      
 if($data===null) {
 	header('location:faculty');

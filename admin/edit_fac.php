@@ -38,8 +38,8 @@ else {
             designation= '$desig',
             email= '$email',
              contact= '$contact',
-            description= '$desc',
-            image= '$imagename'
+            fdescription= '$desc',
+            fimage= '$imagename'
         WHERE id = '$editid'";
 
 

@@ -56,7 +56,7 @@ $setview = $db->query($count);
 			} 
 			
 			<?php
-				if ($row['image']=="") {
+				if ($row['bimage']=="") {
 					echo ".pres {
 					display:none;
 					}
@@ -78,12 +78,12 @@ $setview = $db->query($count);
 								<div class="row text-center">
 									<div class="group2 col-sm-12 col-md-12">
 										<span class="glyphicon glyphicon-pencil"> </span>&nbsp;&nbsp;<?php echo $row['author']; ?> &nbsp;&nbsp;
-										<span class="glyphicon glyphicon-time"></span>&nbsp;&nbsp; <?php echo date("d M,Y",strtotime($row['date'])); ?>
+										<span class="glyphicon glyphicon-time"></span>&nbsp;&nbsp; <?php echo date("d M,Y",strtotime($row['bdate'])); ?>
 									</div>
 								</div>
 
 								<div  style="border:1px solid #eee;padding:15px;background-color:#fff;word-wrap:break-word;">
-								<img  src="admin/images/reduceSize/<?php echo $row["image"]; ?>" class="text-center img img-responsive pres">
+								<img  src="admin/images/reduceSize/<?php echo $row["bimage"]; ?>" class="text-center img img-responsive pres">
 
 								<br />
 								
@@ -97,11 +97,11 @@ $setview = $db->query($count);
 						<ul class="list-group col-md-4">
 								<li class="list-group-item text-center lead">Latest Posts</li>
 							<?php 
-							$query2 = "SELECT * FROM gyananjan_blog ORDER BY date DESC LIMIT 10";
+							$query2 = "SELECT * FROM gyananjan_blog ORDER BY bdate DESC LIMIT 10";
 							$getResult = $db->query($query2);
 							if ($getResult->num_rows > 0) {
 	while ($data = $getResult->fetch_assoc()) {
-			echo	'<li class="list-group-item"><a href="blog-view?id='.$data['id'].'">'.$data['title'].'-'.date("d M,Y",strtotime($data['date'])). '</a></li>';
+			echo	'<li class="list-group-item"><a href="blog-view?id='.$data['id'].'">'.$data['title'].'-'.date("d M,Y",strtotime($data['bdate'])). '</a></li>';
 	}
 } else {echo '"<li class="list-group-item"><a href="">No Latest Posts! </a></li>"';}
 					

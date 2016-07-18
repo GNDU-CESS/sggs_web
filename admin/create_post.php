@@ -209,13 +209,13 @@ include 'includes/css.php';
 						<a href="stats.php"><div class="block">View Stats</div></a>
 					<ul class="list-group">
 						<?php
-                    $sql = "SELECT title,id, date FROM gyananjan_blog ORDER BY id ASC";
+                    $sql = "SELECT title,id, bdate FROM gyananjan_blog ORDER BY id ASC";
                     $run = $db->query($sql);
 
                     if ($run->num_rows > 0) {
 
                         while($row = $run->fetch_assoc()) {
-                            echo"<li class='list-group-item'>".$row['title']."<br><small><br>".$row['date']."</small><br><br><a href='?del=".$row['id']."'>Delete</a><a class='pull-right' href='edit_post?edit=".$row['id']."'>Edit</a></li>";
+                            echo"<li class='list-group-item'>".$row['title']."<br><small><br>".$row['bdate']."</small><br><br><a href='?del=".$row['id']."'>Delete</a><a class='pull-right' href='edit_post?edit=".$row['id']."'>Edit</a></li>";
                         }
 
                     }

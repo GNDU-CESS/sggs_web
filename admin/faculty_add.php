@@ -39,7 +39,7 @@ else {
     $contact=addslashes($_POST['contact']);
     $desc=nl2br(addslashes($_POST['desc']));
    $imagename=addslashes($_POST['pname']);
-    $event_in= "INSERT INTO `gyananjan_faculty` (`name`,`designation`, `email`,`contact`,`description`,`image`) VALUES ('$name','$desig','$email','$contact','$desc','$imagename')";
+    $event_in= "INSERT INTO `gyananjan_faculty` (`name`,`designation`, `email`,`contact`,`fdescription`,`fimage`) VALUES ('$name','$desig','$email','$contact','$desc','$imagename')";
 
     $result=$db->query($event_in);
 
@@ -86,17 +86,6 @@ if(isset($_GET['del'])) {
 else {
 
 }
-
-
-
-
-
-
-
-
-
-
-
 
 ?>
     <?php include 'includes/meta.php';  ?>

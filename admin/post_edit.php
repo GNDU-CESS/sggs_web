@@ -29,10 +29,10 @@ header ("Location: login?ee=$msg");
  
     $query= "UPDATE `gyananjan_blog`  SET
            title='$title',
-            date= '$date',
+            bdate= '$date',
            author= '$writer',
              blog= '$text',
-            image= '$image'
+            bimage= '$image'
              WHERE id= '$id'";
 
     $result=$db->query($query);
@@ -46,18 +46,4 @@ header ("Location: login?ee=$msg");
    }
 }
 
-
-
-
-
 ?>
-
-
-
-
-
-
-
-
-
-

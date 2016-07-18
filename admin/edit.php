@@ -35,9 +35,9 @@ else {
     $event_edit= "UPDATE gyananjan_events
         SET
             title='$title',
-            date = '$date',
+            edate = '$date',
             venue = '$venue',
-            description= '$desc',
+            edescription= '$desc',
             imgname= '$imagename'
         WHERE id = '$editid'";
 

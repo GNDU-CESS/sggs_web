@@ -38,7 +38,7 @@
             </div>
     </div>
 <?php
-    $data_fac= "SELECT id, name, designation, image FROM gyananjan_faculty ORDER BY id ASC";
+    $data_fac= "SELECT id, name, designation, fimage FROM gyananjan_faculty ORDER BY id ASC";
     $result = $db->query($data_fac); 
 
 
@@ -51,7 +51,7 @@
        
           echo '<div class="col-md-3 col-sm-12 card">'; 
             echo '<a  href="faculty_view?id='.$row['id'].'">';
-             echo '<img class="size1 img-responsive" src="admin/images/reduceSize/'.$row['image'].'">';
+             echo '<img class="size1 img-responsive" src="admin/images/reduceSize/'.$row['fimage'].'">';
               echo '<h3 class="name_style">'.$row['name'].'</h3>';
               echo '<h3 class="name_style">'.$row['designation'].'</h3><hr>';
             echo '</a>';

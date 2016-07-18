@@ -17,7 +17,7 @@ for ($j=0;$j<$i;$j++) {
 }
 
 //===============//
-$query="SELECT * FROM gyananjan_blog ORDER BY date DESC";
+$query="SELECT * FROM gyananjan_blog ORDER BY bdate DESC";
 $result=$db->query($query);
 $queryo = "SELECT * FROM gyananjan_blog WHERE views > '$avg'";
 $resulto = $db->query($queryo);
@@ -105,12 +105,12 @@ $resulto = $db->query($queryo);
 							echo    '<a href="blog-view?id='.$row['id'].'">';
 							echo		'<div class="posts thumbnail row">';
 							echo          '<div class="col-md-8">';
-							echo			'<img class="img-responsive setimg" src="admin/images/reduceSize/'.$row['image'].'" alt="'.$row['title'].'" style="box-shadow:none">';
+							echo			'<img class="img-responsive setimg" src="admin/images/reduceSize/'.$row['bimage'].'" alt="'.$row['title'].'" style="box-shadow:none">';
 							echo          '</div>';
 							echo			'<div class="caption col-md-4">';
 							echo				'<div class="heading">'.$row['title'].'</div><hr>';
 							echo				'<div class="attr">';
-							echo				'<div class="date"><span class="glyphicon glyphicon-calendar"></span>&nbsp;&nbsp;'.date("d M Y",strtotime($row['date'])).'</div><br>';
+							echo				'<div class="date"><span class="glyphicon glyphicon-time"></span>&nbsp;&nbsp;'.date("d M Y",strtotime($row['bdate'])).'</div><br>';
 							echo				'<div class="main-head"><span class="glyphicon glyphicon-pencil"></span>&nbsp;'.$row['author'].'</div>';
 							echo				'</div>';
 							echo			'</div>';
@@ -137,7 +137,7 @@ $resulto = $db->query($queryo);
 							echo		'<div class="panel-body">';
 							echo    '<a href="blog-view?id='.$data['id'].'">';
 							echo	'<div class="attr1">';
-							echo		'<img class="img-responsive setimgp" src="admin/images/reduceSize/'.$data['image'].'" alt="" style="height:100px">';
+							echo		'<img class="img-responsive setimgp" src="admin/images/reduceSize/'.$data['bimage'].'" alt="" style="height:100px">';
 							echo		'<div class="tname text-center">.'.$data['title'].'</div>';
 							echo	'</div>';
 							echo '</a>';

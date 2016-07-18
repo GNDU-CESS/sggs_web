@@ -17,9 +17,9 @@ else {
 	$row=$result->fetch_array();
 $id=$row['id'];	
 $title= $row['title'];
-$date= $row['date'];
+$date= $row['bdate'];
 $author= $row['author'];
-$imgname= $row['image'];
+$imgname= $row['bimage'];
 $text= $row['blog'];
 }
 

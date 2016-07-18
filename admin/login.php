@@ -23,7 +23,7 @@ if(isset($_POST['auth'])) {
         $user=$_POST['user'];
         $pass=$_POST['pass'];
         $epass= md5($pass);
-        $query="SELECT * FROM gyananjan_auth WHERE  user='$user' AND pass='$epass'";
+        $query="SELECT * FROM gyananjan_auth WHERE  username='$user' AND pass='$epass'";
         
         $gain=$db->query($query);
         

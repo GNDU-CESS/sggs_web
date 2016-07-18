@@ -194,7 +194,7 @@
 
                                while($row = $result->fetch_assoc()) {
                                     ?><a href="events#<?php echo $row['id'];?>"><?php
-                                    echo "<div class='col-md-12'><h4>".$row["title"]."<br></h4>Date :<i>".$row["date"]."</i><br> Venue :<i>".$row["venue"]."</i> <br>";
+                                    echo "<div class='col-md-12'><h4>".$row["title"]."<br></h4>Date :<i>".$row["edate"]."</i><br> Venue :<i>".$row["venue"]."</i> <br>";
                                      echo "</div><hr></a>";
                                 }
 
@@ -210,33 +210,9 @@
         </div>            
         </div>
     </div>
-
-
-
-
-
-
-
-
-
-
-
     </div>
-
-
-
-
-
-
-
-
-
 	<!--intro-===-->
     
-
-
-
-
 	<div class="panel panel-default">
   <div class="panel-heading">
     <h3 class="panel-title size_reset">Objective</h3>

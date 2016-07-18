@@ -92,19 +92,22 @@ It was released on the inauguration of the building of the Centre.</div>
 							</div>
 						</div>
 					</p>
-
-						<div class="container"  style="padding-left:40px;padding-top:40px;background-color:#e0e0d1; width:auto;">
-					<p style="text-align:justify; font-family: 'Raleway-ExtraLight';">
-							<div class="col-sm-8">
-							<h3>Sri Guru Granth Sahib Ki Mulya-Mimansa</h3>
-							<p style="text-align:justify;">By Prof. Jaswinder Kaur Dhillon, enquires into the axiology i.e. the Value System of Sikhism that has been underlined in Sri Guru Granth Sahib. It has been written in Hindi especially for the Hindi knowing world. It was released on inauguraion of the building of centre.
-							</p></div>
-							<div class="col col-sm-4" style="padding-top:25px;">
-							<img src="img/books/mulya1.jpg" style="height:200px"><br /><br />
-							<a href="img/books/japuji_sahib.pdf"><button type="button" class="btn btn-success" style="margin-left:25px;">Download</button></a><br /><br /><br />
-							</div>
+                    <div class="container" style="background-color:#e0e0d1; width:auto;">
+					<p style="text-align:justify; font-family: 'Raleway-ExtraLight'">
 						
-					</p>
+						<div style="padding-left:40px;padding-top:40px;background-color:#e0e0d1;">
+							<div class="col-sm-8">
+								<h3>Sri Guru Granth Sahib Ki Mulya-Mimansa</h3>
+								<p style="text-align:justify;">By Prof. Jaswinder Kaur Dhillon, enquires into the axiology i.e. the Value System of Sikhism that has been underlined in Sri Guru Granth Sahib. It has been written in Hindi especially for the Hindi knowing world. It was released on inauguraion of the building of centre.
+                                </p></div>
+							<div class="col-sm-4" style="padding-top:20px;">
+								<img src="img/books/mulya1.jpg" style="height:200px"><br /><br />
+								<a href="img/books/japuji_sahib.pdf"><button type="button" class="btn btn-success" style="margin-left:25px;">Download</button></a><br /><br /><br />
+							</div>
+						</div>
+						
+						</p>
+
 					</div>
 					<p style="text-align:justify; font-family: 'Raleway-ExtraLight'">
 						<div class="row" style="padding-left:40px;padding-top:40px;">

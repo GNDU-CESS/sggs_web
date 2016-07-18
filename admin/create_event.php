@@ -38,7 +38,7 @@ else {
     $venue=addslashes($_POST['venue']);
     $desc=addslashes($_POST['desc']);
    $imagename=addslashes($_POST['pname']);
-    $event_in= "INSERT INTO `gyananjan_events` (`title`,`date`, `venue`,`description`,`imgname`) VALUES ('$title','$date','$venue','$desc','$imagename')";
+    $event_in= "INSERT INTO `gyananjan_events` (`title`,`edate`, `venue`,`edescription`,`imgname`) VALUES ('$title','$date','$venue','$desc','$imagename')";
 
     $result=$db->query($event_in);
 
@@ -85,17 +85,6 @@ if(isset($_GET['del'])) {
 else {
 
 }
-
-
-
-
-
-
-
-
-
-
-
 
 ?>
     <?php include 'includes/meta.php';  ?>
@@ -234,13 +223,13 @@ else {
                                     <span class="sr-only" style="position:relative">  <?php echo $dmsg; ?></span></div>
                                 <ul class="list-group">
                                     <?php
-                    $sql = "SELECT title, date,id FROM gyananjan_events ORDER BY id DESC";
+                    $sql = "SELECT title, edate,id FROM gyananjan_events ORDER BY id DESC";
                     $run = $db->query($sql);
 
                     if ($run->num_rows > 0) {
 
                         while($row = $run->fetch_assoc()) {
-                            echo"<li class='list-group-item'>".$row['title']."<br><small><br>".$row['date']."</small><br><br><a href='?del=".$row['id']."'>Delete</a><a class='pull-right' href='edit_event?edit=".$row['id']."'>Edit</a></li>";
+                            echo"<li class='list-group-item'>".$row['title']."<br><small><br>".$row['edate']."</small><br><br><a href='?del=".$row['id']."'>Delete</a><a class='pull-right' href='edit_event?edit=".$row['id']."'>Edit</a></li>";
                         }
 
                     }
