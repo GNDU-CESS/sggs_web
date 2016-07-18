@@ -47,7 +47,7 @@
 								 <h5><b><?php echo $row["title"]; ?></b><br></h5>
 								  <b>Venue :</b><?php echo $row["venue"]; ?><br>
 							</div>
-							<h4 class="col-md-2 date-s colorido-gl"><?php echo date("d",strtotime($row['date'])); ?><br><?php echo date("M",strtotime($row['date'])); ?></h4><br> 
+							<h4 class="col-md-2 date-s colorido-gl"><?php echo date("d",strtotime($row['edate'])); ?><br><?php echo date("M",strtotime($row['edate'])); ?></h4><br> 
 							
 					   	</div>
 						
@@ -74,7 +74,7 @@
             </div>
             <div class="panel-body colorido-t cp-body">
                 <div class="list-group">
-					<?php $query2 = "SELECT * FROM gyananjan_blog ORDER BY date DESC LIMIT 10";
+					<?php $query2 = "SELECT * FROM gyananjan_blog ORDER BY bdate DESC LIMIT 10";
 							$getResult = $db->query($query2);
 							if ($getResult->num_rows > 0) {
 	while ($data = $getResult->fetch_assoc()) { ?>
@@ -82,7 +82,7 @@
 	  <a  href="blog-view?id=<?php echo $data['id']; ?>" class="list-group-item">
 	  <div class="row">
 		<h4 class="list-group-item-heading text-center"><b><?php echo $data['title']; ?></b></h4>
-		<p class="list-group-item-text pull-left"><span class="ion-edit"></span> <?php echo $data['author'];?></p><p class="list-group-item-text pull-right"><span class="ion-calendar"></span> <?php echo date("d M,Y",strtotime($data['date']))?></p>
+		<p class="list-group-item-text pull-left"><span class="ion-edit"></span> <?php echo $data['author'];?></p><p class="list-group-item-text pull-right"><span class="ion-calendar"></span> <?php echo date("d M,Y",strtotime($data['bdate']))?></p>
 	  </div>
 	  </a>
 	<?php

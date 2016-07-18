@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 12, 2016 at 07:01 AM
+-- Generation Time: Jul 18, 2016 at 05:30 PM
 -- Server version: 10.1.10-MariaDB
 -- PHP Version: 7.0.4
 
@@ -50,8 +50,8 @@ CREATE TABLE `gyananjan_blog` (
   `title` varchar(100) NOT NULL,
   `author` varchar(100) NOT NULL,
   `blog` longtext NOT NULL,
-  `date` varchar(32) NOT NULL,
-  `image` varchar(100) NOT NULL,
+  `bdate` varchar(32) NOT NULL,
+  `bimage` varchar(100) NOT NULL,
   `views` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
@@ -59,9 +59,9 @@ CREATE TABLE `gyananjan_blog` (
 -- Dumping data for table `gyananjan_blog`
 --
 
-INSERT INTO `gyananjan_blog` (`id`, `title`, `author`, `blog`, `date`, `image`, `views`) VALUES
-(2, 'XSCGVHBJNKMJ', 'RXCGVHBJNKM', '<p>kbhgio9uho</p>', 'rtygvhbjn', 'carousel1.jpg', 9),
-(3, 'ikugh', 'ilkhj', '<p>;lkmn</p>', 'oig', 'carousel2.jpg', 3);
+INSERT INTO `gyananjan_blog` (`id`, `title`, `author`, `blog`, `bdate`, `bimage`, `views`) VALUES
+(2, 'XSCGVHBJNKMJ', 'RXCGVHBJNKM', '<p>kbhgio9uho</p>', 'rtygvhbjn', 'carousel1.jpg', 13),
+(3, 'ikugh', 'ilkhj', '<p>;lkmn</p>', 'oig', 'carousel2.jpg', 5);
 
 -- --------------------------------------------------------
 
@@ -87,7 +87,8 @@ INSERT INTO `gyananjan_events` (`id`, `title`, `edate`, `venue`, `imgname`, `ede
 (7, 'Sikh Studies Workshop for US Teachers', '2016-07-21', 'Centre on Studies in Sri Guru Granth Sahib', '', 'df dsdf sd ds ds '),
 (8, 'International Seminar on Guru Gobind Singh: Life and Mission.', '2016-11-02', 'Centre on Studies in Sri Guru Granth Sahib', '', 'df h jj k;k jkj kj'),
 (10, 'National Seminar on Banda Singh Bahadur Jivan ate Virasat', '2016-06-23', 'Guru Granth Sahib Bhawan, GNDU, Amritsar.', '', 'gh shkaj k jfkdjk sakj s;'),
-(11, 'name', '0000-00-00', 'bij', '', 'jbjjinijnikj');
+(11, 'name', '0000-00-00', 'bij', '', 'jbjjinijnikj'),
+(13, 'sdcacfa', '0000-00-00', 'edvs', '', 'vdsswv');
 
 -- --------------------------------------------------------
 
@@ -183,7 +184,7 @@ ALTER TABLE `gyananjan_blog`
 -- AUTO_INCREMENT for table `gyananjan_events`
 --
 ALTER TABLE `gyananjan_events`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
 --
 -- AUTO_INCREMENT for table `gyananjan_faculty`
 --

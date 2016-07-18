@@ -1,4 +1,4 @@
-﻿
+
 CREATE TABLE gyananjan_auth 
 (
   ID bigint NOT NULL PRIMARY KEY , 
@@ -33,7 +33,7 @@ CREATE TABLE gyananjan_events
 (
   id bigint NOT NULL PRIMARY KEY ,
   title varchar(200) NOT NULL,
-  Edate varchar(20) NOT NULL,
+  Edate date NOT NULL,
   venue varchar(200) NOT NULL,
   imgname varchar(151) NOT NULL,
   Edescription varchar(4000) NOT NULL

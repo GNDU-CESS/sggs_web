@@ -7,7 +7,7 @@
 <style>
 body
 	{
-		background-color:#ffffe5;
+		
 		
 	}
 	.shift_bottom{

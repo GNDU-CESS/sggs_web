@@ -1,4 +1,4 @@
-<div class="navbar-fixed-top container" style="background-color:#ffffe5;z-index:18">
+<div class="navbar-fixed-top container" style="background-color:white;z-index:18">
 		
 	<div class="nav-lay nav-hid colorido-gl">
 		 
@@ -41,7 +41,7 @@
             <div id="head_wrap">
                 <div id="header">
 					<span class="in-nav ion-navicon"></span>
-                    <a href="index" style="color:#34495E">
+                    <a href="index" >
                         <h2 class="toph hset colorido-t" style="font-family:'algerian' !important;text-align:center;">GYAN ANJAN</h2></a><a href="http://www.gndu.ac.in"><h4 class="toph hset colorido-t" style="font-family:'algerian' !important;text-align:center; margin-top:5.5%;"> Guru Nanak Dev University </h4></a>
                        
                 </div>
@@ -70,7 +70,7 @@
         <div class="container">
             <div class="nav-head">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <a href="index" style="color:#34495E"> <span class="sr-only">gyan anjan</span></a>
+                    <a href="index" > <span class="sr-only">gyan anjan</span></a>
                     <span class="icon-bar" style="background-color:wheat"></span>
                     <span class="icon-bar" style="background-color:wheat"></span>
                     <span class="icon-bar" style="background-color:wheat"></span>
